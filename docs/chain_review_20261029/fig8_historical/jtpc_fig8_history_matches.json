@@ -1,0 +1,557 @@
+[
+  {
+    "method": "FC",
+    "power": 11000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P11000_SP0.90.log",
+    "stdout_sha256": "d56529cd7097a528e7904fa82c47fa269778d323b44e5cd126d4a8095309b8b4",
+    "skip_initial_lock": true,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90 1 120 11000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "2e957aa3d4f2059d1373a241f991e249c63887c266c7a596799106298fb75ab4"
+      },
+      {
+        "task": 2,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "bf58249beb4caaf08a42fac7cf7285358acd398be01298e3a133cdbc0a9a5c2c"
+      },
+      {
+        "task": 3,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "c1175c104cae3ac661b444eb31ac2a6b72c434cd64b8bcb3547407dc54b34e9d"
+      }
+    ]
+  },
+  {
+    "method": "FC",
+    "power": 11500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P11500_SP0.90.log",
+    "stdout_sha256": "a5cbb27bfd8a9bf0a01c822560f79a4e310311e8970a06b62be2690249948b01",
+    "skip_initial_lock": true,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90 1 120 11500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 56,
+        "log_count": 112,
+        "max_difference_ms": 0.3189999999999884,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "40b3126ea8bdb0766fb8ec8fba3cedb5f0e5fb6e2dbe41c36aa34dde946a50e4"
+      },
+      {
+        "task": 2,
+        "stdout_count": 56,
+        "log_count": 112,
+        "max_difference_ms": 0.32670000000000243,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "c04d525fceb68922e1b5f7028f0eb8847b74be907d88e308cb26fa83c452429e"
+      },
+      {
+        "task": 3,
+        "stdout_count": 56,
+        "log_count": 112,
+        "max_difference_ms": 0.5386999999999986,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "820705e32a900efa606b0ecc8a1f4042ab59f2b123be65e8437da92198fa781a"
+      }
+    ]
+  },
+  {
+    "method": "FC",
+    "power": 12000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P12000_SP0.90.log",
+    "stdout_sha256": "a4dc331e9bc0d2a9147572049ef8e0207489c1ada3610cb9c5d243ccd56e1c99",
+    "skip_initial_lock": true,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90 1 120 12000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.4919999999999902,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "2046d363f0ab83ffb380a0b1341c8fd0b2f52112e6b4fb8f8518998cb6f2894e"
+      },
+      {
+        "task": 2,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.4972000000000065,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "9ad05e44693ff2d838bfc245ae87f70a61db8f48113c7d89c7e9dc51af716da4"
+      },
+      {
+        "task": 3,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.8301000000000016,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "66fb8e5561df7bf5867c022fb0812055b74a0f6ca4f9b12c42d47a79280edbe6"
+      }
+    ]
+  },
+  {
+    "method": "FC",
+    "power": 12500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P12500_SP0.90.log",
+    "stdout_sha256": "de4b2b14ad9cdb7912afda566fa2bd4093a42e93e89ebad1882a0c92385e74e7",
+    "skip_initial_lock": true,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90 1 120 12500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 40,
+        "log_count": 56,
+        "max_difference_ms": 0.1490000000000009,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "902e695ebed2a02afce51e05cec4788c61a24c45deead70eef7bc6144e236e0a"
+      },
+      {
+        "task": 2,
+        "stdout_count": 40,
+        "log_count": 56,
+        "max_difference_ms": 0.1548000000000087,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "f34e01827334b40f65d33e3071fa0881c2be7f78e0f0998e00390b09bafa7c4c"
+      },
+      {
+        "task": 3,
+        "stdout_count": 40,
+        "log_count": 56,
+        "max_difference_ms": 0.25489999999999924,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "5965f686689e114df14c151b4500060bac34c3d068996c0aa62dc0f903194988"
+      }
+    ]
+  },
+  {
+    "method": "FC",
+    "power": 13000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P13000_SP0.90.log",
+    "stdout_sha256": "6c4962327f7b7ade9d0747b5bdc9dcbd7bb60632ef1a56291389c8236585eab7",
+    "skip_initial_lock": true,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90 1 120 13000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "9ab0df221d0770a7b4ba46c68193acad6bfbf4e379b706842bebb00667739049"
+      },
+      {
+        "task": 2,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "e3864eff2a08a73b2c4e0d931d5eb81a7d7674656c2b1352af5ec8118c787f47"
+      },
+      {
+        "task": 3,
+        "stdout_count": 56,
+        "log_count": 56,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "590a9f2310b5350316f1b560bdf479ed3af9570ad1b3cb83bd77c9bad26b8260"
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 11000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P11000_SP0.90.log",
+    "stdout_sha256": "a27754a3da3661a7ce0ae44bb8e114854f5679810218e70f42aa4e54f885e39d",
+    "skip_initial_lock": false,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90 7 120 11000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "5da40022ccf28f2b23fd692efb6bd162008a5652cb9567335dd08c261d86850c"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "76dfd98daf2ce3711073555850188de06360c2be3a841e7362ee488507b7c7ad"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "ccaff270cee5bfb3ff7f6c34451fe298b5553f5a42b5af9c5801dcef5cc3b272"
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 11500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P11500_SP0.90.log",
+    "stdout_sha256": "aacd0336368f5e0bb071de78ecc10db8e65e93ef06c7ae33cfcb1273d6eb0bd9",
+    "skip_initial_lock": false,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90 7 120 11500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "28ce7443e113728e495b88bbf4d3be55d9dc74af34895f9a365e795771c06dce"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "076fb4abf649ae4f59422c493afc47286b5317a49fd175fef6e6f4ae889e5a57"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "8dde852b908a0931992d7c82388f25ffe9dfea76851bf0278877a44d5cec5182"
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 12000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P12000_SP0.90.log",
+    "stdout_sha256": "3747b1248f51892b950147b4e208c5643453c239d59ce78fee98ce76d8786679",
+    "skip_initial_lock": false,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90 7 120 12000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 44,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "5da40022ccf28f2b23fd692efb6bd162008a5652cb9567335dd08c261d86850c"
+      },
+      {
+        "task": 2,
+        "stdout_count": 44,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "76dfd98daf2ce3711073555850188de06360c2be3a841e7362ee488507b7c7ad"
+      },
+      {
+        "task": 3,
+        "stdout_count": 44,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "ccaff270cee5bfb3ff7f6c34451fe298b5553f5a42b5af9c5801dcef5cc3b272"
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 12500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P12500_SP0.90.log",
+    "stdout_sha256": "726514ea835f1a6ba50fd769a10b3a76f18808534268a0da395017f77bd4930b",
+    "skip_initial_lock": false,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90 7 120 12500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "5da40022ccf28f2b23fd692efb6bd162008a5652cb9567335dd08c261d86850c"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "76dfd98daf2ce3711073555850188de06360c2be3a841e7362ee488507b7c7ad"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "ccaff270cee5bfb3ff7f6c34451fe298b5553f5a42b5af9c5801dcef5cc3b272"
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 13000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P13000_SP0.90.log",
+    "stdout_sha256": "cdce4deba0a10d7e8229c368a1c45c65ab0510f41f2c8ec54e2d712789fc9a3d",
+    "skip_initial_lock": false,
+    "command": "Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90 7 120 13000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "5da40022ccf28f2b23fd692efb6bd162008a5652cb9567335dd08c261d86850c"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "76dfd98daf2ce3711073555850188de06360c2be3a841e7362ee488507b7c7ad"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/DFS/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "ccaff270cee5bfb3ff7f6c34451fe298b5553f5a42b5af9c5801dcef5cc3b272"
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 11000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P11000_SP0.90.log",
+    "stdout_sha256": "34f11276fa6e4add4a0c34287982709c0eb7adb7de218077c47eb9fbe1145d79",
+    "skip_initial_lock": false,
+    "command": "Executing: stdbuf -oL -eL ../Scheduler/bin/scheduler 3 logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90 3 120 11000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "26ba1d332fec8dfe79ce26e181b5779918bdf724deb17c182083c7d2442b5f8d"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "5ad034a272eace70e04fe901884f9a34b814291b3859cd93e9937fdddf864735"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "0ed01a376400a73fdaf3ec7dd68746b0b9cb014ef7c54860dc2240c705a580a8"
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 11500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P11500_SP0.90.log",
+    "stdout_sha256": "5b7285bf5fb108fc8c01bc8c775cd5eaa37629a2cb5f14ff60ffb5463b0fa793",
+    "skip_initial_lock": false,
+    "command": "Executing: stdbuf -oL -eL ../Scheduler/bin/scheduler 3 logs/main_temp/JTPC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90 3 120 11500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 2.2560000000000002,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "7767ed1c891cbc57ec9907081afcac2221b8e45c55caa60a641484a55fddfe59"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 2.5,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "bff656ad23835862fbaae763ed002a3d7c24c46c43dbd824f3681850959d89f3"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 2.769300000000001,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "abaf4b20e5c58b5fd06f9eca3f9775b5fd572aef131dffaed5e3e59414572f41"
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 12000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P12000_SP0.90.log",
+    "stdout_sha256": "f0d0ba6624245454a9f63423604aeb863f28185c6a2eba25df9cccb1afccf1d0",
+    "skip_initial_lock": false,
+    "command": "Executing: stdbuf -oL -eL ../Scheduler/bin/scheduler 3 logs/main_temp/JTPC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90 3 120 12000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 2.4080000000000013,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "81149f68605cc443e82022b22157723dab686ac320ba971740f1c601f656413e"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 1.8234999999999957,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "7f0a00e87a2c0c3e5bbee7cc4e8ff80b3548f87dbc34a6b35d11d5600c3ad094"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 2.866100000000003,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "dc2ef281aa04ed281bb5c8875e32140841ee602ebc62b7d99839349f940a91a4"
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 12500,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P12500_SP0.90.log",
+    "stdout_sha256": "61de0a3fbaa898d2b1f4af6432e2c7f3d0e3d8a2a2cbbc15e39fd0dc71b3ff05",
+    "skip_initial_lock": false,
+    "command": "Executing: stdbuf -oL -eL ../Scheduler/bin/scheduler 3 logs/main_temp/JTPC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90 3 120 12500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 3.5589999999999975,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "c15a094b59f9a1db180b79eb7daaa1d7a12794d61544cf8635aff10f7a50d783"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 2.3267999999999986,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "396133d1d2b31a5c3130036bf0f6506fa59c3394a1a9b823a4c4440b9eb6c3ac"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 110,
+        "max_difference_ms": 3.9447000000000045,
+        "match_to_stdout_precision": false,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "18f3eab3ab7d57535b0739bd0d211e956647fb9c3cf275bbbbc0c20e0a40d732"
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 13000,
+    "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P13000_SP0.90.log",
+    "stdout_sha256": "af58d4763c41881c1908a735b1e899dde3226dfbb251df9ac3dde914602adbb7",
+    "skip_initial_lock": false,
+    "command": "Executing: stdbuf -oL -eL ../Scheduler/bin/scheduler 3 logs/main_temp/JTPC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90 3 120 13000 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90",
+    "traces": [
+      {
+        "task": 1,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "9926f925cad7cd3f9531ceb660eb50be5d63306e6bbfceff3467e8ebadf83000"
+      },
+      {
+        "task": 2,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "c14c5135b182acfdc1f904bff5fb11d8e03b0d587278c9e022258c80b8d553e9"
+      },
+      {
+        "task": 3,
+        "stdout_count": 55,
+        "log_count": 55,
+        "max_difference_ms": 0.0005000000000023874,
+        "match_to_stdout_precision": true,
+        "file": "/home/tiare/Desktop/JTPC/experiment/6.2/logs/main_temp/JTPC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "4dcb8cbe198ce2b8ad5dfa8de01cc5deb4061c8d83b949581f9e88ada4041e67"
+      }
+    ]
+  }
+]

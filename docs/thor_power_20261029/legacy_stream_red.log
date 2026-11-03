@@ -1,0 +1,18 @@
+test_legacy_streaming_tegrastats_keeps_first_sample (__main__.ThorPowerTests) ... FAIL
+
+======================================================================
+FAIL: test_legacy_streaming_tegrastats_keeps_first_sample (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_thor_power.py", line 105, in test_legacy_streaming_tegrastats_keeps_first_sample
+    r=self.run_script();self.assertEqual(r.returncode,0,r.stderr);self.assertEqual(r.stdout,'4567\n')
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "/tmp/tmps02rbly0/bin/tegrastats", line 3, in <module>
+    while True: os.write(1, b'VDD_CPU_GPU_CV 4567mW/4567mW\n' * 1000)
+BrokenPipeError: [Errno 32] Broken pipe
+
+
+----------------------------------------------------------------------
+Ran 1 test in 3.811s
+
+FAILED (failures=1)

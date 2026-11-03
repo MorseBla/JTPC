@@ -1,0 +1,396 @@
+{
+  "output_root": "system_identification_2/results",
+  "tasks": [
+    {
+      "name": "hist",
+      "command": [
+        "system_identification_2/bin/hist"
+      ],
+      "rate_hz": 6.25,
+      "min_rate_hz": 1.0,
+      "max_rate_hz": 7.0,
+      "workload": "application/histogram_converted.cu; unchanged source constants",
+      "workload_parameters": {
+        "num_elements": 4096000,
+        "num_bins": 4096
+      }
+    },
+    {
+      "name": "stereo",
+      "command": [
+        "system_identification_2/bin/stereo"
+      ],
+      "rate_hz": 12.5,
+      "min_rate_hz": 1.0,
+      "max_rate_hz": 14.0,
+      "workload": "application/stereodisparity_converted.cu; unchanged source constants",
+      "workload_parameters": {
+        "width": 640,
+        "height": 480,
+        "min_disparity": -16,
+        "max_disparity": 0
+      }
+    },
+    {
+      "name": "mm",
+      "command": [
+        "system_identification_2/bin/mm"
+      ],
+      "rate_hz": 16.666666666666668,
+      "min_rate_hz": 1.0,
+      "max_rate_hz": 18.0,
+      "workload": "application/mm_converted.cu; unchanged source constants",
+      "workload_parameters": {
+        "matrix_n": 700
+      }
+    }
+  ],
+  "interval_s": 2.0,
+  "assumed_context_switch_s": 0.00075,
+  "profile": {
+    "warmup": 20,
+    "measured": 300
+  },
+  "frequency": {
+    "devfreq_path": null,
+    "reference_hz": 846000000,
+    "levels_hz": [],
+    "range_hz": null,
+    "tolerance_fraction": 0.02
+  },
+  "alpha": {
+    "discard_s": 10.0,
+    "measure_s": 60.0,
+    "repeats": 3,
+    "seed": 2941,
+    "reference_every": 3,
+    "min_jobs": 10
+  },
+  "validation": {
+    "discard_s": 0.0,
+    "measure_s": 8.0,
+    "rate_fraction": 0.03,
+    "sequence": [
+      {
+        "frequency_hz": 846000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 846000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 315000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1386000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 315000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1386000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 315000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1386000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 1170000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 954000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 747000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      },
+      {
+        "frequency_hz": 531000000,
+        "rates_hz": {
+          "hist": 6.25,
+          "stereo": 12.5,
+          "mm": 16.666666666666668
+        }
+      }
+    ]
+  },
+  "telemetry": {
+    "period_s": 0.2,
+    "max_gap_s": 1.0,
+    "temperature_path": null,
+    "thermal_drift_C": 5.0,
+    "temperature_backend": "auto",
+    "temperature_max_age_s": 2.0,
+    "allow_missing_temperature": true
+  },
+  "power": {
+    "command": [
+      "bash",
+      "scripts/get_power.sh",
+      "thor"
+    ],
+    "scale_to_W": 0.001,
+    "channel": "INA238 VIN: module plus carrier board input, NOT GPU-only",
+    "matches_controller": "Only JPAP_POWER_BACKEND=thor; historical legacy rail differs"
+  },
+  "conditions": {
+    "cooling": "unchanged target policy; snapshot fan PWM/RPM",
+    "ambient_C": null,
+    "power_mode": "unchanged; record nvpmodel -q",
+    "resources": "source launch geometry; all available SMs; suite-private global per-job semaphore; separate CUDA processes; no MPS configuration changes"
+  },
+  "safety": {
+    "job_timeout_s": 120.0,
+    "ready_timeout_s": 120.0,
+    "max_lateness_s": 0.5,
+    "conflict_names": [
+      "server",
+      "dispatcher",
+      "hist",
+      "stereo",
+      "mm",
+      "particle",
+      "quasi",
+      "bfs",
+      "mm_test",
+      "scheduler"
+    ]
+  },
+  "periodic_validation": {
+    "source_run": "system_identification_2/system_identification_2/results/20261031T011547Z_alpha_aedb2a4b",
+    "cycles": 3,
+    "selected_levels_hz": [
+      315000000,
+      531000000,
+      747000000,
+      954000000,
+      1170000000,
+      1386000000
+    ],
+    "hold_intervals": 4,
+    "hold_s": 8.0,
+    "initial_reference_hold": true,
+    "warmup_windows": 1,
+    "nominal_window_index": 1,
+    "waveform": "ascending/descending discrete staircase with endpoint plateaus",
+    "timing_note": "Requested hold duration excludes small runner transition/bracketing overhead; use recorded monotonic boundaries.",
+    "purpose": "Independent frequency-only periodic excitation, fixed task rates; no rate coefficients refitted.",
+    "legacy_reference": "JTPC_system_validation/validation_control_period.csv: six levels, four intervals per hold, three cycles",
+    "limitations": "No dithering, target preflight revalidates every level; actual RT/power shape and feasibility require target capture."
+  }
+}

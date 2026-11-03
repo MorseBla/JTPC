@@ -1,0 +1,308 @@
+{
+  "pdf": "/home/tiare/Desktop/JTPC/experiment/6.2/Figures/replotted/jetson_rtr_barplot_11W.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 10,
+  "text_trace_count": 14,
+  "stroke_path_count": 112,
+  "filled_region_count": 96,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 6,
+    "warn": 4,
+    "contained_fill_overlays": 10,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 2 stroked path(s)",
+      "text": "Set point",
+      "text_bbox": [
+        29.399999618530273,
+        11.009866714477539,
+        76.7619857788086,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        36.0,
+        -36.0,
+        180.0,
+        73.19999694824219
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        122,
+        125
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 20 stroked path(s)",
+      "text": "0.70 0.75 0.80 0.85 0.90",
+      "text_bbox": [
+        70.32488250732422,
+        184.46588134765625,
+        269.52105712890625,
+        200.46588134765625
+      ],
+      "other_text": null,
+      "other_bbox": [
+        70.53968811035156,
+        -4082.556640625,
+        269.3396911621094,
+        312.5975036621094
+      ],
+      "object_count": 20,
+      "object_indexes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 2 stroked path(s)",
+      "text": "JTPC",
+      "text_bbox": [
+        102.54374694824219,
+        11.009866714477539,
+        132.54576110839844,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        36.0,
+        -36.0,
+        180.0,
+        73.19999694824219
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        122,
+        125
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 12 stroked path(s)",
+      "text": "RTR Set point",
+      "text_bbox": [
+        117.01781463623047,
+        203.27838134765625,
+        222.7939453125,
+        219.27838134765625
+      ],
+      "other_text": null,
+      "other_bbox": [
+        112.55412292480469,
+        -4082.556640625,
+        227.32525634765625,
+        312.5975036621094
+      ],
+      "object_count": 12,
+      "object_indexes": [
+        3,
+        4,
+        5,
+        12,
+        15,
+        18,
+        27,
+        30,
+        33,
+        42,
+        45,
+        48
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 4 stroked path(s)",
+      "text": "FC-GPU",
+      "text_bbox": [
+        158.34375,
+        11.009866714477539,
+        204.34176635742188,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        36.0,
+        -4082.556640625,
+        217.90211486816406,
+        312.5975036621094
+      ],
+      "object_count": 4,
+      "object_indexes": [
+        45,
+        122,
+        127,
+        130
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 2 stroked path(s)",
+      "text": "DFS-only",
+      "text_bbox": [
+        230.1437530517578,
+        11.009866714477539,
+        280.14776611328125,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        214.09788513183594,
+        -3558.484130859375,
+        289.902099609375,
+        312.5975036621094
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        51,
+        132
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 4 filled region(s)",
+      "text": "Set point",
+      "text_bbox": [
+        29.399999618530273,
+        11.009866714477539,
+        76.7619857788086,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        36.0,
+        -36.0,
+        180.0,
+        73.19999694824219
+      ],
+      "object_count": 4,
+      "object_indexes": [
+        121000,
+        122,
+        124000,
+        125
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 5 filled region(s)",
+      "text": "0.70 0.75 0.80 0.85 0.90",
+      "text_bbox": [
+        70.32488250732422,
+        184.46588134765625,
+        269.52105712890625,
+        200.46588134765625
+      ],
+      "other_text": null,
+      "other_bbox": [
+        70.53968811035156,
+        72.08375549316406,
+        246.28298950195312,
+        312.5975036621094
+      ],
+      "object_count": 5,
+      "object_indexes": [
+        2000,
+        3000,
+        4000,
+        5000,
+        6000
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 2 filled region(s)",
+      "text": "RTR Set point",
+      "text_bbox": [
+        117.01781463623047,
+        203.27838134765625,
+        222.7939453125,
+        219.27838134765625
+      ],
+      "other_text": null,
+      "other_bbox": [
+        154.5685577392578,
+        85.44563293457031,
+        204.2685546875,
+        312.5975036621094
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        4000,
+        5000
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "FC-GPU",
+      "text_bbox": [
+        158.34375,
+        11.009866714477539,
+        204.34176635742188,
+        23.00986671447754
+      ],
+      "other_text": null,
+      "other_bbox": [
+        36.0,
+        -36.0,
+        180.0,
+        36.0
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        122
+      ]
+    }
+  ]
+}

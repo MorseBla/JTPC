@@ -1,0 +1,12 @@
+make: Entering directory '/tmp/jtpc_chain_review/build/application'
+mkdir -p bin
+/usr/local/cuda-12.6/bin/nvcc -o bin/bfs bfs_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_87  
+/usr/local/cuda-12.6/bin/nvcc -o bin/hist histogram_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_87  
+make: Leaving directory '/tmp/jtpc_chain_review/build/application'
+histogram_converted.cu: Assembler messages:
+histogram_converted.cu:259: Error: no such instruction: `yield'
+make: *** [Makefile:61: bin/hist] Error 1
+make: *** Waiting for unfinished jobs....
+bfs_converted.cu: Assembler messages:
+bfs_converted.cu:240: Error: no such instruction: `yield'
+make: *** [Makefile:61: bin/bfs] Error 1

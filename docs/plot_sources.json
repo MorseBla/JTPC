@@ -1,0 +1,58 @@
+[
+  {
+    "script": "experiment/6.1/plot_fc.py",
+    "notebook": "experiment/notebooks/line_charts.ipynb",
+    "cell_zero_based": 9,
+    "original_cell_sha256": "516d09ba75bbefbb7409b15d61d6fe4993905768440cef7829537e3eb9fb91e5",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "6700703305c9d0c7447ceac3200b90a4d3230541b37f43688bcb7e5655e22050"
+  },
+  {
+    "script": "experiment/6.1/plot_dfs.py",
+    "notebook": "experiment/notebooks/line_charts.ipynb",
+    "cell_zero_based": 10,
+    "original_cell_sha256": "0e644021bd742dfb71adf5e7b62275d24e47105538eefc31695c27c327e6a764",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "417a3b177c1e4daf3d19e408da2d27a83fe11046ed3b3f7330614007c6858d7d"
+  },
+  {
+    "script": "experiment/6.1/plot_jtpc.py",
+    "notebook": "experiment/notebooks/line_charts.ipynb",
+    "cell_zero_based": 17,
+    "original_cell_sha256": "324a2b42728aebf4de8076b8c4afae609f53b213498106e529c0ce6c75cbff7f",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "eac520ba81f9a865f294a25430b0d00057ad538cd796006616cc447785f5b4bc"
+  },
+  {
+    "script": "experiment/6.2/plot_rtr.py",
+    "notebook": "experiment/notebooks/bar_plots.ipynb",
+    "cell_zero_based": 13,
+    "original_cell_sha256": "8a03ea8d83c90f1749959d4ac41d18506b071ce190d09f4cadb8f325a7b51227",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "1e250a566aed2f140f732f23534c69656fd015c1dd2cc61ec92b6941c8b64483"
+  },
+  {
+    "script": "experiment/6.2/plot_power.py",
+    "notebook": "experiment/notebooks/bar_plots.ipynb",
+    "cell_zero_based": 12,
+    "original_cell_sha256": "bcb4c3f96e1a2dd57778e9c3e3e47fb350acc61dd42dcfe37d2fb379fb139bb5",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "0c82c07d9ba0fa4eb938a58b320f4fb536df6d2edbe956290ee0fa88d3a02f25"
+  },
+  {
+    "script": "experiment/6.2/plot_utility.py",
+    "notebook": "experiment/notebooks/bar_plots.ipynb",
+    "cell_zero_based": 9,
+    "original_cell_sha256": "a1b32883675d29a1097b72ed9405e771132a6bd55fe0c95bded5e06ee416cdc8",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "29b7f8d8179af43b082a42ba28d6bf52ded59735dfa61361141a7f1387955e9b"
+  },
+  {
+    "script": "experiment/6.3/plotting.py",
+    "notebook": "experiment/notebooks/line_charts.ipynb",
+    "cell_zero_based": 16,
+    "original_cell_sha256": "0d8650cd4a3a971e5c8eede541b463140cbc4421939bf252a74551b59fa77331",
+    "changes": "Local paths, headless rendering/output; Fig7b additionally RTR0.70 ->0.90 with exact directory lookup; Fig6 excludes unrelated power-step invocation; PDF text embedded as TrueType; Fig7b also editable SVG and 600dpi PNG",
+    "script_sha256": "4adda5df6f6ee10ac8a5f52224071b11fe21586077ea6b44cac5b86404760d59"
+  }
+]

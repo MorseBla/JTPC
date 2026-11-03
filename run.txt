@@ -1,0 +1,106 @@
+JTPC: GitHub source control and rsync results
+
+No build is needed for these tools. Dependencies: Git, Python 3.9+, SSH,
+local rsync >=3.2.3, rsync on thor2, and GitHub authentication on both machines.
+Local Git is initialized on main. GitHub creation/push and thor2 setup remain
+pending: this Codex session cannot open network sockets or log in to GitHub.
+
+ONE-TIME LOCAL SETUP
+Create a PRIVATE, empty repository named JTPC at https://github.com/new.
+Do not initialize README, .gitignore, or license. If the name is taken, choose
+another name and adjust the URL below. Replace YOUR_GITHUB_USERNAME and
+YOUR NAME with your actual values. Only configure the name if it is missing.
+
+cd ~/Documents/JTPC/JTPC
+git config --get user.name
+git config user.name "YOUR NAME"
+git status --short
+git diff --cached --stat
+
+If an initial commit has not yet been created:
+git add .
+git commit -m "Initial JTPC source and synchronization setup"
+
+After creating the empty private GitHub repository:
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/JTPC.git
+git push -u origin main
+
+If origin already exists, inspect git remote -v rather than repeating add.
+GitHub passwords cannot authenticate Git. Use your credential manager, a scoped
+token at the password prompt, or an installed GitHub CLI:
+gh auth login
+gh auth setup-git
+Never put tokens in files here or in remote URLs. Authentication guidance:
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github
+
+ONE-TIME THOR2 SETUP (AFTER SUCCESSFUL FIRST PUSH)
+Preserve the complete existing project, then clone to the original location.
+Run on thor2. Choose an unused backup name; continue only if the move succeeds.
+
+ssh thor2
+cd ~
+test ! -e JTPC-before-github && mv -T JTPC JTPC-before-github
+
+Then, after confirming the move succeeded:
+git clone https://github.com/YOUR_GITHUB_USERNAME/JTPC.git JTPC
+cd ~/JTPC
+git status --short --branch
+
+All original files, results, binaries, and local configuration remain in
+~/JTPC-before-github. Compare any newer source edits with the clone. Restore
+selected ignored output directories from the backup, for example ON thor2:
+
+mkdir -p ~/JTPC/experiment/6.2/runs
+rsync -avhn ~/JTPC-before-github/experiment/6.2/runs/ ~/JTPC/experiment/6.2/runs/
+rsync -avh ~/JTPC-before-github/experiment/6.2/runs/ ~/JTPC/experiment/6.2/runs/
+
+Repeat for experiment/6.3/runs and system_identification_2/results as needed.
+Restore other ignored data/configuration you need. Keep the backup until all
+files are accounted for. Do not copy the whole backup onto the clone. Recreate
+virtualenvs and build target binaries according to INSTALL.md before experiments.
+
+DAILY SOURCE WORKFLOW (ON EITHER MACHINE)
+From the project's directory, with a clean working tree, before editing:
+git pull --ff-only
+
+After editing, substitute real filenames and a useful message:
+git status
+git add path/to/changed_file
+git diff --cached
+git commit -m "Describe the change"
+git push
+
+Commit/push before switching machines; pull on the other before continuing.
+Git transfers committed files only. If branches diverge, review and reconcile
+them; do not discard edits or force push to work around the divergence.
+
+PULL EXPERIMENT RESULTS (LOCAL TERMINAL)
+Default remote: thor2:JTPC (relative to the SSH user's home).
+Default archive: ~/Documents/JTPC/JTPC-results/thor2, outside the source repo.
+Preview first, then --apply copies. No --delete is used; .git is excluded.
+
+cd ~/Documents/JTPC/JTPC
+python3 scripts/sync_results.py experiment/6.2/runs
+python3 scripts/sync_results.py experiment/6.2/runs --apply
+python3 scripts/sync_results.py experiment/6.3/runs
+python3 scripts/sync_results.py experiment/6.3/runs --apply
+python3 scripts/sync_results.py system_identification_2/results
+python3 scripts/sync_results.py system_identification_2/results --apply
+
+Optional explicit destination and remote (adjust /path/to/archive):
+python3 scripts/sync_results.py system_identification_2/results --remote thor2:JTPC --destination /path/to/archive --apply
+
+Transfer completed runs or stop their writers first; prefer unique run names.
+Matching destination files may be updated; destination-only files remain.
+Ignored runs/results/build outputs remain on disk. Historical plotting inputs,
+reference figures, notebooks, manifests, and configuration remain tracked because
+existing analysis uses them. The generated 54 MB audit inventory is ignored.
+
+VERIFICATION
+python3 scripts/sync_results.py --help
+git status --short --branch
+git remote -v
+
+Verify the private GitHub repository, first push, thor2 clone, and an actual
+result transfer after running the network steps. Local checks are not evidence
+of successful SSH/GitHub operations or CUDA/hardware validation.

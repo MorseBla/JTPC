@@ -1,0 +1,11 @@
+run_id,task,period_ms,freq_hz,logfile
+stereo_sweep_30,stereo,30,918000000,logs/diag/stereo/stereo_30ms__stereo_sweep_30.json
+stereo_sweep_32,stereo,32,918000000,logs/diag/stereo/stereo_32ms__stereo_sweep_32.json
+stereo_sweep_34,stereo,34,918000000,logs/diag/stereo/stereo_34ms__stereo_sweep_34.json
+stereo_sweep_38,stereo,38,918000000,logs/diag/stereo/stereo_38ms__stereo_sweep_38.json
+stereo_sweep_40,stereo,40,918000000,logs/diag/stereo/stereo_40ms__stereo_sweep_40.json
+stereo_sweep_42,stereo,42,918000000,logs/diag/stereo/stereo_42ms__stereo_sweep_42.json
+stereo_sweep_44,stereo,44,918000000,logs/diag/stereo/stereo_44ms__stereo_sweep_44.json
+stereo_sweep_46,stereo,46,918000000,logs/diag/stereo/stereo_46ms__stereo_sweep_46.json
+stereo_sweep_48,stereo,48,918000000,logs/diag/stereo/stereo_48ms__stereo_sweep_48.json
+stereo_sweep_50,stereo,50,918000000,logs/diag/stereo/stereo_50ms__stereo_sweep_50.json

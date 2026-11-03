@@ -1,0 +1,166 @@
+[
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/scheduler/controller.cc",
+    "destination": "scheduler/controller.cc",
+    "sha256": "3106f14ddf0685a60821d380812c06b49b4fc1223aa9f788f8df403056065eba",
+    "original_sha256": "5367b308e88140eca80bd18ffe47264cdd71ce08175ed595678227b7fb8a962f",
+    "change": "English comments only; original source SHA retained"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/scheduler/controller.cc.bak_before_nosigma_20260526_215413",
+    "destination": "scheduler/controller.cc.bak_before_nosigma_20260526_215413",
+    "sha256": "d175807dd66ed3b32caa9b0a3919ec7f431241a0f8aa54d88435f92587657fd2",
+    "original_sha256": "b5d4be3871007ae91836aa2aaaea549672ce0931c2f529ded5aff6c2848a96d1",
+    "change": "English comments only; original source SHA retained"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/scheduler/scheduler.cc",
+    "destination": "scheduler/scheduler.cc",
+    "sha256": "1ac508c4a2d47b0904b66c021a094d114c10a7aeabb0629ec8ba45bfe0e8e8ba"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/scheduler/shared_header.hpp",
+    "destination": "scheduler/shared_header.hpp",
+    "sha256": "3aff7a96229d35b5d133959478fc1e269d0f94e2311fdec08f4d27f8e7e82895"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/scheduler/Makefile",
+    "destination": "scheduler/Makefile",
+    "sha256": "50ba7a77322b1d43830e3762579b0b8690f205a02c33525129a440ccc586eed0"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/FC_GPU_main_temp.sh",
+    "destination": "motivation/FC_GPU_main_temp.sh",
+    "sha256": "5e91e59295b0a91b4727c69be9edaa07b93329ead49702a838863b693be3615b"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/DFS_main_temp.sh",
+    "destination": "motivation/DFS_main_temp.sh",
+    "sha256": "9c983bd37f91a3f858839310cec577e53f7a759dacb3d3f2b54f9c3d0c22215f"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/LQR_main_temp.sh",
+    "destination": "motivation/LQR_main_temp.sh",
+    "sha256": "3ad8c3738b177eef04ebbf2d2ebf759004ab38dcd6d9533135048f3c85bc7473"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_main_temp_11w.sh",
+    "destination": "motivation/run_main_temp_11w.sh",
+    "sha256": "4d52638f573f03771aecc5f982179d9b330b51eb8b008f5359d3a694a9113ddf"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_main_temp_block120.sh",
+    "destination": "motivation/run_main_temp_block120.sh",
+    "sha256": "94d2fe124aa259237a9155a69a55ca368e1ae2eb7012d5df8b054767142b74b9"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_main_temp_power_sweep090_120.sh",
+    "destination": "motivation/run_main_temp_power_sweep090_120.sh",
+    "sha256": "22e1d863935070635065718981d3f4ac0c2d6e4d8f6afeed462f99a9123ec008"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/unlock_gpu_adaptive.sh",
+    "destination": "unlock_gpu_adaptive.sh",
+    "sha256": "4aeaa047e1a3149d6b398c6c391854f9bdf8dc78bf796e3e759c0d357a34913b"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P11500_SP0.90.log",
+    "destination": "stdout/DFS-only_P11500_SP0.90.log",
+    "sha256": "aacd0336368f5e0bb071de78ecc10db8e65e93ef06c7ae33cfcb1273d6eb0bd9"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P12000_SP0.90.log",
+    "destination": "stdout/FC-GPU_P12000_SP0.90.log",
+    "sha256": "a4dc331e9bc0d2a9147572049ef8e0207489c1ada3610cb9c5d243ccd56e1c99"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P12000_SP0.90.log",
+    "destination": "stdout/JTPC_P12000_SP0.90.log",
+    "sha256": "f0d0ba6624245454a9f63423604aeb863f28185c6a2eba25df9cccb1afccf1d0"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P13000_SP0.90.log",
+    "destination": "stdout/FC-GPU_P13000_SP0.90.log",
+    "sha256": "6c4962327f7b7ade9d0747b5bdc9dcbd7bb60632ef1a56291389c8236585eab7"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P11000_SP0.90.log",
+    "destination": "stdout/FC-GPU_P11000_SP0.90.log",
+    "sha256": "d56529cd7097a528e7904fa82c47fa269778d323b44e5cd126d4a8095309b8b4"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P11000_SP0.90.log",
+    "destination": "stdout/JTPC_P11000_SP0.90.log",
+    "sha256": "34f11276fa6e4add4a0c34287982709c0eb7adb7de218077c47eb9fbe1145d79"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P12000_SP0.90.log",
+    "destination": "stdout/DFS-only_P12000_SP0.90.log",
+    "sha256": "3747b1248f51892b950147b4e208c5643453c239d59ce78fee98ce76d8786679"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P12500_SP0.90.log",
+    "destination": "stdout/DFS-only_P12500_SP0.90.log",
+    "sha256": "726514ea835f1a6ba50fd769a10b3a76f18808534268a0da395017f77bd4930b"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P11500_SP0.90.log",
+    "destination": "stdout/FC-GPU_P11500_SP0.90.log",
+    "sha256": "a5cbb27bfd8a9bf0a01c822560f79a4e310311e8970a06b62be2690249948b01"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P11500_SP0.90.log",
+    "destination": "stdout/JTPC_P11500_SP0.90.log",
+    "sha256": "5b7285bf5fb108fc8c01bc8c775cd5eaa37629a2cb5f14ff60ffb5463b0fa793"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P13000_SP0.90.log",
+    "destination": "stdout/DFS-only_P13000_SP0.90.log",
+    "sha256": "cdce4deba0a10d7e8229c368a1c45c65ab0510f41f2c8ec54e2d712789fc9a3d"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P11000_SP0.90.log",
+    "destination": "stdout/DFS-only_P11000_SP0.90.log",
+    "sha256": "a27754a3da3661a7ce0ae44bb8e114854f5679810218e70f42aa4e54f885e39d"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P12500_SP0.90.log",
+    "destination": "stdout/JTPC_P12500_SP0.90.log",
+    "sha256": "61de0a3fbaa898d2b1f4af6432e2c7f3d0e3d8a2a2cbbc15e39fd0dc71b3ff05"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P13000_SP0.90.log",
+    "destination": "stdout/JTPC_P13000_SP0.90.log",
+    "sha256": "af58d4763c41881c1908a735b1e899dde3226dfbb251df9ac3dde914602adbb7"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P12500_SP0.90.log",
+    "destination": "stdout/FC-GPU_P12500_SP0.90.log",
+    "sha256": "de4b2b14ad9cdb7912afda566fa2bd4093a42e93e89ebad1882a0c92385e74e7"
+  },
+  {
+    "source": "/tmp/jtpc_fig8_history_matches.json",
+    "destination": "jtpc_fig8_history_matches.json",
+    "sha256": "6293d26299ca9798f462bc1c55165d74d4c639b262effff5476bffda201224e4"
+  },
+  {
+    "source": "/tmp/jtpc_fig8_stdout_search.json",
+    "destination": "jtpc_fig8_stdout_search.json",
+    "sha256": "defcaa5917e89e7d8edeca1673b0f63f23edae6615226a9ee4f2480f1da1eabc"
+  },
+  {
+    "source": "/tmp/jtpc_fig8_stdout_segments.json",
+    "destination": "jtpc_fig8_stdout_segments.json",
+    "sha256": "3473195e7c51e3ba9dbb12aea4142d20cd6afabb80e7ae9ee914975887a388b7"
+  },
+  {
+    "source": "/tmp/jtpc_match_stdout.py",
+    "destination": "jtpc_match_stdout.py",
+    "sha256": "e65805d7aeef631c04fcade6db52a0943555436ac2a7cd9a9ea243e9e6375515"
+  },
+  {
+    "source": "/tmp/jtpc_match_stdout_segments.py",
+    "destination": "jtpc_match_stdout_segments.py",
+    "sha256": "54eda1b644ebbbc23875def225d6055ae93bfd43361d0579ffa96a56b43e32f5"
+  }
+]

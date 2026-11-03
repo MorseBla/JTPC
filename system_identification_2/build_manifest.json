@@ -1,0 +1,75 @@
+{
+  "tasks": {
+    "hist": {
+      "workload_parameters": {
+        "num_elements": 4096000,
+        "num_bins": 4096
+      },
+      "command": [
+        "nvcc",
+        "-std=c++17",
+        "-DJetson",
+        "-arch=sm_110",
+        "-I",
+        "/home/agx-thor/JTPC/Common",
+        "-o",
+        "/home/agx-thor/JTPC/system_identification_2/bin/hist",
+        "/home/agx-thor/JTPC/system_identification_2/generated/hist_worker.cu",
+        "-L",
+        "/home/agx-thor/JTPC/Common",
+        "-lcudart"
+      ],
+      "source_sha256": "d2364d6402850b1874f934f08b8f3ccb7b932e1e46e7833214c891ae1d242571",
+      "generated_sha256": "e51297c582cfb6c4284721532d358c90d8ceffa5f808fd578a021c3c0f2a0342",
+      "binary_sha256": "ed323e4f3b3ec51dedcebd59f1e89f44c2a9c37f6aa090b41f2e841d002ec4a0"
+    },
+    "mm": {
+      "workload_parameters": {
+        "matrix_n": 700
+      },
+      "command": [
+        "nvcc",
+        "-std=c++17",
+        "-DJetson",
+        "-arch=sm_110",
+        "-I",
+        "/home/agx-thor/JTPC/Common",
+        "-o",
+        "/home/agx-thor/JTPC/system_identification_2/bin/mm",
+        "/home/agx-thor/JTPC/system_identification_2/generated/mm_worker.cu",
+        "-L",
+        "/home/agx-thor/JTPC/Common",
+        "-lcudart"
+      ],
+      "source_sha256": "7dc7cc54ba1d2c1edc43c3b803441dc93c61fc7bcf347bc1e75974dd38faabc1",
+      "generated_sha256": "4ed9b11adcacbfe19c4048a22e764c4b50c8e6c90e9b0ca29d9d06867ffc4783",
+      "binary_sha256": "217327eab38fc5927bd4642280874a882e4d6b72253a6f896863f2609c10b11c"
+    },
+    "stereo": {
+      "workload_parameters": {
+        "width": 640,
+        "height": 480,
+        "min_disparity": -16,
+        "max_disparity": 0
+      },
+      "command": [
+        "nvcc",
+        "-std=c++17",
+        "-DJetson",
+        "-arch=sm_110",
+        "-I",
+        "/home/agx-thor/JTPC/Common",
+        "-o",
+        "/home/agx-thor/JTPC/system_identification_2/bin/stereo",
+        "/home/agx-thor/JTPC/system_identification_2/generated/stereo_worker.cu",
+        "-L",
+        "/home/agx-thor/JTPC/Common",
+        "-lcudart"
+      ],
+      "source_sha256": "3c2679cf69f70893efb18ad0c038be742fa67ff160c35d445f8edafb7148c19b",
+      "generated_sha256": "3c09e4c4d797724028d87ce88d6b3d07037be712a8a2a28994c0ce021462a2da",
+      "binary_sha256": "188fc4969476beac5410f1a06a7cfef02cd0dfc7739777e14983bd19a95c5335"
+    }
+  },
+  "compiled": true
+}

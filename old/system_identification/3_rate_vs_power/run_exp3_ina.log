@@ -1,0 +1,432 @@
+
+======================================
+Setting GPU frequency to 816000000
+======================================
+
+======================================
+Running tasks at period 0.060
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.06
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p060.json
+Response time = 34.6948 ms, KE = 34.5844 ms, Memory = 2.41956 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.06
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p060.json
+Response time = 39.5902 ms, KE = 39.4628 ms, Memory = 5.52554 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.06
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p060.json
+Response time = 34.6559 ms, KE = 34.5251 ms, Memory = 23.1137 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.06
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p060.json
+Response time = 29.437 ms, KE = 29.3575 ms, Memory = 0.396746 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.06
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p060.json
+Response time = 44.7163 ms, KE = 44.6386 ms, Memory = 0.224529 ms
+Finished all tasks at period 0.060
+
+======================================
+Running tasks at period 0.070
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.07
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p070.json
+Response time = 34.6678 ms, KE = 34.557 ms, Memory = 2.41114 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.07
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p070.json
+Response time = 39.5029 ms, KE = 39.3802 ms, Memory = 5.44532 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.07
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p070.json
+Response time = 34.7068 ms, KE = 34.5682 ms, Memory = 23.1547 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.07
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p070.json
+Response time = 29.4435 ms, KE = 29.3611 ms, Memory = 0.398073 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.07
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p070.json
+Response time = 44.7794 ms, KE = 44.6869 ms, Memory = 0.261541 ms
+Finished all tasks at period 0.070
+
+======================================
+Running tasks at period 0.080
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.08
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p080.json
+Response time = 34.7548 ms, KE = 34.6393 ms, Memory = 2.49438 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.08
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p080.json
+Response time = 39.5062 ms, KE = 39.3828 ms, Memory = 5.44971 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.08
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p080.json
+Response time = 34.6788 ms, KE = 34.5365 ms, Memory = 23.1249 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.08
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p080.json
+Response time = 29.4449 ms, KE = 29.3615 ms, Memory = 0.400051 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.08
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p080.json
+Response time = 44.726 ms, KE = 44.6463 ms, Memory = 0.223685 ms
+Finished all tasks at period 0.080
+
+======================================
+Running tasks at period 0.090
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.09
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p090.json
+Response time = 34.7658 ms, KE = 34.6465 ms, Memory = 2.49712 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.09
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p090.json
+Response time = 39.5185 ms, KE = 39.3924 ms, Memory = 5.45537 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.09
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p090.json
+Response time = 34.8741 ms, KE = 34.734 ms, Memory = 23.3208 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.09
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p090.json
+Response time = 29.4527 ms, KE = 29.3651 ms, Memory = 0.401145 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.09
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p090.json
+Response time = 44.8254 ms, KE = 44.7322 ms, Memory = 0.26101 ms
+Finished all tasks at period 0.090
+
+======================================
+Running tasks at period 0.100
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.1
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p100.json
+Response time = 34.7464 ms, KE = 34.6256 ms, Memory = 2.48234 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.1
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p100.json
+Response time = 39.4992 ms, KE = 39.3762 ms, Memory = 5.44712 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.1
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p100.json
+Response time = 34.8836 ms, KE = 34.7383 ms, Memory = 23.3273 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.1
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p100.json
+Response time = 29.4581 ms, KE = 29.3721 ms, Memory = 0.402809 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.1
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p100.json
+Response time = 44.8023 ms, KE = 44.7146 ms, Memory = 0.229935 ms
+Finished all tasks at period 0.100
+
+======================================
+Running tasks at period 0.110
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.11
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p110.json
+Response time = 34.7412 ms, KE = 34.6187 ms, Memory = 2.46698 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.11
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p110.json
+Response time = 39.5502 ms, KE = 39.4184 ms, Memory = 5.47439 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.11
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p110.json
+Response time = 35.1507 ms, KE = 35.0014 ms, Memory = 23.5889 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.11
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p110.json
+Response time = 29.4877 ms, KE = 29.4015 ms, Memory = 0.400745 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.11
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p110.json
+Response time = 44.7988 ms, KE = 44.7109 ms, Memory = 0.230339 ms
+Finished all tasks at period 0.110
+
+======================================
+Running tasks at period 0.120
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.12
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p120.json
+Response time = 34.756 ms, KE = 34.6318 ms, Memory = 2.47111 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.12
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p120.json
+Response time = 39.5148 ms, KE = 39.3815 ms, Memory = 5.44291 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.12
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p120.json
+Response time = 34.7601 ms, KE = 34.6071 ms, Memory = 23.1863 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.12
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p120.json
+Response time = 29.4927 ms, KE = 29.4084 ms, Memory = 0.40273 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.12
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p120.json
+Response time = 44.7883 ms, KE = 44.7019 ms, Memory = 0.22823 ms
+Finished all tasks at period 0.120
+
+======================================
+Running tasks at period 0.130
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.13
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p130.json
+Response time = 34.7782 ms, KE = 34.6545 ms, Memory = 2.48975 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.13
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p130.json
+Response time = 39.5596 ms, KE = 39.4279 ms, Memory = 5.49044 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.13
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p130.json
+Response time = 35.0492 ms, KE = 34.9073 ms, Memory = 23.48 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.13
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p130.json
+Response time = 29.5029 ms, KE = 29.4084 ms, Memory = 0.405099 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.13
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p130.json
+Response time = 44.8576 ms, KE = 44.7576 ms, Memory = 0.267014 ms
+Finished all tasks at period 0.130
+
+======================================
+Running tasks at period 0.140
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.14
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p140.json
+Response time = 34.7491 ms, KE = 34.6225 ms, Memory = 2.44627 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.14
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p140.json
+Response time = 39.5374 ms, KE = 39.3993 ms, Memory = 5.44508 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.14
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p140.json
+Response time = 34.5021 ms, KE = 34.3553 ms, Memory = 22.927 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.14
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p140.json
+Response time = 29.4855 ms, KE = 29.4024 ms, Memory = 0.399937 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.14
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p140.json
+Response time = 44.8003 ms, KE = 44.7172 ms, Memory = 0.23161 ms
+Finished all tasks at period 0.140
+
+======================================
+Running tasks at period 0.150
+======================================
+Running mm...
+Width       : 1333
+Period (s)  : 0.15
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/mm/mm_period_0p150.json
+Response time = 34.7913 ms, KE = 34.6672 ms, Memory = 2.47909 ms
+Running stereo...
+Width       : 2304
+Height      : 1728
+Period (s)  : 0.15
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/stereo/stereo_period_0p150.json
+Response time = 39.6054 ms, KE = 39.4717 ms, Memory = 5.4714 ms
+Running quasi...
+Num elements: 16777216
+Period (s)  : 0.15
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/quasi/quasi_period_0p150.json
+Response time = 34.5378 ms, KE = 34.3812 ms, Memory = 22.9514 ms
+Running hist...
+Num elements: 65536000
+Period (s)  : 0.15
+Duration (s): 60
+Jobs        : 1
+Output JSON : logs/hist/hist_period_0p150.json
+Response time = 29.5055 ms, KE = 29.4189 ms, Memory = 0.405489 ms
+Running particle...
+Num particles: 21948
+Period (s)   : 0.15
+Duration (s) : 60
+Jobs         : 1
+Output JSON  : logs/particle/particle_period_0p150.json
+Response time = 44.8268 ms, KE = 44.74 ms, Memory = 0.23558 ms
+Finished all tasks at period 0.150
+
+Complete
+Saved 50 rows to period_vs_power.csv
+Saved 50 rows to power_vs_rt.csv
+
+Linear fit results:
+------------------------------------------------------------------------
+hist         | n=10 | Power = (-11.573594)*period + (9.777198) | R^2 = 0.880091
+mm           | n=10 | Power = (-33.813679)*period + (14.350299) | R^2 = 0.929501
+particle     | n=10 | Power = (-8.139758)*period + (9.026081) | R^2 = 0.953442
+quasi        | n=10 | Power = (-14.409394)*period + (10.379282) | R^2 = 0.925143
+stereo       | n=10 | Power = (-18.259685)*period + (11.093041) | R^2 = 0.925831
+------------------------------------------------------------------------
+Average R^2 across workloads: 0.922802
+/home/yuanyang/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+/home/yuanyang/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "

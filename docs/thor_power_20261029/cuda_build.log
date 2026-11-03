@@ -1,0 +1,32 @@
+make: Entering directory '/home/agx-thor/JTPC/application'
+mkdir -p bin
+/usr/local/cuda/bin/nvcc -o bin/bfs bfs_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+/usr/local/cuda/bin/nvcc -o bin/hist histogram_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+/usr/local/cuda/bin/nvcc -o bin/mm mm_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+/usr/local/cuda/bin/nvcc -o bin/particle particle_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+particle_converted.cu(80): warning #177-D: function "ts_add_ns" was declared but never referenced
+  static inline timespec ts_add_ns(timespec t, long long ns) {
+                         ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+particle_converted.cu(90): warning #177-D: function "sec_to_ns" was declared but never referenced
+  static inline long long sec_to_ns(double s) {
+                          ^
+
+particle_converted.cu(94): warning #177-D: function "ts_ge" was declared but never referenced
+  static inline bool ts_ge(const timespec &a, const timespec &b) {
+                     ^
+
+particle_converted.cu(99): warning #177-D: function "sleep_until_monotonic_abs" was declared but never referenced
+  static inline void sleep_until_monotonic_abs(const timespec &abs_ts) {
+                     ^
+
+particle_converted.cu(103): warning #177-D: function "ts_diff_ms" was declared but never referenced
+  static inline double ts_diff_ms(const timespec &end, const timespec &start) {
+                       ^
+
+/usr/local/cuda/bin/nvcc -o bin/quasi quasirand_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+/usr/local/cuda/bin/nvcc -o bin/stereo stereodisparity_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+/usr/local/cuda/bin/nvcc -o bin/mm_test mm_interrupt.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_110  
+make: Leaving directory '/home/agx-thor/JTPC/application'

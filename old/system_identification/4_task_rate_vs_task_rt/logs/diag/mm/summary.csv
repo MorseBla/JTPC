@@ -1,0 +1,11 @@
+run_id,task,period_ms,freq_hz,logfile
+mm_sweep_30,mm,30,918000000,logs/diag/mm/mm_30ms__mm_sweep_30.json
+mm_sweep_32,mm,32,918000000,logs/diag/mm/mm_32ms__mm_sweep_32.json
+mm_sweep_34,mm,34,918000000,logs/diag/mm/mm_34ms__mm_sweep_34.json
+mm_sweep_38,mm,38,918000000,logs/diag/mm/mm_38ms__mm_sweep_38.json
+mm_sweep_40,mm,40,918000000,logs/diag/mm/mm_40ms__mm_sweep_40.json
+mm_sweep_42,mm,42,918000000,logs/diag/mm/mm_42ms__mm_sweep_42.json
+mm_sweep_44,mm,44,918000000,logs/diag/mm/mm_44ms__mm_sweep_44.json
+mm_sweep_46,mm,46,918000000,logs/diag/mm/mm_46ms__mm_sweep_46.json
+mm_sweep_48,mm,48,918000000,logs/diag/mm/mm_48ms__mm_sweep_48.json
+mm_sweep_50,mm,50,918000000,logs/diag/mm/mm_50ms__mm_sweep_50.json

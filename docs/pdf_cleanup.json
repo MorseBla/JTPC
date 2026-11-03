@@ -1,0 +1,1032 @@
+{
+  "date": "2026-10-29",
+  "retained_paper": "pdf/JTPC_DAC_Detailed.pdf",
+  "paper_sha256": "2aa7b37bc42fcccca8976b046416ddf29b88b47ca47e572cf5fd97db35262512",
+  "archive": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029",
+  "archived_files": [
+    {
+      "original_project_path": "pdf/Figures/paper_original/fig3_architecture.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/Figures/paper_original/fig3_architecture.pdf",
+      "sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/IEEEtran.cls",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/IEEEtran.cls",
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/IEEEtran_HOWTO.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/IEEEtran_HOWTO.pdf",
+      "sha256": "462b4d99a973a5433ffa42de4d96e25c90e87fc44c2ebe598270af8cfd932922"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/Yuanyang_controller_design_idea.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/Yuanyang_controller_design_idea.tex",
+      "sha256": "d3c92f15f5f27bce03231de1dfca9a948de4f5bc44f9fec4d44ae71450121970"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/abstract.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/abstract.tex",
+      "sha256": "d66367433c338c255793c58650c700c2a53d346985fdf06faadc91e36b44b794"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/arch.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/arch.tex",
+      "sha256": "0ac7c2c07fd5a09fa30c0adf8d2639838b1b3237448c8606afabb4b8974fc707"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/background.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/background.tex",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/conclusion.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/conclusion.tex",
+      "sha256": "4692fb288218376dfe0740dbb4df075f7355468e264f1a916ae35042b43a1c70"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/controller.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/controller.tex",
+      "sha256": "ef81667eb3eb03d966eed4e3a5157e15c1d18a28e4a0d4245a08dd432aad9d6a"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/evaluation.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/evaluation.tex",
+      "sha256": "ddd769ce90a1f4e399b32c53b5868c8fecd1f10c7e5f4e301cfcfc1281b2b894"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/experimentalsetup.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/experimentalsetup.tex",
+      "sha256": "1e32c760a2eb881c952a29eb745cba567bf6906908b5d38ce1ea855afe16bc34"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/DFS_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/DFS_setpoint_5000_0.90.pdf",
+      "sha256": "1dfbf93c279087aa7470f7f9aa6c2a648b3956dca03ca65370bb56302303cbda"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/FC_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/FC_setpoint_5000_0.90.pdf",
+      "sha256": "c23c747aaf7b2624b39fa7149702b42d15aac65fb1f50efcd6b8538f1defefd5"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/JTPC_block_diagram.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/JTPC_block_diagram.pdf",
+      "sha256": "1f83b3ca3f82305ccabbf5d9088a232c159a9f3af04e733e3f7430eea177b139"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/JTPC_new_block_diagram.png",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/JTPC_new_block_diagram.png",
+      "sha256": "83f412da26dd94270c18d7bb70e77f94f00b890d2ab0d999c58d57c9c168de4b"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/JTPC_runtime_architecture.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/JTPC_runtime_architecture.pdf",
+      "sha256": "31172e3219cce3158b18adf4e1afb1c7296b735bc549648ad241821850c07bcf"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/LQR_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/LQR_setpoint_5000_0.90.pdf",
+      "sha256": "d9fe0f79b50f534956e999d9363416f05a38a678098b1b6516a1fd077aaeed31"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/LQR_task_interrupt.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/LQR_task_interrupt.pdf",
+      "sha256": "a41df0977b16d865d1b14783e32e529826b7112cbc21860d3de39dad24519c92"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_gpu_temperature_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_gpu_temperature_barplot.pdf",
+      "sha256": "d424708151bddcd168fdbe7d4791a3ba1f87354e48c182de36665f9f36772d8d"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot.pdf",
+      "sha256": "67e5eec1a6f49c21e000c73c73afcb2bb43503f51111bd7409ba4f0a9df0c998"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot_1.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot_1.pdf",
+      "sha256": "e2994c744b16031344650b70882e81f5177b2872a5fe336d37f1959340a40796"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot.pdf",
+      "sha256": "47825e2d5d4a93b17001b6c799fdaf5f7efb39184361bcd762f76586d23ddd53"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_1.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_1.pdf",
+      "sha256": "4a6e5d4dbe63c19dcc2d889b7003df9566b0c9e82bb821beac2880cabfcef909"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_2.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_2.pdf",
+      "sha256": "133d5664828e5fb30bf29fb9a223cb0268da6490d462c95f1f82ced79688360b"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/barplot/jetson_task_utility_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/barplot/jetson_task_utility_barplot.pdf",
+      "sha256": "70968d13358eb84ac293e8e53ee2d17b903883bc89198811dd8a717c9f93a37f"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/combined_rt_power.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/combined_rt_power.pdf",
+      "sha256": "e0cd9fe54fcc002e88159ebcb577bda49fc170a590b5a628fd98f12e16f76068"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/freq_vs_power_and_rt.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/freq_vs_power_and_rt.pdf",
+      "sha256": "1a299fb6be822383140a72dd7e64e9c5c8148cd532b36f255668d23ff8818114"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/freq_vs_rt.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/freq_vs_rt.pdf",
+      "sha256": "3f99f8f48cbf81dc03406e0ed93dd76fa3354f6ec8801a51b470061329120ee3"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_freq_vs_power.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_freq_vs_power.pdf",
+      "sha256": "86f8ec4152deac674be89668c98e3cf548f02486d302987530c473ab7019c8e2"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_freq_vs_rt.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_freq_vs_rt.pdf",
+      "sha256": "366c5b84752c4f48ea0640baea444d0ab023d1df83dd59b6fa017f4f92e593f8"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_freq_vs_temp.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_freq_vs_temp.pdf",
+      "sha256": "77ccfb6e00e509f711dd3ab991d6e32f971b86c4de8b2dfeece56b80f89de2a3"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_ina260_setup.jpg",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_ina260_setup.jpg",
+      "sha256": "7be4a55a4401e9b8c665f396c127cc45b32d464a5987eb775500b7dcbd305657"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_power_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_power_barplot.pdf",
+      "sha256": "a5e19ad693c5f91f6e35fc73e46da488224eb261b10bb1287a6808557881f733"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jetson_rtr_barplot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jetson_rtr_barplot.pdf",
+      "sha256": "f38490d227451db50804b20648cbec6436383ed7135ada6c94b29cf18941f063"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jtpc.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jtpc.pdf",
+      "sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jtpc_architecture.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jtpc_architecture.pdf",
+      "sha256": "368ac1ab93f57fe7fffd0e8e00210045ae4cf4cab70bff9de9d6a2c979a9b920"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/jtpc_runtime.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/jtpc_runtime.pdf",
+      "sha256": "2200b9573a12bebe9c66209c418c22a0cb5ab4a5055c95099a6a95c909a0968f"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+      "sha256": "c17607d560e85caa2b72af47f0778ae42482a15ab46731d770692089d96b3943"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+      "sha256": "69c67b9aa155bb2093b6e76a52df5c107a0abdaacf6278960e2a71e519736421"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+      "sha256": "9809bd686e94f0b4fbba7fc6541923179e11a3bbb3991ed3a4bc482dfd8fd569"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+      "sha256": "4eb23a889fc4bf4e9881bc7978c79da61a80b8c43c81268663146f5a5880e6b7"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+      "sha256": "fc62711aa355c2f7a46a7aae15fbff8935a7b681f96e1a64518bc00f35da0180"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+      "sha256": "92de1bfdf2d4ac60867f153df8b41bb7a605247fbe6be7be007f3eac3db94c55"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_openloop_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_openloop_11000_0.90.pdf",
+      "sha256": "239dd1745843ebd75f075310853d97182c56552b44a5559fc60858a016a01aaf"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+      "sha256": "ec372a77c79eebbbda3968525a0c25834724c29dab4c64421be8d711fd654fc3"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+      "sha256": "7702e16171eb387b0eca63a2da1834f5f77647add1b1cadd4025e53e3b50de16"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+      "sha256": "b48e8e30ce16336e8da575fb7d80d4b77b1bca2b9b1fb1081b53c04fae451263"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test_power_only.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test_power_only.pdf",
+      "sha256": "1d8540414db2693f2d68105962db35230c408c5077e6b6072ce5fe672638c3a6"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+      "sha256": "32e7397e5ea1360990826512eea791ded39d43a1ccadda84f5a3974cf317bf75"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_DFS_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_DFS_5000_0.90.pdf",
+      "sha256": "28c6fd673bf57411a517362d343990b13c1f445ad470efa1fe08d946e262a1dd"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+      "sha256": "385f0d7ba47eada9b194a7714215e96f5c785330e3acd1708af4275489bdc678"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_FC_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_FC_5000_0.90.pdf",
+      "sha256": "3dc79e7a91b0a03b87301aa64c9698188028b6de5ea9b95559ecaf6f6d75e489"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+      "sha256": "9f5b2efc4494c08e4475c5f73c6da09ddabe29462e0df73f9ceb7ca1d158cfeb"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90.pdf",
+      "sha256": "99240ec84a1ee5667722b6c681a9ae1cfa7b585af70d6a0bb2713126a98e2535"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_LQR_5000_0.90.pdf",
+      "sha256": "d884ccd08d544a4552c0123aba0ca1e42b1df53426f36b9d747a2b83c3e7c8e9"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/mm_interrupt_openloop_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/mm_interrupt_openloop_11000_0.90.pdf",
+      "sha256": "d33f7b2a37a582fbd76b10047f0a3218b576d452da68d49851e44ebd706b68d2"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/newTry.png",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/newTry.png",
+      "sha256": "713953b05c2a7bb49e868aa6f2df85c1dabd8b703e5e791afeafe32ea544bf6e"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/openloop_Power 1.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/openloop_Power 1.pdf",
+      "sha256": "4eac22405537b7e77bf9801995def9b86faec1c75a43948d0b71a2505bd6bd90"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/openloop_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/openloop_setpoint_5000_0.90.pdf",
+      "sha256": "9e0b4040271da9dbeea88c51c3ab0e7300e2132b15fb0bbdb95552b5c14e311d"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/overhead_plot.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/overhead_plot.pdf",
+      "sha256": "538a44677097aa56401d4426a539284253a9f5faed21b4848a74a3cca8676e9b"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/period_vs_power.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/period_vs_power.pdf",
+      "sha256": "bb7c34a7df32b028c47d9b4c7daef9c1456be062323f827bc64eda61f164c1e1"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_DFS_setpoint_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_DFS_setpoint_11000_0.90.pdf",
+      "sha256": "7db267bacb7d47903ef280b324aac03a427346b35d9f7cb9a1babb9b4e7ceaa8"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "sha256": "25cfbcbc9413f65b3981a39e985ec65fd044a4340ed20723f8a4ed5bb03282c3"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90 1.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90 1.pdf",
+      "sha256": "cc96e22883b52007fcbd8444490af2a8a971c19d162f1fa5bf03d19087c7fd50"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "sha256": "af9d9a4e66bcf92b0ca405ae0299e97db09d2f4235cfa9a5f97540911d9e7c30"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90_power_only.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90_power_only.pdf",
+      "sha256": "01789a2f695dfa09526a68c6fc426a146f1c8cc7b1be67b1a76ee27aed1d5361"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_interrupt_DFS_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_interrupt_DFS_setpoint_5000_0.90.pdf",
+      "sha256": "140245f54628d37f69a494cc91e5a8ac533974934673276e59258dc999d5bf09"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_interrupt_FC_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_interrupt_FC_setpoint_5000_0.90.pdf",
+      "sha256": "dd9026ce643718553a0deeb9b6303839e245f2ac353829593fb1bde004b8149b"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/power_interrupt_LQR_setpoint_5000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/power_interrupt_LQR_setpoint_5000_0.90.pdf",
+      "sha256": "72f7433cc27975e11701157cd542fc200605657988edc422dfac941bd17de5a9"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/figures/system_validation.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/figures/system_validation.pdf",
+      "sha256": "f2327fb1036bce3556831aefdf4f6261fe33dad1115d929ec6d434a19e2256f3"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/intro.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/intro.tex",
+      "sha256": "73d56999e696ffaaa6c4cc9ee8447423e82bc85fbbed41f7059bce4b1225b0dc"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/jetson_deadline_miss_table.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/jetson_deadline_miss_table.tex",
+      "sha256": "1dbb416456bd9a61d82317dadbdab876d82464359f4964f371238435add15a40"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/newcontroller.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/newcontroller.tex",
+      "sha256": "cdbe6da212ecda27a250a97090140611a06bd676192fa62e3e781cfc2143093e"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/pf.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/pf.tex",
+      "sha256": "bd614219e8b6c9db148c62b39315da3004298c4300ac26830f15766845dfe211"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "sha256": "20b830e5a34a11ba501522614cf4da9e14439788ebb843302d23acba23ea1516"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "sha256": "62803303c13ec5ad3e8d0a18cc1669a93dfd79297af02a1da5a031d15da1923a"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/relatedwork.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/relatedwork.tex",
+      "sha256": "bee2ff10971eb52513b4c4c58db7a4b81b3b0fac83d46c5b8dd2918f371ccd9a"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/short_intro.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/short_intro.tex",
+      "sha256": "9052601cadac09d015ca8f37889ffd8335ca5fa316bbf57a7863bbf71e82e960"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/contents/srini_intro.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/contents/srini_intro.tex",
+      "sha256": "f7b3979958fc8c761822da36d7d79ac170ce8bed4d6170d9d5b15e765cd13217"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/fig1.png",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/fig1.png",
+      "sha256": "db271171f451b1585286b0fe118ac924dd1de227bb587121c408b34f1cb00846"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/jtpc.png",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/jtpc.png",
+      "sha256": "ff90b531bbf50c235c5c306f2466c522a3351ebf79f2c54972bcc53f7a015712"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/main.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/main.tex",
+      "sha256": "59dd84108061c3dc3b052ced4715c9f8ead5c5513f0d880d77cb7c8a49ad7263"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/name.tex",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/name.tex",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_project_path": "pdf/RTNS_source/refs.bib",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/RTNS_source/refs.bib",
+      "sha256": "1288099b396ed1d977aacc924d5cd75316702a316de10e51855c4583fb5aab30"
+    },
+    {
+      "original_project_path": "pdf/JTPC_RTNS_original.zip",
+      "archive_path": "/home/tiare/Desktop/JTPC_sources_20261029/pdf_extras_before_20261029/pdf/JTPC_RTNS_original.zip",
+      "sha256": "c33752fe8eee4eaf2d7338e6d02f3df6dc048fda7453b16081808ec5d06608ae"
+    }
+  ],
+  "retired_source_manifest_entries": [
+    {
+      "source": "/home/tiare/Desktop/JTPC_RTNS.zip",
+      "destination": "pdf/JTPC_RTNS_original.zip",
+      "source_sha256": "c33752fe8eee4eaf2d7338e6d02f3df6dc048fda7453b16081808ec5d06608ae",
+      "sha256": "c33752fe8eee4eaf2d7338e6d02f3df6dc048fda7453b16081808ec5d06608ae",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/IEEEtran.cls",
+      "destination": "pdf/RTNS_source/IEEEtran.cls",
+      "source_sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/IEEEtran_HOWTO.pdf",
+      "destination": "pdf/RTNS_source/IEEEtran_HOWTO.pdf",
+      "source_sha256": "462b4d99a973a5433ffa42de4d96e25c90e87fc44c2ebe598270af8cfd932922",
+      "sha256": "462b4d99a973a5433ffa42de4d96e25c90e87fc44c2ebe598270af8cfd932922",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/Yuanyang_controller_design_idea.tex",
+      "destination": "pdf/RTNS_source/Yuanyang_controller_design_idea.tex",
+      "source_sha256": "d3c92f15f5f27bce03231de1dfca9a948de4f5bc44f9fec4d44ae71450121970",
+      "sha256": "d3c92f15f5f27bce03231de1dfca9a948de4f5bc44f9fec4d44ae71450121970",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/abstract.tex",
+      "destination": "pdf/RTNS_source/contents/abstract.tex",
+      "source_sha256": "d66367433c338c255793c58650c700c2a53d346985fdf06faadc91e36b44b794",
+      "sha256": "d66367433c338c255793c58650c700c2a53d346985fdf06faadc91e36b44b794",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/arch.tex",
+      "destination": "pdf/RTNS_source/contents/arch.tex",
+      "source_sha256": "0ac7c2c07fd5a09fa30c0adf8d2639838b1b3237448c8606afabb4b8974fc707",
+      "sha256": "0ac7c2c07fd5a09fa30c0adf8d2639838b1b3237448c8606afabb4b8974fc707",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/background.tex",
+      "destination": "pdf/RTNS_source/contents/background.tex",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/conclusion.tex",
+      "destination": "pdf/RTNS_source/contents/conclusion.tex",
+      "source_sha256": "4692fb288218376dfe0740dbb4df075f7355468e264f1a916ae35042b43a1c70",
+      "sha256": "4692fb288218376dfe0740dbb4df075f7355468e264f1a916ae35042b43a1c70",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/controller.tex",
+      "destination": "pdf/RTNS_source/contents/controller.tex",
+      "source_sha256": "ef81667eb3eb03d966eed4e3a5157e15c1d18a28e4a0d4245a08dd432aad9d6a",
+      "sha256": "ef81667eb3eb03d966eed4e3a5157e15c1d18a28e4a0d4245a08dd432aad9d6a",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/evaluation.tex",
+      "destination": "pdf/RTNS_source/contents/evaluation.tex",
+      "source_sha256": "ddd769ce90a1f4e399b32c53b5868c8fecd1f10c7e5f4e301cfcfc1281b2b894",
+      "sha256": "ddd769ce90a1f4e399b32c53b5868c8fecd1f10c7e5f4e301cfcfc1281b2b894",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/experimentalsetup.tex",
+      "destination": "pdf/RTNS_source/contents/experimentalsetup.tex",
+      "source_sha256": "1e32c760a2eb881c952a29eb745cba567bf6906908b5d38ce1ea855afe16bc34",
+      "sha256": "1e32c760a2eb881c952a29eb745cba567bf6906908b5d38ce1ea855afe16bc34",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/DFS_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/DFS_setpoint_5000_0.90.pdf",
+      "source_sha256": "1dfbf93c279087aa7470f7f9aa6c2a648b3956dca03ca65370bb56302303cbda",
+      "sha256": "1dfbf93c279087aa7470f7f9aa6c2a648b3956dca03ca65370bb56302303cbda",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/FC_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/FC_setpoint_5000_0.90.pdf",
+      "source_sha256": "c23c747aaf7b2624b39fa7149702b42d15aac65fb1f50efcd6b8538f1defefd5",
+      "sha256": "c23c747aaf7b2624b39fa7149702b42d15aac65fb1f50efcd6b8538f1defefd5",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/JTPC_block_diagram.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/JTPC_block_diagram.pdf",
+      "source_sha256": "1f83b3ca3f82305ccabbf5d9088a232c159a9f3af04e733e3f7430eea177b139",
+      "sha256": "1f83b3ca3f82305ccabbf5d9088a232c159a9f3af04e733e3f7430eea177b139",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/JTPC_new_block_diagram.png",
+      "destination": "pdf/RTNS_source/contents/figures/JTPC_new_block_diagram.png",
+      "source_sha256": "83f412da26dd94270c18d7bb70e77f94f00b890d2ab0d999c58d57c9c168de4b",
+      "sha256": "83f412da26dd94270c18d7bb70e77f94f00b890d2ab0d999c58d57c9c168de4b",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/JTPC_runtime_architecture.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/JTPC_runtime_architecture.pdf",
+      "source_sha256": "31172e3219cce3158b18adf4e1afb1c7296b735bc549648ad241821850c07bcf",
+      "sha256": "31172e3219cce3158b18adf4e1afb1c7296b735bc549648ad241821850c07bcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/LQR_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/LQR_setpoint_5000_0.90.pdf",
+      "source_sha256": "d9fe0f79b50f534956e999d9363416f05a38a678098b1b6516a1fd077aaeed31",
+      "sha256": "d9fe0f79b50f534956e999d9363416f05a38a678098b1b6516a1fd077aaeed31",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/LQR_task_interrupt.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/LQR_task_interrupt.pdf",
+      "source_sha256": "a41df0977b16d865d1b14783e32e529826b7112cbc21860d3de39dad24519c92",
+      "sha256": "a41df0977b16d865d1b14783e32e529826b7112cbc21860d3de39dad24519c92",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_gpu_temperature_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_gpu_temperature_barplot.pdf",
+      "source_sha256": "d424708151bddcd168fdbe7d4791a3ba1f87354e48c182de36665f9f36772d8d",
+      "sha256": "d424708151bddcd168fdbe7d4791a3ba1f87354e48c182de36665f9f36772d8d",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_power_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot.pdf",
+      "source_sha256": "67e5eec1a6f49c21e000c73c73afcb2bb43503f51111bd7409ba4f0a9df0c998",
+      "sha256": "67e5eec1a6f49c21e000c73c73afcb2bb43503f51111bd7409ba4f0a9df0c998",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_power_barplot_1.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_power_barplot_1.pdf",
+      "source_sha256": "e2994c744b16031344650b70882e81f5177b2872a5fe336d37f1959340a40796",
+      "sha256": "e2994c744b16031344650b70882e81f5177b2872a5fe336d37f1959340a40796",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_rtr_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot.pdf",
+      "source_sha256": "47825e2d5d4a93b17001b6c799fdaf5f7efb39184361bcd762f76586d23ddd53",
+      "sha256": "47825e2d5d4a93b17001b6c799fdaf5f7efb39184361bcd762f76586d23ddd53",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_rtr_barplot_1.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_1.pdf",
+      "source_sha256": "4a6e5d4dbe63c19dcc2d889b7003df9566b0c9e82bb821beac2880cabfcef909",
+      "sha256": "4a6e5d4dbe63c19dcc2d889b7003df9566b0c9e82bb821beac2880cabfcef909",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_rtr_barplot_2.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_rtr_barplot_2.pdf",
+      "source_sha256": "133d5664828e5fb30bf29fb9a223cb0268da6490d462c95f1f82ced79688360b",
+      "sha256": "133d5664828e5fb30bf29fb9a223cb0268da6490d462c95f1f82ced79688360b",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/barplot/jetson_task_utility_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/barplot/jetson_task_utility_barplot.pdf",
+      "source_sha256": "70968d13358eb84ac293e8e53ee2d17b903883bc89198811dd8a717c9f93a37f",
+      "sha256": "70968d13358eb84ac293e8e53ee2d17b903883bc89198811dd8a717c9f93a37f",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/combined_rt_power.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/combined_rt_power.pdf",
+      "source_sha256": "e0cd9fe54fcc002e88159ebcb577bda49fc170a590b5a628fd98f12e16f76068",
+      "sha256": "e0cd9fe54fcc002e88159ebcb577bda49fc170a590b5a628fd98f12e16f76068",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/freq_vs_power_and_rt.pdf",
+      "source_sha256": "1a299fb6be822383140a72dd7e64e9c5c8148cd532b36f255668d23ff8818114",
+      "sha256": "1a299fb6be822383140a72dd7e64e9c5c8148cd532b36f255668d23ff8818114",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/freq_vs_rt.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/freq_vs_rt.pdf",
+      "source_sha256": "3f99f8f48cbf81dc03406e0ed93dd76fa3354f6ec8801a51b470061329120ee3",
+      "sha256": "3f99f8f48cbf81dc03406e0ed93dd76fa3354f6ec8801a51b470061329120ee3",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_freq_vs_power.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_freq_vs_power.pdf",
+      "source_sha256": "86f8ec4152deac674be89668c98e3cf548f02486d302987530c473ab7019c8e2",
+      "sha256": "86f8ec4152deac674be89668c98e3cf548f02486d302987530c473ab7019c8e2",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_freq_vs_rt.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_freq_vs_rt.pdf",
+      "source_sha256": "366c5b84752c4f48ea0640baea444d0ab023d1df83dd59b6fa017f4f92e593f8",
+      "sha256": "366c5b84752c4f48ea0640baea444d0ab023d1df83dd59b6fa017f4f92e593f8",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_freq_vs_temp.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_freq_vs_temp.pdf",
+      "source_sha256": "77ccfb6e00e509f711dd3ab991d6e32f971b86c4de8b2dfeece56b80f89de2a3",
+      "sha256": "77ccfb6e00e509f711dd3ab991d6e32f971b86c4de8b2dfeece56b80f89de2a3",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_ina260_setup.jpg",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_ina260_setup.jpg",
+      "source_sha256": "7be4a55a4401e9b8c665f396c127cc45b32d464a5987eb775500b7dcbd305657",
+      "sha256": "7be4a55a4401e9b8c665f396c127cc45b32d464a5987eb775500b7dcbd305657",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_power_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_power_barplot.pdf",
+      "source_sha256": "a5e19ad693c5f91f6e35fc73e46da488224eb261b10bb1287a6808557881f733",
+      "sha256": "a5e19ad693c5f91f6e35fc73e46da488224eb261b10bb1287a6808557881f733",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jetson_rtr_barplot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jetson_rtr_barplot.pdf",
+      "source_sha256": "f38490d227451db50804b20648cbec6436383ed7135ada6c94b29cf18941f063",
+      "sha256": "f38490d227451db50804b20648cbec6436383ed7135ada6c94b29cf18941f063",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jtpc.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jtpc.pdf",
+      "source_sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68",
+      "sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jtpc_architecture.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jtpc_architecture.pdf",
+      "source_sha256": "368ac1ab93f57fe7fffd0e8e00210045ae4cf4cab70bff9de9d6a2c979a9b920",
+      "sha256": "368ac1ab93f57fe7fffd0e8e00210045ae4cf4cab70bff9de9d6a2c979a9b920",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jtpc_runtime.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/jtpc_runtime.pdf",
+      "source_sha256": "2200b9573a12bebe9c66209c418c22a0cb5ab4a5055c95099a6a95c909a0968f",
+      "sha256": "2200b9573a12bebe9c66209c418c22a0cb5ab4a5055c95099a6a95c909a0968f",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+      "source_sha256": "c17607d560e85caa2b72af47f0778ae42482a15ab46731d770692089d96b3943",
+      "sha256": "c17607d560e85caa2b72af47f0778ae42482a15ab46731d770692089d96b3943",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+      "source_sha256": "69c67b9aa155bb2093b6e76a52df5c107a0abdaacf6278960e2a71e519736421",
+      "sha256": "69c67b9aa155bb2093b6e76a52df5c107a0abdaacf6278960e2a71e519736421",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+      "source_sha256": "9809bd686e94f0b4fbba7fc6541923179e11a3bbb3991ed3a4bc482dfd8fd569",
+      "sha256": "9809bd686e94f0b4fbba7fc6541923179e11a3bbb3991ed3a4bc482dfd8fd569",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+      "source_sha256": "4eb23a889fc4bf4e9881bc7978c79da61a80b8c43c81268663146f5a5880e6b7",
+      "sha256": "4eb23a889fc4bf4e9881bc7978c79da61a80b8c43c81268663146f5a5880e6b7",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+      "source_sha256": "fc62711aa355c2f7a46a7aae15fbff8935a7b681f96e1a64518bc00f35da0180",
+      "sha256": "fc62711aa355c2f7a46a7aae15fbff8935a7b681f96e1a64518bc00f35da0180",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+      "source_sha256": "92de1bfdf2d4ac60867f153df8b41bb7a605247fbe6be7be007f3eac3db94c55",
+      "sha256": "92de1bfdf2d4ac60867f153df8b41bb7a605247fbe6be7be007f3eac3db94c55",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/mm_interrupt_openloop_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/mm_interrupt_openloop_11000_0.90.pdf",
+      "source_sha256": "239dd1745843ebd75f075310853d97182c56552b44a5559fc60858a016a01aaf",
+      "sha256": "239dd1745843ebd75f075310853d97182c56552b44a5559fc60858a016a01aaf",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+      "source_sha256": "ec372a77c79eebbbda3968525a0c25834724c29dab4c64421be8d711fd654fc3",
+      "sha256": "ec372a77c79eebbbda3968525a0c25834724c29dab4c64421be8d711fd654fc3",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+      "source_sha256": "7702e16171eb387b0eca63a2da1834f5f77647add1b1cadd4025e53e3b50de16",
+      "sha256": "7702e16171eb387b0eca63a2da1834f5f77647add1b1cadd4025e53e3b50de16",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+      "source_sha256": "b48e8e30ce16336e8da575fb7d80d4b77b1bca2b9b1fb1081b53c04fae451263",
+      "sha256": "b48e8e30ce16336e8da575fb7d80d4b77b1bca2b9b1fb1081b53c04fae451263",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test_power_only.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt/task_arrival_4task_test_power_only.pdf",
+      "source_sha256": "1d8540414db2693f2d68105962db35230c408c5077e6b6072ce5fe672638c3a6",
+      "sha256": "1d8540414db2693f2d68105962db35230c408c5077e6b6072ce5fe672638c3a6",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+      "source_sha256": "32e7397e5ea1360990826512eea791ded39d43a1ccadda84f5a3974cf317bf75",
+      "sha256": "32e7397e5ea1360990826512eea791ded39d43a1ccadda84f5a3974cf317bf75",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_DFS_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_DFS_5000_0.90.pdf",
+      "source_sha256": "28c6fd673bf57411a517362d343990b13c1f445ad470efa1fe08d946e262a1dd",
+      "sha256": "28c6fd673bf57411a517362d343990b13c1f445ad470efa1fe08d946e262a1dd",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+      "source_sha256": "385f0d7ba47eada9b194a7714215e96f5c785330e3acd1708af4275489bdc678",
+      "sha256": "385f0d7ba47eada9b194a7714215e96f5c785330e3acd1708af4275489bdc678",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_FC_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_FC_5000_0.90.pdf",
+      "source_sha256": "3dc79e7a91b0a03b87301aa64c9698188028b6de5ea9b95559ecaf6f6d75e489",
+      "sha256": "3dc79e7a91b0a03b87301aa64c9698188028b6de5ea9b95559ecaf6f6d75e489",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+      "source_sha256": "9f5b2efc4494c08e4475c5f73c6da09ddabe29462e0df73f9ceb7ca1d158cfeb",
+      "sha256": "9f5b2efc4494c08e4475c5f73c6da09ddabe29462e0df73f9ceb7ca1d158cfeb",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_11000_0.90.pdf",
+      "source_sha256": "99240ec84a1ee5667722b6c681a9ae1cfa7b585af70d6a0bb2713126a98e2535",
+      "sha256": "99240ec84a1ee5667722b6c681a9ae1cfa7b585af70d6a0bb2713126a98e2535",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_LQR_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_LQR_5000_0.90.pdf",
+      "source_sha256": "d884ccd08d544a4552c0123aba0ca1e42b1df53426f36b9d747a2b83c3e7c8e9",
+      "sha256": "d884ccd08d544a4552c0123aba0ca1e42b1df53426f36b9d747a2b83c3e7c8e9",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/mm_interrupt_openloop_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/mm_interrupt_openloop_11000_0.90.pdf",
+      "source_sha256": "d33f7b2a37a582fbd76b10047f0a3218b576d452da68d49851e44ebd706b68d2",
+      "sha256": "d33f7b2a37a582fbd76b10047f0a3218b576d452da68d49851e44ebd706b68d2",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/newTry.png",
+      "destination": "pdf/RTNS_source/contents/figures/newTry.png",
+      "source_sha256": "713953b05c2a7bb49e868aa6f2df85c1dabd8b703e5e791afeafe32ea544bf6e",
+      "sha256": "713953b05c2a7bb49e868aa6f2df85c1dabd8b703e5e791afeafe32ea544bf6e",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/openloop_Power 1.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/openloop_Power 1.pdf",
+      "source_sha256": "4eac22405537b7e77bf9801995def9b86faec1c75a43948d0b71a2505bd6bd90",
+      "sha256": "4eac22405537b7e77bf9801995def9b86faec1c75a43948d0b71a2505bd6bd90",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/openloop_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/openloop_setpoint_5000_0.90.pdf",
+      "source_sha256": "9e0b4040271da9dbeea88c51c3ab0e7300e2132b15fb0bbdb95552b5c14e311d",
+      "sha256": "9e0b4040271da9dbeea88c51c3ab0e7300e2132b15fb0bbdb95552b5c14e311d",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/overhead_plot.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/overhead_plot.pdf",
+      "source_sha256": "538a44677097aa56401d4426a539284253a9f5faed21b4848a74a3cca8676e9b",
+      "sha256": "538a44677097aa56401d4426a539284253a9f5faed21b4848a74a3cca8676e9b",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/period_vs_power.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/period_vs_power.pdf",
+      "source_sha256": "bb7c34a7df32b028c47d9b4c7daef9c1456be062323f827bc64eda61f164c1e1",
+      "sha256": "bb7c34a7df32b028c47d9b4c7daef9c1456be062323f827bc64eda61f164c1e1",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_inerrupt/power_interrupt_DFS_setpoint_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_DFS_setpoint_11000_0.90.pdf",
+      "source_sha256": "7db267bacb7d47903ef280b324aac03a427346b35d9f7cb9a1babb9b4e7ceaa8",
+      "sha256": "7db267bacb7d47903ef280b324aac03a427346b35d9f7cb9a1babb9b4e7ceaa8",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_inerrupt/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "source_sha256": "25cfbcbc9413f65b3981a39e985ec65fd044a4340ed20723f8a4ed5bb03282c3",
+      "sha256": "25cfbcbc9413f65b3981a39e985ec65fd044a4340ed20723f8a4ed5bb03282c3",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90 1.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90 1.pdf",
+      "source_sha256": "cc96e22883b52007fcbd8444490af2a8a971c19d162f1fa5bf03d19087c7fd50",
+      "sha256": "cc96e22883b52007fcbd8444490af2a8a971c19d162f1fa5bf03d19087c7fd50",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "source_sha256": "af9d9a4e66bcf92b0ca405ae0299e97db09d2f4235cfa9a5f97540911d9e7c30",
+      "sha256": "af9d9a4e66bcf92b0ca405ae0299e97db09d2f4235cfa9a5f97540911d9e7c30",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90_power_only.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_inerrupt/power_interrupt_LQR_setpoint_11000_0.90_power_only.pdf",
+      "source_sha256": "01789a2f695dfa09526a68c6fc426a146f1c8cc7b1be67b1a76ee27aed1d5361",
+      "sha256": "01789a2f695dfa09526a68c6fc426a146f1c8cc7b1be67b1a76ee27aed1d5361",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_interrupt_DFS_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_interrupt_DFS_setpoint_5000_0.90.pdf",
+      "source_sha256": "140245f54628d37f69a494cc91e5a8ac533974934673276e59258dc999d5bf09",
+      "sha256": "140245f54628d37f69a494cc91e5a8ac533974934673276e59258dc999d5bf09",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_interrupt_FC_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_interrupt_FC_setpoint_5000_0.90.pdf",
+      "source_sha256": "dd9026ce643718553a0deeb9b6303839e245f2ac353829593fb1bde004b8149b",
+      "sha256": "dd9026ce643718553a0deeb9b6303839e245f2ac353829593fb1bde004b8149b",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/power_interrupt_LQR_setpoint_5000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/power_interrupt_LQR_setpoint_5000_0.90.pdf",
+      "source_sha256": "72f7433cc27975e11701157cd542fc200605657988edc422dfac941bd17de5a9",
+      "sha256": "72f7433cc27975e11701157cd542fc200605657988edc422dfac941bd17de5a9",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/system_validation.pdf",
+      "destination": "pdf/RTNS_source/contents/figures/system_validation.pdf",
+      "source_sha256": "f2327fb1036bce3556831aefdf4f6261fe33dad1115d929ec6d434a19e2256f3",
+      "sha256": "f2327fb1036bce3556831aefdf4f6261fe33dad1115d929ec6d434a19e2256f3",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/intro.tex",
+      "destination": "pdf/RTNS_source/contents/intro.tex",
+      "source_sha256": "73d56999e696ffaaa6c4cc9ee8447423e82bc85fbbed41f7059bce4b1225b0dc",
+      "sha256": "73d56999e696ffaaa6c4cc9ee8447423e82bc85fbbed41f7059bce4b1225b0dc",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/jetson_deadline_miss_table.tex",
+      "destination": "pdf/RTNS_source/contents/jetson_deadline_miss_table.tex",
+      "source_sha256": "1dbb416456bd9a61d82317dadbdab876d82464359f4964f371238435add15a40",
+      "sha256": "1dbb416456bd9a61d82317dadbdab876d82464359f4964f371238435add15a40",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/newcontroller.tex",
+      "destination": "pdf/RTNS_source/contents/newcontroller.tex",
+      "source_sha256": "cdbe6da212ecda27a250a97090140611a06bd676192fa62e3e781cfc2143093e",
+      "sha256": "cdbe6da212ecda27a250a97090140611a06bd676192fa62e3e781cfc2143093e",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/pf.tex",
+      "destination": "pdf/RTNS_source/contents/pf.tex",
+      "source_sha256": "bd614219e8b6c9db148c62b39315da3004298c4300ac26830f15766845dfe211",
+      "sha256": "bd614219e8b6c9db148c62b39315da3004298c4300ac26830f15766845dfe211",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/power_interrupt_FC_setpoint_11000_0.90.pdf",
+      "source_sha256": "20b830e5a34a11ba501522614cf4da9e14439788ebb843302d23acba23ea1516",
+      "sha256": "20b830e5a34a11ba501522614cf4da9e14439788ebb843302d23acba23ea1516",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "destination": "pdf/RTNS_source/contents/power_interrupt_LQR_setpoint_11000_0.90.pdf",
+      "source_sha256": "62803303c13ec5ad3e8d0a18cc1669a93dfd79297af02a1da5a031d15da1923a",
+      "sha256": "62803303c13ec5ad3e8d0a18cc1669a93dfd79297af02a1da5a031d15da1923a",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/relatedwork.tex",
+      "destination": "pdf/RTNS_source/contents/relatedwork.tex",
+      "source_sha256": "bee2ff10971eb52513b4c4c58db7a4b81b3b0fac83d46c5b8dd2918f371ccd9a",
+      "sha256": "bee2ff10971eb52513b4c4c58db7a4b81b3b0fac83d46c5b8dd2918f371ccd9a",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/short_intro.tex",
+      "destination": "pdf/RTNS_source/contents/short_intro.tex",
+      "source_sha256": "9052601cadac09d015ca8f37889ffd8335ca5fa316bbf57a7863bbf71e82e960",
+      "sha256": "9052601cadac09d015ca8f37889ffd8335ca5fa316bbf57a7863bbf71e82e960",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/srini_intro.tex",
+      "destination": "pdf/RTNS_source/contents/srini_intro.tex",
+      "source_sha256": "f7b3979958fc8c761822da36d7d79ac170ce8bed4d6170d9d5b15e765cd13217",
+      "sha256": "f7b3979958fc8c761822da36d7d79ac170ce8bed4d6170d9d5b15e765cd13217",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/fig1.png",
+      "destination": "pdf/RTNS_source/fig1.png",
+      "source_sha256": "db271171f451b1585286b0fe118ac924dd1de227bb587121c408b34f1cb00846",
+      "sha256": "db271171f451b1585286b0fe118ac924dd1de227bb587121c408b34f1cb00846",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/jtpc.png",
+      "destination": "pdf/RTNS_source/jtpc.png",
+      "source_sha256": "ff90b531bbf50c235c5c306f2466c522a3351ebf79f2c54972bcc53f7a015712",
+      "sha256": "ff90b531bbf50c235c5c306f2466c522a3351ebf79f2c54972bcc53f7a015712",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/main.tex",
+      "destination": "pdf/RTNS_source/main.tex",
+      "source_sha256": "59dd84108061c3dc3b052ced4715c9f8ead5c5513f0d880d77cb7c8a49ad7263",
+      "sha256": "59dd84108061c3dc3b052ced4715c9f8ead5c5513f0d880d77cb7c8a49ad7263",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/name.tex",
+      "destination": "pdf/RTNS_source/name.tex",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/refs.bib",
+      "destination": "pdf/RTNS_source/refs.bib",
+      "source_sha256": "1288099b396ed1d977aacc924d5cd75316702a316de10e51855c4583fb5aab30",
+      "sha256": "1288099b396ed1d977aacc924d5cd75316702a316de10e51855c4583fb5aab30",
+      "change": "verbatim"
+    },
+    {
+      "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/local_paper_source/contents/figures/jtpc.pdf",
+      "destination": "pdf/Figures/paper_original/fig3_architecture.pdf",
+      "source_sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68",
+      "sha256": "c8fff8059f91d50912fd01842b0a211aca8ae7598bcfb7cec3d8da36be70db68",
+      "change": "verbatim"
+    }
+  ],
+  "unchanged_code_and_experiment_files": 5394,
+  "hardware_experiments_started": false
+}

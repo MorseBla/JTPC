@@ -1,0 +1,18 @@
+test_controller_reads_script_in_mw (__main__.ThorPowerTests) ... ok
+test_controller_rejects_sensor_failure (__main__.ThorPowerTests) ... ok
+test_controller_shares_a_10hz_cached_read (__main__.ThorPowerTests) ... ok
+test_duplicate_sensors_are_rejected (__main__.ThorPowerTests) ... ok
+test_legacy_script_output_is_preserved (__main__.ThorPowerTests) ... ok
+test_legacy_streaming_tegrastats_keeps_first_sample (__main__.ThorPowerTests) ... ok
+test_malformed_or_missing_power_is_rejected (__main__.ThorPowerTests) ... ok
+test_missing_sensor_has_no_numeric_fallback (__main__.ThorPowerTests) ... ok
+test_sampling_accepts_above_20w_without_offset (__main__.ThorPowerTests) ... ok
+test_sampling_below_20w_has_no_synthetic_offset (__main__.ThorPowerTests) ... ok
+test_thor_units_and_hwmon_renumbering (__main__.ThorPowerTests) ... ok
+test_unknown_mode_fails (__main__.ThorPowerTests) ... ok
+test_wrong_sensor_or_rail_is_rejected (__main__.ThorPowerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.810s
+
+OK

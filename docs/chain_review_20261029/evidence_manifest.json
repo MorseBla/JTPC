@@ -1,0 +1,70 @@
+[
+  {
+    "source": "/tmp/jtpc_chain_review/build_results.json",
+    "file": "build_results.json",
+    "sha256": "23934b099ec370746fa0f3b535a593cb549efe980e632e51599ae859778dba16"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/controller_clamp50_build.log",
+    "file": "controller_clamp50_build.log",
+    "sha256": "34c7139460d45ca70f7b75f36cc4f8ddaecfa96c9dc9e1cf792cad03841263fe"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/cuda_tasks.log",
+    "file": "cuda_tasks.log",
+    "sha256": "8bca4566cd880457a8caa4018199bc431b8582599b4184fc0040634cc43a4994"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/flag_rebuild_check.txt",
+    "file": "flag_rebuild_check.txt",
+    "sha256": "edd373401d4d043a25863459b2bb79664aefee1b10523c10c749b70be67d4e2a"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/log_to_plot_inputs.json",
+    "file": "log_to_plot_inputs.json",
+    "sha256": "c59dd805229ddfc49b79cd590937ebf06c057b5c7d9661fb4f73a6c220653f44"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/mock_chain_results.json",
+    "file": "mock_chain_results.json",
+    "sha256": "8ce7b931208f046283ce4d7cb99f08a0a05016c75486163e04ad1bc4da0af201"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/scheduler_jetson.log",
+    "file": "scheduler_jetson.log",
+    "sha256": "f41511a04af046eb00f7c8e45e45e7a3e648e963952edda7299bae8504892614"
+  },
+  {
+    "source": "/tmp/jtpc_chain_review/source_version_comparison.json",
+    "file": "source_version_comparison.json",
+    "sha256": "1e42df1327fc9a2df3bcbe0871e02510f3241d04f3c274c617a5721a6f25eb32"
+  },
+  {
+    "source": "/tmp/jtpc_mock_chain.py",
+    "file": "jtpc_mock_chain.py",
+    "sha256": "5a16c2310fb75e4852f76f95ac1488854315998ca39b9286c4d82ffd2d85f6db"
+  },
+  {
+    "source": "/tmp/jtpc_read_chain.py",
+    "file": "jtpc_read_chain.py",
+    "sha256": "84e1dd73c63a48679e908f283e3bcf5a0be6cb3fafb9cfd169c097b96060d4bf"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/LQR1.sh",
+    "file": "historical_candidates/LQR1.sh",
+    "sha256": "cfe0206cf8386b071a651dfbb2371b9a6763327c2d63d891bbb7332aea9dde4c",
+    "status": "historical candidate, not an active or hardware-validated entry"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/DFS.sh",
+    "file": "historical_candidates/DFS.sh",
+    "sha256": "79fc6981aad5b15185170b5b2a35ee2753aae7c0b81ae0e1cef8e5426f7f71ad",
+    "status": "historical candidate, not an active or hardware-validated entry"
+  },
+  {
+    "source": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/FC_GPU_adaptive.sh",
+    "file": "historical_candidates/FC_GPU_adaptive.sh",
+    "sha256": "9bf87a30614dedbf507d71656abd6fa3d2eebfa81665886e707eb9fa8dc73be9",
+    "status": "historical candidate, not an active or hardware-validated entry"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "scheduler/controller.cc": {
+    "current_sha256": "125666a6982558c618d8836c31612c59666d0743c0460939f86621a05ea6123e",
+    "JPAP1_sha256": "5367b308e88140eca80bd18ffe47264cdd71ce08175ed595678227b7fb8a962f",
+    "same": false,
+    "same_after_include_case_normalization": false
+  },
+  "scheduler/scheduler.cc": {
+    "current_sha256": "5566ae29e32844ce1f31e0b8d7b052cc71b553c388b9a414c0b9306fe12a367c",
+    "JPAP1_sha256": "1ac508c4a2d47b0904b66c021a094d114c10a7aeabb0629ec8ba45bfe0e8e8ba",
+    "same": false,
+    "same_after_include_case_normalization": false
+  },
+  "scheduler/shared_header.hpp": {
+    "current_sha256": "3aff7a96229d35b5d133959478fc1e269d0f94e2311fdec08f4d27f8e7e82895",
+    "JPAP1_sha256": "3aff7a96229d35b5d133959478fc1e269d0f94e2311fdec08f4d27f8e7e82895",
+    "same": true,
+    "same_after_include_case_normalization": true
+  },
+  "application/histogram_converted.cu": {
+    "current_sha256": "17e0a0a1d0efe1e655e0fd4df31f769e0a06e4b693af1c25b5c84f2f0272e61c",
+    "JPAP1_sha256": "6b516c483de71359e17ed0fa6d7910879bc97a77ae5c30b70892af0acfc009c5",
+    "same": false,
+    "same_after_include_case_normalization": true
+  },
+  "application/stereodisparity_converted.cu": {
+    "current_sha256": "e2223ee07aa7bad4ca48c8550e9fe0a2d82937e955edda952357295f21a8222a",
+    "JPAP1_sha256": "43658b16cdc2e3eb9407aebc72eebe165b995d66466b1fde22a3e159a3c3bf0f",
+    "same": false,
+    "same_after_include_case_normalization": true
+  },
+  "application/mm_converted.cu": {
+    "current_sha256": "13c18f1ef59fd5f205e4d677dd87bd18609a5c7ab389309a7c53857a9007bc30",
+    "JPAP1_sha256": "cd65409b341c6277663ac95442dbf3a4043150e427cb982133eb76bcfeef8583",
+    "same": false,
+    "same_after_include_case_normalization": true
+  },
+  "application/mm_interrupt.cu": {
+    "current_sha256": "2f36b95b6f9d5ce1280307c07e183ff61070d49ee2d91165e6ec8f303e9a8316",
+    "JPAP1_sha256": "edeefbff49451477b1ec2bbfee81d22cfc3649384c7195ba8fd00d57d032d990",
+    "same": false,
+    "same_after_include_case_normalization": true
+  },
+  "application/particle_converted.cu": {
+    "current_sha256": "916072a2cfbc0bfd6727a1433d4bd4b8e0b9d8cc63a71e897cfb2ebdf8aa5094",
+    "JPAP1_sha256": "916072a2cfbc0bfd6727a1433d4bd4b8e0b9d8cc63a71e897cfb2ebdf8aa5094",
+    "same": true,
+    "same_after_include_case_normalization": true
+  }
+}

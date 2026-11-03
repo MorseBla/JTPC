@@ -1,0 +1,158 @@
+{
+  "source_files_checked": 6067,
+  "figure7b_groups_checked": 15,
+  "figure7b": [
+    {
+      "method": "JTPC",
+      "power_mw": 11000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.012823529411763,
+      "std_w": 0.08091429401396616,
+      "file": "experiment/6.2/logs/Full_LQR/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+      "sha256": "853b5535189cda3f9e52a000580487fe650242da8ebe62802c9be8815a36aef8"
+    },
+    {
+      "method": "JTPC",
+      "power_mw": 11500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.501841176470588,
+      "std_w": 0.05048204175538434,
+      "file": "experiment/6.2/logs/Full_LQR/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+      "sha256": "077909bce4132781bf11eedfafadf98c81dcd669c7dbb51efe0dab8b476f53b8"
+    },
+    {
+      "method": "JTPC",
+      "power_mw": 12000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 12.014088235294118,
+      "std_w": 0.09288061206132228,
+      "file": "experiment/6.2/logs/Full_LQR/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+      "sha256": "49daa0076b906c10e797d0c36f1f32c0a8245f1e89921887836e6c8c0bee6620"
+    },
+    {
+      "method": "JTPC",
+      "power_mw": 12500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 12.503582352941176,
+      "std_w": 0.14409180992888296,
+      "file": "experiment/6.2/logs/Full_LQR/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+      "sha256": "3f68a3935e17ee86937b3af9ee0b9d600e2391f3d5ff94b2a46cb9d58884d738"
+    },
+    {
+      "method": "JTPC",
+      "power_mw": 13000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 12.987817647058824,
+      "std_w": 0.1473462957289796,
+      "file": "experiment/6.2/logs/Full_LQR/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+      "sha256": "8332df60d494a11b7521922753c70745ea436848d0d1df757aa2c3296e7fd2a3"
+    },
+    {
+      "method": "FC-GPU",
+      "power_mw": 11000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.922941176470589,
+      "std_w": 0.18466526173791747,
+      "file": "experiment/6.2/logs/Full_FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+      "sha256": "eedb573ad0bccb0c44853496b03110f3e775424de575f5aee7a373b2e1c4109b"
+    },
+    {
+      "method": "FC-GPU",
+      "power_mw": 11500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.83879411764706,
+      "std_w": 0.23755485674975804,
+      "file": "experiment/6.2/logs/Full_FC/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+      "sha256": "fec74c93a7c537d1ef17cc84472761941d44af24ba16252ba6ea9c3ba585da33"
+    },
+    {
+      "method": "FC-GPU",
+      "power_mw": 12000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.818429411764706,
+      "std_w": 0.22510982878875163,
+      "file": "experiment/6.2/logs/Full_FC/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+      "sha256": "336cb2d2dff6bd1cce3076bf8f2a7926c0894ffb8aaff2279df46a3385055336"
+    },
+    {
+      "method": "FC-GPU",
+      "power_mw": 12500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.90474705882353,
+      "std_w": 0.1621024444336033,
+      "file": "experiment/6.2/logs/Full_FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+      "sha256": "1e73cb2c22a568c467e2a21c68d55354a599951287b00a425ca1f0422068f931"
+    },
+    {
+      "method": "FC-GPU",
+      "power_mw": 13000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.881282352941176,
+      "std_w": 0.1760046130254216,
+      "file": "experiment/6.2/logs/Full_FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+      "sha256": "2f412e0f927974645d474f86d9ff114f97687de496d29002fb572f71d19932d7"
+    },
+    {
+      "method": "DFS-only",
+      "power_mw": 11000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.007282352941177,
+      "std_w": 0.026351453476915348,
+      "file": "experiment/6.2/logs/Full_DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+      "sha256": "5667ad8a4eb33157409d12caac0ea29e4541f0552f746723a6b2196e5c4afc76"
+    },
+    {
+      "method": "DFS-only",
+      "power_mw": 11500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.511005882352942,
+      "std_w": 0.09622645148501509,
+      "file": "experiment/6.2/logs/Full_DFS/hist_stereo_mm/setpoint_11500_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+      "sha256": "c4019442693641172d7ca2dda3ab575153f332d761abd1502ee8216011961008"
+    },
+    {
+      "method": "DFS-only",
+      "power_mw": 12000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 11.999888235294119,
+      "std_w": 0.04207012188845342,
+      "file": "experiment/6.2/logs/Full_DFS/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+      "sha256": "4a330fb7c7cbada57d34b4eec8c8e4df48c7cefd330a778b839cc82f89afd47d"
+    },
+    {
+      "method": "DFS-only",
+      "power_mw": 12500,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 12.508052941176471,
+      "std_w": 0.11888354716051808,
+      "file": "experiment/6.2/logs/Full_DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+      "sha256": "f61f5f824a9a531ba2fe068790b59a74645e43fb9d9aa5084b84429baf01b349"
+    },
+    {
+      "method": "DFS-only",
+      "power_mw": 13000,
+      "input_count": 118,
+      "used_count": 17,
+      "mean_w": 12.987429411764706,
+      "std_w": 0.15174928147792255,
+      "file": "experiment/6.2/logs/Full_DFS/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+      "sha256": "a088802df36dcc906d0316f1d73d2a0c75adf3c6f131874754aefe62c2e25b68"
+    }
+  ],
+  "collected_figures": 10,
+  "hardware_experiments_started": false
+}

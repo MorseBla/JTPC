@@ -1,0 +1,54 @@
+[
+  {
+    "method": "FC",
+    "power": 11500,
+    "segment_matches": [
+      {
+        "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/FC-GPU_P11500_SP0.90.log",
+        "start_index": 56,
+        "count": 56,
+        "total": 112,
+        "max_difference": 0.0005000000000023874
+      }
+    ]
+  },
+  {
+    "method": "DFS",
+    "power": 11500,
+    "segment_matches": [
+      {
+        "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/DFS-only_P11500_SP0.90.log",
+        "start_index": 55,
+        "count": 55,
+        "total": 110,
+        "max_difference": 0.000496000000000052
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 11500,
+    "segment_matches": [
+      {
+        "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P11500_SP0.90.log",
+        "start_index": 55,
+        "count": 55,
+        "total": 110,
+        "max_difference": 0.0005000000000023874
+      }
+    ]
+  },
+  {
+    "method": "JTPC",
+    "power": 12500,
+    "segment_matches": [
+      {
+        "stdout": "/home/tiare/Desktop/SM_memory/build/JTPC_DAC_audit_20261029/remote_snapshot/JPAP 1/motivation/run_stdout/main_temp_power_sweep090_120/JTPC_P12500_SP0.90.log",
+        "start_index": 55,
+        "count": 55,
+        "total": 110,
+        "max_difference": 0.0005000000000023874
+      }
+    ]
+  }
+]

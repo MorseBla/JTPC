@@ -1,0 +1,872 @@
+Killing running tasks/server (if any) and cleaning shared memory...
+Cleaning shared memory segments and related PIDs...
+Killing processes attached to those shm segments...
+Clearing logs/figures in current experiment folder...
+Compiling controller from: ../Scheduler/
+make: Entering directory '/home/yuanyang/JPAP 1/scheduler'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/yuanyang/JPAP 1/scheduler'
+Generated 1 3-workload combinations:
+  hist stereo mm
+Compiling workloads from: ../application/
+make: Entering directory '/home/yuanyang/JPAP 1/application'
+make: Leaving directory '/home/yuanyang/JPAP 1/application'
+Running: hist stereo mm
+Rates:   0.160 0.080 0.0600
+Logs at: logs/main_temp/DFS/hist_stereo_mm
+Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90 7 120 12500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90
+Controller PID: 682958
+Set point power = 12500
+logs/main_temp/DFS/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90
+tasks = 3
+10	6	6	
+6	10	6	
+6	6	10	
+Power Set point = 	12500
+Task 0 Rate=160 Setpoint=0.9
+Task 1 Rate=80 Setpoint=0.9
+Task 2 Rate=60 Setpoint=0.9
+Solution = UNKNOWN
+Sent SIGHUP to 682973
+Sent SIGHUP to 682974
+Sent SIGHUP to 682975
+Begining
+[main] before monitorThread
+[main] monitorThread started
+[main] before monitorpowerthread
+[main] monitorpowerthread started
+[main] before monitorfreqthread
+[main] monitorfreqthread started
+[main] before 5s sleep
+Begin monitor 
+[monitorpower] entered
+[main] after 5s sleep
+[main] launching DFS\n[main] DFS launched\nDFS running with 3 tasks
+Current time =	2
+Control Period = 0
+Measured Power = 11847.8 W
+Power Setpoint = 12500 W
+Power Error    = 652.173 W
+Current freq       = 1020 MHz
+Delta freq         = 32.6086 MHz
+New freq (command) = 1020 MHz
+time=2.0002  control_period=0
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	101.500		101.500		0.634	0.266	160.000	160.000	0.000
+T2	52.570		52.570		0.657	0.243	80.000	80.000	0.000
+T3	53.618		53.618		0.894	0.006	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	4
+Control Period = 1
+Measured Power = 12872.935 W
+Power Setpoint = 12500.000 W
+Power Error    = -372.935 W
+Current freq       = 1020.000 MHz
+Delta freq         = -18.647 MHz
+New freq (command) = 1001.353 MHz
+time=4.019  control_period=1
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	105.741		105.741		0.661	0.239	160.000	160.000	0.000
+T2	53.978		53.978		0.675	0.225	80.000	80.000	0.000
+T3	55.117		55.117		0.919	-0.019	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	6
+Control Period = 2
+Measured Power = 12635.563 W
+Power Setpoint = 12500.000 W
+Power Error    = -135.563 W
+Current freq       = 1001.353 MHz
+Delta freq         = -6.778 MHz
+New freq (command) = 994.575 MHz
+time=6.043  control_period=2
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	107.748		107.748		0.673	0.227	160.000	160.000	0.000
+T2	55.191		55.191		0.690	0.210	80.000	80.000	0.000
+T3	55.714		55.714		0.929	-0.029	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	8
+Control Period = 3
+Measured Power = 12231.450 W
+Power Setpoint = 12500.000 W
+Power Error    = 268.550 W
+Current freq       = 994.575 MHz
+Delta freq         = 13.427 MHz
+New freq (command) = 1008.003 MHz
+time=8.069  control_period=3
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.520		108.520		0.678	0.222	160.000	160.000	0.000
+T2	55.568		55.568		0.695	0.205	80.000	80.000	0.000
+T3	55.928		55.928		0.932	-0.032	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	10
+Control Period = 4
+Measured Power = 12449.218 W
+Power Setpoint = 12500.000 W
+Power Error    = 50.782 W
+Current freq       = 1008.003 MHz
+Delta freq         = 2.539 MHz
+New freq (command) = 1010.542 MHz
+time=10.079  control_period=4
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	106.743		106.743		0.667	0.233	160.000	160.000	0.000
+T2	54.901		54.901		0.686	0.214	80.000	80.000	0.000
+T3	55.780		55.780		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	12
+Control Period = 5
+Measured Power = 12950.540 W
+Power Setpoint = 12500.000 W
+Power Error    = -450.540 W
+Current freq       = 1010.542 MHz
+Delta freq         = -22.527 MHz
+New freq (command) = 988.015 MHz
+time=12.104  control_period=5
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	107.291		107.291		0.671	0.229	160.000	160.000	0.000
+T2	53.960		53.960		0.675	0.225	80.000	80.000	0.000
+T3	55.566		55.566		0.926	-0.026	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	14
+Control Period = 6
+Measured Power = 12580.083 W
+Power Setpoint = 12500.000 W
+Power Error    = -80.083 W
+Current freq       = 988.015 MHz
+Delta freq         = -4.004 MHz
+New freq (command) = 984.011 MHz
+time=14.114  control_period=6
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.573		109.573		0.685	0.215	160.000	160.000	0.000
+T2	55.884		55.884		0.699	0.201	80.000	80.000	0.000
+T3	55.965		55.965		0.933	-0.033	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	16
+Control Period = 7
+Measured Power = 12324.146 W
+Power Setpoint = 12500.000 W
+Power Error    = 175.854 W
+Current freq       = 984.011 MHz
+Delta freq         = 8.793 MHz
+New freq (command) = 992.803 MHz
+time=16.121  control_period=7
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.709		109.709		0.686	0.214	160.000	160.000	0.000
+T2	56.053		56.053		0.701	0.199	80.000	80.000	0.000
+T3	56.514		56.514		0.942	-0.042	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	18
+Control Period = 8
+Measured Power = 12370.768 W
+Power Setpoint = 12500.000 W
+Power Error    = 129.232 W
+Current freq       = 992.803 MHz
+Delta freq         = 6.462 MHz
+New freq (command) = 999.265 MHz
+time=18.145  control_period=8
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.246		109.246		0.683	0.217	160.000	160.000	0.000
+T2	54.488		54.488		0.681	0.219	80.000	80.000	0.000
+T3	56.465		56.465		0.941	-0.041	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	20
+Control Period = 9
+Measured Power = 12693.832 W
+Power Setpoint = 12500.000 W
+Power Error    = -193.832 W
+Current freq       = 999.265 MHz
+Delta freq         = -9.692 MHz
+New freq (command) = 989.573 MHz
+time=20.165  control_period=9
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.541		108.541		0.678	0.222	160.000	160.000	0.000
+T2	55.131		55.131		0.689	0.211	80.000	80.000	0.000
+T3	55.796		55.796		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	22
+Control Period = 10
+Measured Power = 12463.062 W
+Power Setpoint = 12500.000 W
+Power Error    = 36.938 W
+Current freq       = 989.573 MHz
+Delta freq         = 1.847 MHz
+New freq (command) = 991.420 MHz
+time=22.191  control_period=10
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.322		109.322		0.683	0.217	160.000	160.000	0.000
+T2	55.734		55.734		0.697	0.203	80.000	80.000	0.000
+T3	56.080		56.080		0.935	-0.035	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	24
+Control Period = 11
+Measured Power = 12491.269 W
+Power Setpoint = 12500.000 W
+Power Error    = 8.731 W
+Current freq       = 991.420 MHz
+Delta freq         = 0.437 MHz
+New freq (command) = 991.857 MHz
+time=24.214  control_period=11
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.922		108.922		0.681	0.219	160.000	160.000	0.000
+T2	55.327		55.327		0.692	0.208	80.000	80.000	0.000
+T3	56.236		56.236		0.937	-0.037	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	26
+Control Period = 12
+Measured Power = 12504.493 W
+Power Setpoint = 12500.000 W
+Power Error    = -4.493 W
+Current freq       = 991.857 MHz
+Delta freq         = -0.225 MHz
+New freq (command) = 991.632 MHz
+time=26.216  control_period=12
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.180		109.180		0.682	0.218	160.000	160.000	0.000
+T2	55.339		55.339		0.692	0.208	80.000	80.000	0.000
+T3	56.204		56.204		0.937	-0.037	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	28
+Control Period = 13
+Measured Power = 12564.733 W
+Power Setpoint = 12500.000 W
+Power Error    = -64.733 W
+Current freq       = 991.632 MHz
+Delta freq         = -3.237 MHz
+New freq (command) = 988.395 MHz
+time=28.231  control_period=13
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.881		108.881		0.681	0.219	160.000	160.000	0.000
+T2	55.726		55.726		0.697	0.203	80.000	80.000	0.000
+T3	55.903		55.903		0.932	-0.032	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	30
+Control Period = 14
+Measured Power = 12432.023 W
+Power Setpoint = 12500.000 W
+Power Error    = 67.977 W
+Current freq       = 988.395 MHz
+Delta freq         = 3.399 MHz
+New freq (command) = 991.794 MHz
+time=30.254  control_period=14
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.499		109.499		0.684	0.216	160.000	160.000	0.000
+T2	55.840		55.840		0.698	0.202	80.000	80.000	0.000
+T3	56.204		56.204		0.937	-0.037	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	32
+Control Period = 15
+Measured Power = 12540.743 W
+Power Setpoint = 12500.000 W
+Power Error    = -40.743 W
+Current freq       = 991.794 MHz
+Delta freq         = -2.037 MHz
+New freq (command) = 989.757 MHz
+time=32.277  control_period=15
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.489		108.489		0.678	0.222	160.000	160.000	0.000
+T2	54.491		54.491		0.681	0.219	80.000	80.000	0.000
+T3	57.042		57.042		0.951	-0.051	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	34
+Control Period = 16
+Measured Power = 12738.857 W
+Power Setpoint = 12500.000 W
+Power Error    = -238.857 W
+Current freq       = 989.757 MHz
+Delta freq         = -11.943 MHz
+New freq (command) = 977.814 MHz
+time=34.297  control_period=16
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.240		109.240		0.683	0.217	160.000	160.000	0.000
+T2	55.926		55.926		0.699	0.201	80.000	80.000	0.000
+T3	55.848		55.848		0.931	-0.031	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	36
+Control Period = 17
+Measured Power = 12542.148 W
+Power Setpoint = 12500.000 W
+Power Error    = -42.148 W
+Current freq       = 977.814 MHz
+Delta freq         = -2.107 MHz
+New freq (command) = 975.707 MHz
+time=36.329  control_period=17
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.263		110.263		0.689	0.211	160.000	160.000	0.000
+T2	56.324		56.324		0.704	0.196	80.000	80.000	0.000
+T3	56.585		56.585		0.943	-0.043	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	38
+Control Period = 18
+Measured Power = 12234.485 W
+Power Setpoint = 12500.000 W
+Power Error    = 265.515 W
+Current freq       = 975.707 MHz
+Delta freq         = 13.276 MHz
+New freq (command) = 988.982 MHz
+time=38.360  control_period=18
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.290		110.290		0.689	0.211	160.000	160.000	0.000
+T2	56.323		56.323		0.704	0.196	80.000	80.000	0.000
+T3	56.908		56.908		0.948	-0.048	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	40
+Control Period = 19
+Measured Power = 12619.260 W
+Power Setpoint = 12500.000 W
+Power Error    = -119.260 W
+Current freq       = 988.982 MHz
+Delta freq         = -5.963 MHz
+New freq (command) = 983.019 MHz
+time=40.383  control_period=19
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.980		108.980		0.681	0.219	160.000	160.000	0.000
+T2	55.629		55.629		0.695	0.205	80.000	80.000	0.000
+T3	56.462		56.462		0.941	-0.041	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	42
+Control Period = 20
+Measured Power = 12271.477 W
+Power Setpoint = 12500.000 W
+Power Error    = 228.523 W
+Current freq       = 983.019 MHz
+Delta freq         = 11.426 MHz
+New freq (command) = 994.446 MHz
+time=42.398  control_period=20
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.861		109.861		0.687	0.213	160.000	160.000	0.000
+T2	56.047		56.047		0.701	0.199	80.000	80.000	0.000
+T3	56.248		56.248		0.937	-0.037	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	44
+Control Period = 21
+Measured Power = 12704.752 W
+Power Setpoint = 12500.000 W
+Power Error    = -204.752 W
+Current freq       = 994.446 MHz
+Delta freq         = -10.238 MHz
+New freq (command) = 984.208 MHz
+time=44.405  control_period=21
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.046		109.046		0.682	0.218	160.000	160.000	0.000
+T2	55.405		55.405		0.693	0.207	80.000	80.000	0.000
+T3	56.096		56.096		0.935	-0.035	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	46
+Control Period = 22
+Measured Power = 12316.682 W
+Power Setpoint = 12500.000 W
+Power Error    = 183.318 W
+Current freq       = 984.208 MHz
+Delta freq         = 9.166 MHz
+New freq (command) = 993.374 MHz
+time=46.432  control_period=22
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.590		109.590		0.685	0.215	160.000	160.000	0.000
+T2	56.114		56.114		0.701	0.199	80.000	80.000	0.000
+T3	56.312		56.312		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	48
+Control Period = 23
+Measured Power = 12584.177 W
+Power Setpoint = 12500.000 W
+Power Error    = -84.177 W
+Current freq       = 993.374 MHz
+Delta freq         = -4.209 MHz
+New freq (command) = 989.165 MHz
+time=48.459  control_period=23
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.553		108.553		0.678	0.222	160.000	160.000	0.000
+T2	55.592		55.592		0.695	0.205	80.000	80.000	0.000
+T3	56.320		56.320		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	50
+Control Period = 24
+Measured Power = 12287.149 W
+Power Setpoint = 12500.000 W
+Power Error    = 212.851 W
+Current freq       = 989.165 MHz
+Delta freq         = 10.643 MHz
+New freq (command) = 999.808 MHz
+time=50.462  control_period=24
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.454		109.454		0.684	0.216	160.000	160.000	0.000
+T2	55.427		55.427		0.693	0.207	80.000	80.000	0.000
+T3	56.254		56.254		0.938	-0.038	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	52
+Control Period = 25
+Measured Power = 12510.135 W
+Power Setpoint = 12500.000 W
+Power Error    = -10.135 W
+Current freq       = 999.808 MHz
+Delta freq         = -0.507 MHz
+New freq (command) = 999.301 MHz
+time=52.471  control_period=25
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.485		108.485		0.678	0.222	160.000	160.000	0.000
+T2	55.105		55.105		0.689	0.211	80.000	80.000	0.000
+T3	55.804		55.804		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	54
+Control Period = 26
+Measured Power = 12849.374 W
+Power Setpoint = 12500.000 W
+Power Error    = -349.374 W
+Current freq       = 999.301 MHz
+Delta freq         = -17.469 MHz
+New freq (command) = 981.832 MHz
+time=54.485  control_period=26
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.359		108.359		0.677	0.223	160.000	160.000	0.000
+T2	55.204		55.204		0.690	0.210	80.000	80.000	0.000
+T3	55.809		55.809		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	56
+Control Period = 27
+Measured Power = 12309.872 W
+Power Setpoint = 12500.000 W
+Power Error    = 190.128 W
+Current freq       = 981.832 MHz
+Delta freq         = 9.506 MHz
+New freq (command) = 991.339 MHz
+time=56.506  control_period=27
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.685		109.685		0.686	0.214	160.000	160.000	0.000
+T2	56.308		56.308		0.704	0.196	80.000	80.000	0.000
+T3	56.472		56.472		0.941	-0.041	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	58
+Control Period = 28
+Measured Power = 12622.645 W
+Power Setpoint = 12500.000 W
+Power Error    = -122.645 W
+Current freq       = 991.339 MHz
+Delta freq         = -6.132 MHz
+New freq (command) = 985.206 MHz
+time=58.524  control_period=28
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.016		109.016		0.681	0.219	160.000	160.000	0.000
+T2	56.377		56.377		0.705	0.195	80.000	80.000	0.000
+T3	55.640		55.640		0.927	-0.027	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	60
+Control Period = 29
+Measured Power = 12554.014 W
+Power Setpoint = 12500.000 W
+Power Error    = -54.014 W
+Current freq       = 985.206 MHz
+Delta freq         = -2.701 MHz
+New freq (command) = 982.506 MHz
+time=60.555  control_period=29
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.629		109.629		0.685	0.215	160.000	160.000	0.000
+T2	56.160		56.160		0.702	0.198	80.000	80.000	0.000
+T3	56.381		56.381		0.940	-0.040	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	62
+Control Period = 30
+Measured Power = 12482.312 W
+Power Setpoint = 12500.000 W
+Power Error    = 17.688 W
+Current freq       = 982.506 MHz
+Delta freq         = 0.884 MHz
+New freq (command) = 983.390 MHz
+time=62.564  control_period=30
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.441		110.441		0.690	0.210	160.000	160.000	0.000
+T2	56.120		56.120		0.701	0.199	80.000	80.000	0.000
+T3	56.282		56.282		0.938	-0.038	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	64
+Control Period = 31
+Measured Power = 12540.720 W
+Power Setpoint = 12500.000 W
+Power Error    = -40.720 W
+Current freq       = 983.390 MHz
+Delta freq         = -2.036 MHz
+New freq (command) = 981.354 MHz
+time=64.583  control_period=31
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.008		110.008		0.688	0.212	160.000	160.000	0.000
+T2	55.843		55.843		0.698	0.202	80.000	80.000	0.000
+T3	56.415		56.415		0.940	-0.040	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	66
+Control Period = 32
+Measured Power = 12554.197 W
+Power Setpoint = 12500.000 W
+Power Error    = -54.197 W
+Current freq       = 981.354 MHz
+Delta freq         = -2.710 MHz
+New freq (command) = 978.644 MHz
+time=66.602  control_period=32
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.241		110.241		0.689	0.211	160.000	160.000	0.000
+T2	56.127		56.127		0.702	0.198	80.000	80.000	0.000
+T3	56.268		56.268		0.938	-0.038	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	68
+Control Period = 33
+Measured Power = 12622.598 W
+Power Setpoint = 12500.000 W
+Power Error    = -122.598 W
+Current freq       = 978.644 MHz
+Delta freq         = -6.130 MHz
+New freq (command) = 972.514 MHz
+time=68.617  control_period=33
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.432		110.432		0.690	0.210	160.000	160.000	0.000
+T2	56.487		56.487		0.706	0.194	80.000	80.000	0.000
+T3	56.551		56.551		0.943	-0.043	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	70
+Control Period = 34
+Measured Power = 12310.894 W
+Power Setpoint = 12500.000 W
+Power Error    = 189.106 W
+Current freq       = 972.514 MHz
+Delta freq         = 9.455 MHz
+New freq (command) = 981.970 MHz
+time=70.625  control_period=34
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	111.421		111.421		0.696	0.204	160.000	160.000	0.000
+T2	56.469		56.469		0.706	0.194	80.000	80.000	0.000
+T3	56.631		56.631		0.944	-0.044	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	72
+Control Period = 35
+Measured Power = 12458.250 W
+Power Setpoint = 12500.000 W
+Power Error    = 41.750 W
+Current freq       = 981.970 MHz
+Delta freq         = 2.088 MHz
+New freq (command) = 984.057 MHz
+time=72.638  control_period=35
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.955		109.955		0.687	0.213	160.000	160.000	0.000
+T2	56.017		56.017		0.700	0.200	80.000	80.000	0.000
+T3	56.432		56.432		0.941	-0.041	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	74
+Control Period = 36
+Measured Power = 12341.063 W
+Power Setpoint = 12500.000 W
+Power Error    = 158.937 W
+Current freq       = 984.057 MHz
+Delta freq         = 7.947 MHz
+New freq (command) = 992.004 MHz
+time=74.641  control_period=36
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.639		109.639		0.685	0.215	160.000	160.000	0.000
+T2	56.547		56.547		0.707	0.193	80.000	80.000	0.000
+T3	56.032		56.032		0.934	-0.034	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	76
+Control Period = 37
+Measured Power = 12388.109 W
+Power Setpoint = 12500.000 W
+Power Error    = 111.891 W
+Current freq       = 992.004 MHz
+Delta freq         = 5.595 MHz
+New freq (command) = 997.599 MHz
+time=76.669  control_period=37
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.901		108.901		0.681	0.219	160.000	160.000	0.000
+T2	56.301		56.301		0.704	0.196	80.000	80.000	0.000
+T3	55.778		55.778		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	78
+Control Period = 38
+Measured Power = 12831.789 W
+Power Setpoint = 12500.000 W
+Power Error    = -331.789 W
+Current freq       = 997.599 MHz
+Delta freq         = -16.589 MHz
+New freq (command) = 981.009 MHz
+time=78.688  control_period=38
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.655		108.655		0.679	0.221	160.000	160.000	0.000
+T2	55.284		55.284		0.691	0.209	80.000	80.000	0.000
+T3	55.789		55.789		0.930	-0.030	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	80
+Control Period = 39
+Measured Power = 12456.539 W
+Power Setpoint = 12500.000 W
+Power Error    = 43.461 W
+Current freq       = 981.009 MHz
+Delta freq         = 2.173 MHz
+New freq (command) = 983.182 MHz
+time=80.713  control_period=39
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.062		110.062		0.688	0.212	160.000	160.000	0.000
+T2	55.946		55.946		0.699	0.201	80.000	80.000	0.000
+T3	56.571		56.571		0.943	-0.043	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	82
+Control Period = 40
+Measured Power = 12569.821 W
+Power Setpoint = 12500.000 W
+Power Error    = -69.821 W
+Current freq       = 983.182 MHz
+Delta freq         = -3.491 MHz
+New freq (command) = 979.691 MHz
+time=82.745  control_period=40
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.831		109.831		0.686	0.214	160.000	160.000	0.000
+T2	56.158		56.158		0.702	0.198	80.000	80.000	0.000
+T3	56.301		56.301		0.938	-0.038	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	84
+Control Period = 41
+Measured Power = 12364.184 W
+Power Setpoint = 12500.000 W
+Power Error    = 135.816 W
+Current freq       = 979.691 MHz
+Delta freq         = 6.791 MHz
+New freq (command) = 986.482 MHz
+time=84.772  control_period=41
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.290		110.290		0.689	0.211	160.000	160.000	0.000
+T2	56.095		56.095		0.701	0.199	80.000	80.000	0.000
+T3	56.475		56.475		0.941	-0.041	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	86
+Control Period = 42
+Measured Power = 12521.309 W
+Power Setpoint = 12500.000 W
+Power Error    = -21.309 W
+Current freq       = 986.482 MHz
+Delta freq         = -1.065 MHz
+New freq (command) = 985.416 MHz
+time=86.785  control_period=42
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.475		109.475		0.684	0.216	160.000	160.000	0.000
+T2	56.073		56.073		0.701	0.199	80.000	80.000	0.000
+T3	56.303		56.303		0.938	-0.038	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	88
+Control Period = 43
+Measured Power = 12523.202 W
+Power Setpoint = 12500.000 W
+Power Error    = -23.202 W
+Current freq       = 985.416 MHz
+Delta freq         = -1.160 MHz
+New freq (command) = 984.256 MHz
+time=88.803  control_period=43
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.739		109.739		0.686	0.214	160.000	160.000	0.000
+T2	55.771		55.771		0.697	0.203	80.000	80.000	0.000
+T3	56.501		56.501		0.942	-0.042	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	90
+Control Period = 44
+Measured Power = 12394.888 W
+Power Setpoint = 12500.000 W
+Power Error    = 105.112 W
+Current freq       = 984.256 MHz
+Delta freq         = 5.256 MHz
+New freq (command) = 989.512 MHz
+time=90.808  control_period=44
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.410		109.410		0.684	0.216	160.000	160.000	0.000
+T2	55.871		55.871		0.698	0.202	80.000	80.000	0.000
+T3	56.773		56.773		0.946	-0.046	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	92
+Control Period = 45
+Measured Power = 12640.242 W
+Power Setpoint = 12500.000 W
+Power Error    = -140.242 W
+Current freq       = 989.512 MHz
+Delta freq         = -7.012 MHz
+New freq (command) = 982.500 MHz
+time=92.835  control_period=45
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.476		109.476		0.684	0.216	160.000	160.000	0.000
+T2	55.551		55.551		0.694	0.206	80.000	80.000	0.000
+T3	56.223		56.223		0.937	-0.037	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	94
+Control Period = 46
+Measured Power = 12248.787 W
+Power Setpoint = 12500.000 W
+Power Error    = 251.213 W
+Current freq       = 982.500 MHz
+Delta freq         = 12.561 MHz
+New freq (command) = 995.061 MHz
+time=94.860  control_period=46
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.942		109.942		0.687	0.213	160.000	160.000	0.000
+T2	56.298		56.298		0.704	0.196	80.000	80.000	0.000
+T3	56.358		56.358		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	96
+Control Period = 47
+Measured Power = 12760.944 W
+Power Setpoint = 12500.000 W
+Power Error    = -260.944 W
+Current freq       = 995.061 MHz
+Delta freq         = -13.047 MHz
+New freq (command) = 982.013 MHz
+time=96.865  control_period=47
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.743		108.743		0.680	0.220	160.000	160.000	0.000
+T2	55.473		55.473		0.693	0.207	80.000	80.000	0.000
+T3	55.900		55.900		0.932	-0.032	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	98
+Control Period = 48
+Measured Power = 12580.282 W
+Power Setpoint = 12500.000 W
+Power Error    = -80.282 W
+Current freq       = 982.013 MHz
+Delta freq         = -4.014 MHz
+New freq (command) = 977.999 MHz
+time=98.871  control_period=48
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.204		110.204		0.689	0.211	160.000	160.000	0.000
+T2	56.257		56.257		0.703	0.197	80.000	80.000	0.000
+T3	56.340		56.340		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	100
+Control Period = 49
+Measured Power = 12499.843 W
+Power Setpoint = 12500.000 W
+Power Error    = 0.157 W
+Current freq       = 977.999 MHz
+Delta freq         = 0.008 MHz
+New freq (command) = 978.007 MHz
+time=100.898  control_period=49
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.193		110.193		0.689	0.211	160.000	160.000	0.000
+T2	56.400		56.400		0.705	0.195	80.000	80.000	0.000
+T3	56.698		56.698		0.945	-0.045	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	102
+Control Period = 50
+Measured Power = 12382.543 W
+Power Setpoint = 12500.000 W
+Power Error    = 117.457 W
+Current freq       = 978.007 MHz
+Delta freq         = 5.873 MHz
+New freq (command) = 983.880 MHz
+time=102.899  control_period=50
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	110.719		110.719		0.692	0.208	160.000	160.000	0.000
+T2	56.544		56.544		0.707	0.193	80.000	80.000	0.000
+T3	56.336		56.336		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	104
+Control Period = 51
+Measured Power = 12439.037 W
+Power Setpoint = 12500.000 W
+Power Error    = 60.963 W
+Current freq       = 983.880 MHz
+Delta freq         = 3.048 MHz
+New freq (command) = 986.928 MHz
+time=104.903  control_period=51
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.757		109.757		0.686	0.214	160.000	160.000	0.000
+T2	55.479		55.479		0.693	0.207	80.000	80.000	0.000
+T3	56.768		56.768		0.946	-0.046	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	106
+Control Period = 52
+Measured Power = 12287.641 W
+Power Setpoint = 12500.000 W
+Power Error    = 212.359 W
+Current freq       = 986.928 MHz
+Delta freq         = 10.618 MHz
+New freq (command) = 997.546 MHz
+time=106.915  control_period=52
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	109.535		109.535		0.685	0.215	160.000	160.000	0.000
+T2	55.899		55.899		0.699	0.201	80.000	80.000	0.000
+T3	56.354		56.354		0.939	-0.039	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	108
+Control Period = 53
+Measured Power = 12440.918 W
+Power Setpoint = 12500.000 W
+Power Error    = 59.082 W
+Current freq       = 997.546 MHz
+Delta freq         = 2.954 MHz
+New freq (command) = 1000.500 MHz
+time=108.926  control_period=53
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	108.294		108.294		0.677	0.223	160.000	160.000	0.000
+T2	55.449		55.449		0.693	0.207	80.000	80.000	0.000
+T3	55.873		55.873		0.931	-0.031	60.000	60.000	0.000
+*****************************************************************
+
+Current time =	110
+Control Period = 54
+Measured Power = 12302.820 W
+Power Setpoint = 12500.000 W
+Power Error    = 197.180 W
+Current freq       = 1000.500 MHz
+Delta freq         = 9.859 MHz
+New freq (command) = 1010.359 MHz
+time=110.927  control_period=54
+task	exec(ms)	resp(ms)	rtr	RTR_err	Pcur(ms)	Pnext(ms)	Deadline miss (%)
+T1	107.676		107.676		0.673	0.227	160.000	160.000	0.000
+T2	55.715		55.715		0.696	0.204	80.000	80.000	0.000
+T3	55.700		55.700		0.928	-0.028	60.000	60.000	0.000
+*****************************************************************
+
+Server released Scheduling 
+./DFS_main_temp.sh: line 67: 726265 Killed                  sudo pkill -KILL -f "tegrastats --interval 1000" 2> /dev/null
+All task combinations completed.

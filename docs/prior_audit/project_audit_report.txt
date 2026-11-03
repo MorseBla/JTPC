@@ -1,0 +1,172 @@
+JTPC_DAC_Detailed.pdf: Project, Experiment, and History Cross-Reference
+Audit date: 2026-10-29
+
+Conclusion: remote capture code, Windows analysis code, paper figure assets, and historical versions were located. Figures 4/5/6/7/8/9 were traced to actual logs and independently checked numerically. Final Figures 1/2 were found, but their exact complete generation chains remain missing; this is not a claim that every experiment is reproducible.
+
+This is the historical audit. The organized project subsequently replaced Figure 7(b) with RTR=0.90 as authorized; the original 0.70 findings below remain a record of the supplied paper.
+
+Main locations
+1. Remote: yuanyang@192.168.1.72:/home/yuanyang/JPAP; historical copy /home/yuanyang/JPAP 1.
+2. Windows: C:\Users\tiare\Desktop\JPAP_Project. Analysis: analysis\plot; main project: main\JPAP_2; stable: variants\stable; branch: variants\Blake; archive: archives\JPAP_2.zip.
+3. Manuscript: /home/tiare/Desktop/JTPC_RTNS.zip contains LaTeX and final PDF assets. It is a related historical manuscript, not a byte-identical copy of the supplied DAC body.
+4. The original audit directory retains remote_snapshot, windows_snapshot, local_paper_source, and raw/derived evidence. Passwords are not recorded here.
+
+Completed checks
+- Extracted vector curves directly from the supplied PDF and matched 30 dynamic traces, minimum correlation 0.999999210. Per-trace file, offset, and coordinate-error evidence was retained instead of relying on filenames.
+- All 137 shared Windows/remote logs for Figures 4/5/6/9 are byte-identical. A final remote read of 146 log/source/coefficient files matched local SHA256.
+- All 330 distinct Windows files used for Figures 7/8 and DMR have SHA-identical copies among remote historical candidates. Constant logs can match multiple locations; such matches alone cannot identify a unique run.
+- Maximum nonclipped Figure 7(a) bar-height difference: 2.55e-5 RTR; Figure 7(b): 0.000208 W; Figure 8: 5.29e-5. These fit PDF vector-coordinate rounding precision.
+- Independently recomputed nominal closed-loop eigenvalues match all four paper values to four decimals. The script's perturbation study was not described as a hardware experiment run during this audit.
+
+Differences that must remain distinct
+1. Original Figure 7(b) FIXED_RTR is 0.70; body/caption say 0.90. All 15 power bar heights match the 0.70 data.
+2. Figure 7(a) raw DFS mean RTR values are 15.988110, 16.190574, 16.446622, 11.629850, 14.485548. All five bars are clipped by the 1.0 upper axis limit; their visible height does not imply RTR near 1.
+3. Figure 8 initial periods are [160,80,60] ms; Figure 9 initial mm is also 60 ms. The body specifies mm=80 ms. Figures 4/5/6 use [160,80,80] ms, matching that section's body.
+4. The four paper eigenvalues are nominal A-BK values from robustness_check_B_noise.py, not a Gaussian-perturbation realization. Later script perturbations are +/-5% uniform; the paper says multiplicative Gaussian.
+5. Current remote compute_LQR_gain_2 uses an identity upper-left B block. The offline stability example uses zero-diagonal, measured off-diagonal coupling. Current code and the paper cannot be treated as one frozen version.
+6. The quoted 13.51% comes from an older DMR table: average across five power targets at each RTR, using [100:-1] for long logs. It is not the fixed-11-W Figure 7(a) statistic. Old notebook output lists FC all zero; the same code on current files yields 0.015312% and 0.004252% in the first two columns. Distinguish output/data versions.
+7. The device currently identifies as Jetson Orin Nano Engineering Reference Developer Kit Super, CUDA 12.6.85, L4T 36.4.3; the paper says CUDA 12.0. Current readings do not disprove a historical installation, but a frozen environment record is missing.
+8. Current capture supports INA260/jtop/tegrastats, defaulting to tegrastats VDD_IN; power-offset settings and older sensor branches also exist. INA260 source alone does not establish that all paper data used INA260, or that it measured a separate GPU supply rail.
+
+Item-by-item mapping (CELL numbers are zero-based)
+
+Figure 1: Frequency versus response time; period versus power
+Status: Final figure confirmed; exact generation chain incomplete
+Figure asset: local_paper_source/contents/figures/combined_rt_power.pdf
+Code: remote_snapshot/JPAP/system_identification/1_and_2_freq_vs/plot2.py; 3_rate_vs_power/plot.py
+Data: remote_snapshot/JPAP/system_identification/1_and_2_freq_vs/logs; 3_rate_vs_power/logs and logs_backup_20260512_144300
+Evidence: figure_artifact_matches.json; figure1_matches.json
+Notes: The figure matches the paper. Existing frequency/period sweeps are related experiments, but current aggregates do not reproduce every curve point within PDF coordinate rounding. They cannot be assigned as the final input by assumption.
+
+Figure 2: Model prediction and measurements over 120 control periods
+Status: Final figure confirmed; exact script and raw data not found
+Figure asset: local_paper_source/contents/figures/system_validation.pdf
+Code: windows_snapshot/analysis/plot/model_validation_lqr.py (related, not the same figure)
+Data: This script reads 02_regular_tests/logs/Full_LQR/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90
+Evidence: figure_artifact_matches.json; windows_source_search.json; windows_archive_search.json
+Notes: The available script uses MAX_PERIODS=100, two-task RT, and four panels. The paper shows one dual-axis RT/power figure over 120 periods. These are different validation experiments.
+
+Figure 3: JTPC architecture
+Status: Figure asset and implementation modules located
+Figure asset: local_paper_source/contents/figures/jtpc.pdf
+Code: remote_snapshot/JPAP/scheduler/scheduler.cc; controller.cc; shared_header.hpp; application/*.cu; Common/jetson/*
+Data: Architecture figure; no experimental logs
+Evidence: local_paper_source/contents/arch.tex; remote_verified_manifest.json
+Notes: Only diagram modules and source entries are confirmed. The architecture figure does not establish that current code matches every paper equation.
+
+Figure 4: FC-GPU under increased mm workload
+Status: Raw trajectories numerically matched
+Figure asset: local_paper_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf (figure-version candidate)
+Code: remote_snapshot/JPAP/motivation/interrupt_test_FC.sh; windows_notebook_sources/line_charts.py CELL9
+Data: remote:/home/yuanyang/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/FC_interrupt/same suffix
+Evidence: vector_log_matches.json; windows_remote_interrupt_provenance.json
+Notes: RTR, three task periods, and power match. Historical exported PDFs have different versions; identical filenames do not identify the final figure.
+
+Figure 5: DFS-only under increased mm workload
+Status: Raw trajectories numerically matched
+Figure asset: local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf
+Code: remote_snapshot/JPAP/motivation/interrupt_test_DFS.sh; windows_notebook_sources/line_charts.py CELL10
+Data: remote:/home/yuanyang/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/DFS_interrupt/same suffix
+Evidence: vector_log_matches.json; windows_remote_interrupt_provenance.json
+Notes: Visible RTR, GPU frequency, and power match. Samples outside the plotted axes remain in the raw logs.
+
+Figure 6: JTPC under increased mm workload
+Status: Raw trajectories numerically matched
+Figure asset: local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf
+Code: remote_snapshot/JPAP/motivation/interrupt_test_LQR.sh; windows_notebook_sources/line_charts.py CELL8 and later layouts in CELL16/17
+Data: remote:/home/yuanyang/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/LQR_interrupt/same suffix
+Evidence: vector_log_matches.json; windows_remote_interrupt_provenance.json
+Notes: RTR, periods, frequency, and power match.
+
+Figure 7(a): RTR setpoint sweep at fixed 11 W
+Status: Script, data, and bar heights independently matched
+Figure asset: local_paper_source/contents/figures/barplot/jetson_rtr_barplot.pdf
+Code: windows_notebook_sources/bar_plots.py CELL13 (14th cell in the original notebook)
+Data: windows_snapshot/analysis/plot/02_regular_tests/logs/Full_{LQR,FC,DFS}/hist_stereo_mm/setpoint_11000_SP_SP_SP
+Evidence: confirmed_statistics.json; windows_remote_stat_provenance.json
+Notes: Remove nonfinite/nonpositive RTR, then discard the first min(20,n//5) points; truncate three tasks to equal length and average equally. Raw DFS means are 11.63–16.45 and are clipped by the 1.0 axis limit.
+
+Figure 7(b): Power setpoint sweep from 11 to 13 W
+Status: Script, data, and bar heights matched; condition differs from manuscript
+Figure asset: local_paper_source/contents/figures/barplot/jetson_power_barplot.pdf
+Code: windows_notebook_sources/bar_plots.py CELL12, FIXED_RTR=0.70
+Data: windows_snapshot/analysis/plot/02_regular_tests/logs/Full_{LQR,FC,DFS}/hist_stereo_mm/setpoint_POWER_0.70_0.70_0.70
+Evidence: confirmed_statistics.json; windows_notebook_cells.json
+Notes: The original figure uses RTR=0.70, while the body states 0.90. Power uses finalpowervalues, selecting [100:-1] for n>101. This historical audit predates the authorized 0.90 replacement in the organized project.
+
+Figure 8: Task utility over power setpoints at fixed RTR=0.90
+Status: Script, data, and 15 bar heights matched; task configuration differs from manuscript
+Figure asset: local_paper_source/contents/figures/barplot/jetson_task_utility_barplot.pdf
+Code: windows_notebook_sources/bar_plots.py CELL9
+Data: windows_snapshot/analysis/plot/main_temp/{JTPC,FC,DFS}/hist_stereo_mm/setpoint_POWER_0.90_0.90_0.90
+Evidence: confirmed_statistics.json; windows_remote_stat_provenance.json
+Notes: Initial periods are 160/80/60 ms. Use the full positive-period series to compute mean(initial/current) per task, then average tasks equally. The paper specifies mm=80 ms. The old hard-coded C:\Users\tiare\Desktop\plot\main_temp path was moved into JPAP_Project.
+
+Figure 9: Arrival of a particle task
+Status: Raw trajectories matched; initial mm period differs from manuscript
+Figure asset: local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf
+Code: remote_snapshot/JPAP/motivation/task_arrival_4task_test.sh; windows_notebook_sources/line_charts.py CELL12/15/17
+Data: remote:/home/yuanyang/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/same suffix
+Evidence: vector_log_matches.json; remote_snapshot/JPAP/particle_exact_ei_check.txt
+Notes: UNKNOWN is the log prefix, not a separate algorithm. Power uses UNKNOWN__powercontrolperiod.txt. The first positive particle sample is index 57 (row 58); discarding the first three nonzero transition samples gives mean execution time 79.294804 ms, matching the paper's 79.3 ms. Initial mm period is 60 ms.
+
+Equation 23 and eigenvalues: LQR stability numerical example
+Status: Script and values recomputed; perturbation description differs
+Figure asset: JTPC_DAC_Detailed.pdf page 7
+Code: windows_snapshot/analysis/plot/robustness_check_B_noise.py
+Data: remote_snapshot/JPAP/system_identification/5_taskj_rate_vs_taski_RT/logs/offdiag/offdiag_coefficients.csv
+Evidence: stability_recalculation.json
+Notes: 0.5669/0.9403/0.8402/0.7482 are nominal A-BK eigenvalues. The script uses +/-5% uniform perturbations, while the body says Gaussian. The runtime controller uses an identity upper-left B block; the offline script uses zero-diagonal coupling.
+
+13.51% and DMR: Maximum DFS DMR quoted in the body
+Status: Historical table and statistical definition located and recomputed
+Figure asset: local_paper_source/contents/jetson_deadline_miss_table.tex
+Code: windows_notebook_sources/bar_plots.py CELL6
+Data: windows_snapshot/analysis/plot/02_regular_tests/logs/Full_DFS/hist_stereo_mm, across five power points
+Evidence: confirmed_statistics.json:quoted_dmr
+Notes: 13.511905% averages across power points, unlike the fixed-11-W Figure 7(a) statistic. The old table reports FC all zero; current files give 0.015312%/0.004252% for the first two points under the same code. Historical output and current-file versions must be distinguished.
+
+Key recomputed statistics
+Power order: 11, 11.5, 12, 12.5, 13 W; RTR order: 0.70, 0.75, 0.80, 0.85, 0.90.
+fig7a
+  JTPC: 0.725370039, 0.757356191, 0.800378228, 0.850071411, 0.899960446
+  FC_GPU: 0.700174343, 0.748868486, 0.798639558, 0.848474386, 0.898376102
+  DFS: 15.988109706, 16.190573804, 16.446622239, 11.629849719, 14.485547543
+fig7b
+  JTPC: 10.999764706, 11.499705882, 12.004464706, 12.498464706, 12.976064706
+  FC_GPU: 11.804904444, 11.798647059, 11.875747059, 11.804141176, 11.907229412
+  DFS: 11.003582353, 11.509270588, 12.009982353, 12.506029412, 12.988647059
+fig8
+  JTPC: 1.042301321, 1.095604693, 1.142957076, 1.185683958, 1.228802357
+  FC_GPU: 1.187514740, 1.187197789, 1.187216382, 1.187385679, 1.187271437
+  DFS: 1.000000000, 1.000000000, 1.000000000, 1.000000000, 1.000000000
+quoted_dmr
+  JTPC: 0.000000000, 0.000000000, 0.000000000, 0.000000000, 0.000000000
+  FC_GPU: 0.015312455, 0.004251702, 0.000000000, 0.000000000, 0.000000000
+  DFS: 13.511904762, 13.333333333, 13.333333333, 6.666666667, 13.333333333
+
+
+Nominal stability eigenvalues: 0.566938866, 0.940284053, 0.840161542, 0.748172751.
+
+Project chain
+motivation/*.sh -> scheduler/scheduler.cc launches controller and CUDA tasks -> shared state/signals in shared_header.hpp -> controller.cc monitors response time and power -> LQR gains computed at startup -> matrix operations adjust periods/GPU frequency each control interval -> sigmadelta_freq_step and frequency scripts -> text logs -> Windows notebook aggregation/plotting -> LaTeX includegraphics.
+Experiment scripts were not executed: some historical entries clear logs, kill processes, and alter device clocks. This audit was read-only.
+The current task-arrival entry supplies all four tasks in advance and delays the last task. Current source does not establish the paper's claimed switch from a three-task gain to a four-task gain. Source correspondence and historical numerical figure matching are different evidence.
+
+Version history
+- 2026-04-15: JPAP_2 HEAD e9d1752421a4d62fc0c74a3c3bcb5389da544ea1, message: LQR and NP1 working on jetson.
+- 2026-04-19: system-identification commit; 2026-04-26: added task interrupt test.
+- 2026-05-02: JPAP and JPAP 1 share HEAD 321e45ae69685cff4c058c07b864d2480b3ee670, with substantial uncommitted changes. HEAD is not a frozen identifier of current capture code. git_HEAD_sources is retained for comparison.
+- INA/clean/blakeB submission_artifacts named May 11–13; particle check text named May 19; main_temp batch backups named May 25; DSM/direct-sysfs/controller backups named June 3–20. Directory dates are clues, not sufficient acquisition timestamps.
+- Windows README records organization on 2026-10-03, explaining obsolete notebook paths C:\Users\tiare\Desktop\plot; current location is JPAP_Project\analysis\plot.
+- Remote Git log/reflog, relevant shell history, project backups/archives, Windows VS Code/IPython history, and relevant local history were searched. The exact Figure 2 generator was not found.
+
+Missing material
+- Exact aggregation/plotting version and inputs for all points in Figure 1 combined_rt_power.pdf. Current frequency/period sweeps are related candidates, not established exact inputs.
+- Figure 2 system_validation.pdf: 120-period input sequence, four predicted/measured numerical series, and generating script. Existing model_validation_lqr.py produces a different 100-period four-panel validation.
+- Complete per-batch frozen mapping to binaries, capture source, and sensor settings. Matching historical figure logs does not prove that current code reproduces every experiment.
+
+Scope and retained material
+Remote/Windows source, logs, and manuscript were not modified; no device tasks were rerun. Both Windows partitions were searched read-only. Audit data and derived tables are retained in the original audit directory.
+Paper Table I compares related work; it is not a hardware experiment. References were not verified online during this audit.
+The audit located and cross-referenced material; it did not revise the manuscript, choose new experiment parameters, or add experiments.

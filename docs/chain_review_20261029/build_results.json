@@ -1,0 +1,25 @@
+{
+  "scheduler_jetson": {
+    "command": [
+      "make",
+      "-C",
+      "/tmp/jtpc_chain_review/build/Scheduler",
+      "-j2",
+      "EXTRA_FLAGS=-DJetson -I/tmp/jtpc_chain_review/deps/usr/include/eigen3"
+    ],
+    "exit_code": 0,
+    "tail": "make: Entering directory '/tmp/jtpc_chain_review/build/Scheduler'\nmkdir -p bin\ng++ controller.cc \\\n../Common/jetson/jetson_power_monitor.cpp \\\n../Common/jetson/ina260_reader.cpp \\\n../Common/jetson/jtop_reader.cpp \\\n../Common/jetson/tegrastats_monitor.cpp \\\n../Common/jetson/time_utils.cpp \\\n-o bin/server -std=c++17 -lrt -pthread -I /usr/include/eigen3 -I ../Common -DJetson -I/tmp/jtpc_chain_review/deps/usr/include/eigen3\ng++ scheduler.cc -o bin/scheduler -std=c++17 -lrt -pthread -I /usr/include/eigen3 -I ../Common -DJetson -I/tmp/jtpc_chain_review/deps/usr/include/eigen3\nmake: Leaving directory '/tmp/jtpc_chain_review/build/Scheduler'\n"
+  },
+  "cuda_tasks": {
+    "command": [
+      "make",
+      "-C",
+      "/tmp/jtpc_chain_review/build/application",
+      "-j2",
+      "NVCC=/usr/local/cuda-12.6/bin/nvcc",
+      "EXTRA_FLAGS=-DJetson -arch=sm_87"
+    ],
+    "exit_code": 2,
+    "tail": "make: Entering directory '/tmp/jtpc_chain_review/build/application'\nmkdir -p bin\n/usr/local/cuda-12.6/bin/nvcc -o bin/bfs bfs_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_87  \n/usr/local/cuda-12.6/bin/nvcc -o bin/hist histogram_converted.cu -I ../Common/ -L ../Common/ -lcudart -std=c++17 -DJetson -arch=sm_87  \nmake: Leaving directory '/tmp/jtpc_chain_review/build/application'\nhistogram_converted.cu: Assembler messages:\nhistogram_converted.cu:259: Error: no such instruction: `yield'\nmake: *** [Makefile:61: bin/hist] Error 1\nmake: *** Waiting for unfinished jobs....\nbfs_converted.cu: Assembler messages:\nbfs_converted.cu:240: Error: no such instruction: `yield'\nmake: *** [Makefile:61: bin/bfs] Error 1\n"
+  }
+}

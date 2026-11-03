@@ -1,0 +1,18 @@
+Nature Figure Rendered Collision Audit
+pdf: /home/tiare/Desktop/JTPC/experiment/6.1/Figures/replotted/mm_interrupt_FC_11000_0.90.pdf
+pages: 1
+visible text boxes: 49
+stroke paths: 93
+
+[FAIL] page 1 text-stroke: Text is crossed by 1 stroked path(s) — 'Control Period'
+  text bbox: (104.94062805175781, 193.95249938964844, 220.50595092773438, 209.95249938964844)
+[FAIL] page 1 text-stroke: Text is crossed by 1 stroked path(s) — 'Set point'
+  text bbox: (158.1943817138672, 12.290245056152344, 221.34368896484375, 28.290245056152344)
+[FAIL] page 1 text-stroke: Text is crossed by 1 stroked path(s) — 'hist'
+  text bbox: (158.1943817138672, 34.930870056152344, 183.0876922607422, 50.930870056152344)
+[FAIL] page 1 text-stroke: Text is crossed by 1 stroked path(s) — '75'
+  text bbox: (203.25625610351562, 175.34312438964844, 221.05068969726562, 191.34312438964844)
+
+summary: 4 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays
+verdict: FIX BEFORE DELIVERY
+note: contained overlays can be intentional; WARN findings need final-size visual review

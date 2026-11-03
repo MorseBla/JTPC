@@ -1,0 +1,74 @@
+[
+  {
+    "figure": "1",
+    "section": "system_identification",
+    "source": "combined_rt_power.pdf",
+    "file": "fig1_modeling.pdf",
+    "status": "Original figure; raw generation chain not closed"
+  },
+  {
+    "figure": "2",
+    "section": "system_identification",
+    "source": "system_validation.pdf",
+    "file": "fig2_validation.pdf",
+    "status": "Original figure; matching raw data/script missing"
+  },
+  {
+    "figure": "3",
+    "section": "experiment",
+    "source": "jtpc.pdf",
+    "file": "fig3_architecture.pdf",
+    "status": "Original architecture asset",
+    "current_figure": "experiment/Figures/fig3_architecture.pdf"
+  },
+  {
+    "figure": "4",
+    "section": "experiment/6.1",
+    "source": "mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+    "file": "fig4_FC_GPU.pdf",
+    "status": "Historical PDF candidate; raw traces verified, PDF version differs"
+  },
+  {
+    "figure": "5",
+    "section": "experiment/6.1",
+    "source": "mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+    "file": "fig5_DFS.pdf",
+    "status": "Original paper asset"
+  },
+  {
+    "figure": "6",
+    "section": "experiment/6.1",
+    "source": "mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+    "file": "fig6_JTPC.pdf",
+    "status": "Original paper asset"
+  },
+  {
+    "figure": "7a",
+    "section": "experiment/6.2",
+    "source": "barplot/jetson_rtr_barplot.pdf",
+    "file": "fig7a_RTR.pdf",
+    "status": "Preserved, including DFS axis clipping"
+  },
+  {
+    "figure": "7b",
+    "section": "experiment/6.2",
+    "source": "barplot/jetson_power_barplot.pdf",
+    "file": "fig7b_power_RTR070_original.pdf",
+    "status": "Old RTR0.70 figure retained; replacement RTR0.90 figure generated and independently checked",
+    "current_figure": "experiment/6.2/Figures/fig7b_power_RTR090.pdf"
+  },
+  {
+    "figure": "8",
+    "section": "experiment/6.2",
+    "source": "barplot/jetson_task_utility_barplot.pdf",
+    "file": "fig8_utility.pdf",
+    "status": "Preserved initial periods 160/80/60ms"
+  },
+  {
+    "figure": "9",
+    "section": "experiment/6.3",
+    "source": "mm_interrupt/task_arrival_4task_test 3.pdf",
+    "file": "fig9_task_arrival.pdf",
+    "status": "Preserved initial mm period60ms"
+  }
+]

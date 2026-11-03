@@ -1,0 +1,777 @@
+Killing running tasks/server (if any) and cleaning shared memory...
+Cleaning shared memory segments and related PIDs...
+Killing processes attached to those shm segments...
+Clearing logs/figures in current experiment folder...
+Compiling controller from: ../Scheduler/
+make: Entering directory '/home/yuanyang/JPAP 1/scheduler'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/yuanyang/JPAP 1/scheduler'
+Generated 1 3-workload combinations:
+  hist stereo mm
+Compiling workloads from: ../application/
+make: Entering directory '/home/yuanyang/JPAP 1/application'
+make: Leaving directory '/home/yuanyang/JPAP 1/application'
+Running: hist stereo mm
+Rates:   0.160 0.080 0.0600
+Logs at: logs/main_temp/FC/hist_stereo_mm
+Executing: ../Scheduler/bin/scheduler 3 logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90 1 120 12500 ../application/bin/hist 0.160 0.90 ../application/bin/stereo 0.080 0.90 ../application/bin/mm 0.0600 0.90
+Controller PID: 549557
+Set point power = 12500
+logs/main_temp/FC/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90
+tasks = 3
+10	6	6	
+6	10	6	
+6	6	10	
+[GPU] Skip initial GPU lock; using existing governor/sysfs state.
+Power Set point = 	12500
+sh: 1: Syntax error: Unterminated quoted string
+Task 0 Rate=160 Setpoint=0.9
+Task 1 Rate=80 Setpoint=0.9
+Task 2 Rate=60 Setpoint=0.9
+Solution = FC_GPU
+Sent SIGHUP to 549560
+Sent SIGHUP to 549561
+Sent SIGHUP to 549562
+Begining
+[main] before monitorThread
+[main] monitorThread started
+[main] before monitorpowerthread
+[main] monitorpowerthread started
+Begin monitor 
+[main] before monitorfreqthread
+[main] monitorfreqthread started
+[main] before 5s sleep
+[monitorpower] entered
+[main] after 5s sleep
+[main] launching FC_GPU\n[main] FC_GPU launched\n[FC_GPU] running with 3 tasks
+Control Period = 0
+Size0 samples: rtr=29 resp=29 period=29 exec=29
+Size1 samples: rtr=33 resp=33 period=33 exec=33
+Size2 samples: rtr=38 resp=38 period=38 exec=38
+Meaured Power = 11458.9Error = 1041.07
+delta [0]=-3.56932
+delta [1]=-3.50837
+delta [2]=-2.17851
+denom = 	-79951.7
+denom = 	-61746.2
+denom = 	-31369.5
+time=2.0002  control_period=0
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	102.204		102.204		0.639	0.261	160.000	156.431	0.000
+T2	52.321		52.321		0.654	0.246	80.000	76.492	0.000
+T3	54.619		59.189		0.986	-0.086	60.000	57.821	21.053
+*****************************************************************
+
+Control Period = 1
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12226.716Error = 273.284
+delta [0]=-3.112
+delta [1]=-2.995
+delta [2]=-2.018
+denom = 	-65381.191
+denom = 	-49076.410
+denom = 	-27182.605
+time=4.001  control_period=1
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.748		105.748		0.676	0.224	156.431	153.319	0.000
+T2	53.950		53.950		0.705	0.195	76.492	73.497	0.000
+T3	54.894		54.894		0.949	-0.049	57.821	55.803	0.000
+*****************************************************************
+
+Control Period = 2
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 12169.085Error = 330.915
+delta [0]=-2.593
+delta [1]=-2.414
+delta [2]=-1.416
+denom = 	-51395.441
+denom = 	-37109.105
+denom = 	-17920.490
+time=6.001  control_period=2
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.756		105.756		0.690	0.210	153.319	150.726	0.000
+T2	53.970		53.970		0.734	0.166	73.497	71.083	0.000
+T3	54.907		54.907		0.984	-0.084	55.803	54.387	0.000
+*****************************************************************
+
+Control Period = 3
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=13 resp=13 period=13 exec=13
+Meaured Power = 12523.269Error = -23.269
+delta [0]=-1.882
+delta [1]=-1.652
+delta [2]=-0.458
+denom = 	-35599.172
+denom = 	-24092.117
+denom = 	-5529.724
+time=8.002  control_period=3
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.759		105.759		0.702	0.198	150.726	148.844	0.000
+T2	53.963		53.963		0.759	0.141	71.083	69.430	0.000
+T3	54.903		57.523		1.058	-0.158	54.387	53.929	100.000
+*****************************************************************
+
+Control Period = 4
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12633.354Error = -133.354
+delta [0]=-0.690
+delta [1]=-0.424
+delta [2]=1.361
+denom = 	-12675.825
+denom = 	-5966.176
+denom = 	16022.104
+time=10.002  control_period=4
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.764		105.764		0.711	0.189	148.844	148.153	0.000
+T2	53.962		53.962		0.777	0.123	69.430	69.006	0.000
+T3	54.894		65.978		1.223	-0.323	53.929	55.290	100.000
+*****************************************************************
+
+Control Period = 5
+Size0 samples: rtr=10 resp=10 period=10 exec=10
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=9 resp=9 period=9 exec=9
+Meaured Power = 11831.839Error = 668.161
+delta [0]=-0.163
+delta [1]=0.109
+delta [2]=2.184
+denom = 	-3003.214
+denom = 	1536.143
+denom = 	26227.648
+time=12.003  control_period=5
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.774		105.774		0.714	0.186	148.153	147.990	0.000
+T2	53.968		53.968		0.782	0.118	69.006	69.116	0.000
+T3	54.908		71.922		1.301	-0.401	55.290	57.474	100.000
+*****************************************************************
+
+Control Period = 6
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=9 resp=9 period=9 exec=9
+Meaured Power = 11986.982Error = 513.018
+delta [0]=-1.478
+delta [1]=-1.213
+delta [2]=-0.009
+denom = 	-27683.729
+denom = 	-17228.211
+denom = 	-107.212
+time=14.003  control_period=6
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.758		105.758		0.715	0.185	147.990	146.512	0.000
+T2	53.962		53.962		0.781	0.119	69.116	67.902	0.000
+T3	54.891		62.181		1.082	-0.182	57.474	57.465	66.667
+*****************************************************************
+
+Control Period = 7
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=11 resp=11 period=11 exec=11
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12569.268Error = -69.268
+delta [0]=-2.081
+delta [1]=-1.789
+delta [2]=-1.147
+denom = 	-38224.191
+denom = 	-24782.533
+denom = 	-14130.210
+time=16.004  control_period=7
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.755		105.755		0.722	0.178	146.512	144.431	0.000
+T2	53.965		53.965		0.795	0.105	67.902	66.113	0.000
+T3	54.901		54.901		0.955	-0.055	57.465	56.319	0.000
+*****************************************************************
+
+Control Period = 8
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12235.604Error = 264.396
+delta [0]=-1.727
+delta [1]=-1.391
+delta [2]=-0.756
+denom = 	-30538.568
+denom = 	-18463.500
+denom = 	-8962.129
+time=18.004  control_period=8
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.779		105.779		0.732	0.168	144.431	142.704	0.000
+T2	53.971		53.971		0.816	0.084	66.113	64.722	0.000
+T3	54.920		54.920		0.975	-0.075	56.319	55.563	0.000
+*****************************************************************
+
+Control Period = 9
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=12 resp=12 period=12 exec=12
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12702.101Error = -202.101
+delta [0]=-1.448
+delta [1]=-1.077
+delta [2]=-0.458
+denom = 	-24860.047
+denom = 	-13825.164
+denom = 	-5282.950
+time=20.005  control_period=9
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.799		105.799		0.741	0.159	142.704	141.256	0.000
+T2	53.985		53.985		0.834	0.066	64.722	63.644	0.000
+T3	54.943		54.943		0.989	-0.089	55.563	55.104	0.000
+*****************************************************************
+
+Control Period = 10
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=7 resp=7 period=7 exec=7
+Size2 samples: rtr=15 resp=15 period=15 exec=15
+Meaured Power = 12633.489Error = -133.489
+delta [0]=-1.242
+delta [1]=-0.845
+delta [2]=-0.251
+denom = 	-20827.314
+denom = 	-10556.087
+denom = 	-2838.298
+time=22.005  control_period=10
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.797		105.797		0.749	0.151	141.256	140.014	0.000
+T2	53.984		53.984		0.848	0.052	63.644	62.800	0.000
+T3	54.913		54.913		0.997	-0.097	55.104	54.853	0.000
+*****************************************************************
+
+Control Period = 11
+Size0 samples: rtr=5 resp=5 period=5 exec=5
+Size1 samples: rtr=13 resp=13 period=13 exec=13
+Size2 samples: rtr=15 resp=15 period=15 exec=15
+Meaured Power = 13162.678Error = -662.678
+delta [0]=-1.024
+delta [1]=-0.608
+delta [2]=-0.005
+denom = 	-16864.469
+denom = 	-7437.434
+denom = 	-58.587
+time=24.006  control_period=11
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.803		105.803		0.756	0.144	140.014	138.990	0.000
+T2	53.986		53.986		0.860	0.040	62.800	62.192	0.000
+T3	54.926		55.416		1.010	-0.110	54.853	54.847	100.000
+*****************************************************************
+
+Control Period = 12
+Size0 samples: rtr=2 resp=2 period=2 exec=2
+Size1 samples: rtr=16 resp=16 period=16 exec=16
+Size2 samples: rtr=16 resp=16 period=16 exec=16
+Meaured Power = 13316.193Error = -816.193
+delta [0]=-0.812
+delta [1]=-0.385
+delta [2]=0.256
+denom = 	-13211.180
+denom = 	-4636.153
+denom = 	2824.754
+time=26.006  control_period=12
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.787		105.787		0.761	0.139	138.990	138.178	0.000
+T2	53.982		53.982		0.868	0.032	62.192	61.807	0.000
+T3	54.908		56.390		1.028	-0.128	54.847	55.103	100.000
+*****************************************************************
+
+Control Period = 13
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=14 resp=14 period=14 exec=14
+Meaured Power = 13124.814Error = -624.814
+delta [0]=-0.818
+delta [1]=-0.387
+delta [2]=0.178
+denom = 	-13209.621
+denom = 	-4625.304
+denom = 	1960.492
+time=28.007  control_period=13
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.788		105.788		0.766	0.134	138.178	137.360	0.000
+T2	53.971		53.971		0.873	0.027	61.807	61.420	0.000
+T3	54.910		55.902		1.014	-0.114	55.103	55.281	78.571
+*****************************************************************
+
+Control Period = 14
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12412.548Error = 87.452
+delta [0]=-0.867
+delta [1]=-0.432
+delta [2]=0.025
+denom = 	-13904.677
+denom = 	-5115.115
+denom = 	275.783
+time=30.007  control_period=14
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.775		105.775		0.770	0.130	137.360	136.493	0.000
+T2	53.977		53.977		0.879	0.021	61.420	60.987	0.000
+T3	54.904		54.904		0.993	-0.093	55.281	55.306	0.000
+*****************************************************************
+
+Control Period = 15
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12069.906Error = 430.094
+delta [0]=-0.785
+delta [1]=-0.345
+delta [2]=0.087
+denom = 	-12452.640
+denom = 	-4029.661
+denom = 	946.106
+time=32.008  control_period=15
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.774		105.774		0.775	0.125	136.493	135.708	0.000
+T2	53.970		53.970		0.885	0.015	60.987	60.643	0.000
+T3	54.903		54.903		0.993	-0.093	55.306	55.393	0.000
+*****************************************************************
+
+Control Period = 16
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12384.724Error = 115.276
+delta [0]=-0.717
+delta [1]=-0.274
+delta [2]=0.130
+denom = 	-11285.120
+denom = 	-3179.444
+denom = 	1420.148
+time=34.008  control_period=16
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.785		105.785		0.780	0.120	135.708	134.992	0.000
+T2	53.976		53.976		0.890	0.010	60.643	60.368	0.000
+T3	54.911		54.911		0.991	-0.091	55.393	55.523	0.000
+*****************************************************************
+
+Control Period = 17
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=11 resp=11 period=11 exec=11
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 12012.297Error = 487.703
+delta [0]=-0.673
+delta [1]=-0.231
+delta [2]=0.148
+denom = 	-10525.047
+denom = 	-2660.032
+denom = 	1603.645
+time=36.009  control_period=17
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.748		105.748		0.783	0.117	134.992	134.319	0.000
+T2	53.953		53.953		0.894	0.006	60.368	60.137	0.000
+T3	54.885		54.885		0.989	-0.089	55.523	55.671	0.000
+*****************************************************************
+
+Control Period = 18
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12308.957Error = 191.043
+delta [0]=-0.622
+delta [1]=-0.182
+delta [2]=0.173
+denom = 	-9674.232
+denom = 	-2077.846
+denom = 	1878.984
+time=38.009  control_period=18
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.774		105.774		0.787	0.113	134.319	133.697	0.000
+T2	53.973		53.973		0.897	0.003	60.137	59.955	0.000
+T3	54.911		54.911		0.986	-0.086	55.671	55.844	0.000
+*****************************************************************
+
+Control Period = 19
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 11914.608Error = 585.392
+delta [0]=-0.587
+delta [1]=-0.151
+delta [2]=0.181
+denom = 	-9094.267
+denom = 	-1719.113
+denom = 	1953.507
+time=40.010  control_period=19
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.780		105.780		0.791	0.109	133.697	133.109	0.000
+T2	53.973		53.973		0.900	-0.000	59.955	59.804	0.000
+T3	54.906		54.906		0.983	-0.083	55.844	56.025	0.000
+*****************************************************************
+
+Control Period = 20
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12080.700Error = 419.300
+delta [0]=-0.558
+delta [1]=-0.126
+delta [2]=0.183
+denom = 	-8599.398
+denom = 	-1425.312
+denom = 	1984.125
+time=42.010  control_period=20
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.777		105.777		0.795	0.105	133.109	132.551	0.000
+T2	53.978		53.978		0.903	-0.003	59.804	59.678	0.000
+T3	54.904		54.904		0.980	-0.080	56.025	56.208	0.000
+*****************************************************************
+
+Control Period = 21
+Size0 samples: rtr=6 resp=6 period=6 exec=6
+Size1 samples: rtr=12 resp=12 period=12 exec=12
+Size2 samples: rtr=13 resp=13 period=13 exec=13
+Meaured Power = 13000.649Error = -500.649
+delta [0]=-0.530
+delta [1]=-0.104
+delta [2]=0.186
+denom = 	-8136.299
+denom = 	-1165.795
+denom = 	2006.537
+time=44.011  control_period=21
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.788		105.788		0.798	0.102	132.551	132.022	0.000
+T2	53.986		53.986		0.905	-0.005	59.678	59.574	0.000
+T3	54.912		54.912		0.977	-0.077	56.208	56.394	0.000
+*****************************************************************
+
+Control Period = 22
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12314.667Error = 185.333
+delta [0]=-0.508
+delta [1]=-0.088
+delta [2]=0.182
+denom = 	-7770.867
+denom = 	-990.615
+denom = 	1967.400
+time=46.011  control_period=22
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.792		105.792		0.801	0.099	132.022	131.514	0.000
+T2	53.982		53.982		0.906	-0.006	59.574	59.486	0.000
+T3	54.912		54.912		0.974	-0.074	56.394	56.576	0.000
+*****************************************************************
+
+Control Period = 23
+Size0 samples: rtr=7 resp=7 period=7 exec=7
+Size1 samples: rtr=12 resp=12 period=12 exec=12
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12599.705Error = -99.705
+delta [0]=-0.486
+delta [1]=-0.073
+delta [2]=0.179
+denom = 	-7411.016
+denom = 	-819.912
+denom = 	1932.466
+time=48.012  control_period=23
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.806		105.806		0.805	0.095	131.514	131.028	0.000
+T2	53.988		53.988		0.908	-0.008	59.486	59.412	0.000
+T3	54.913		54.913		0.971	-0.071	56.576	56.755	0.000
+*****************************************************************
+
+Control Period = 24
+Size0 samples: rtr=6 resp=6 period=6 exec=6
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=15 resp=15 period=15 exec=15
+Meaured Power = 12697.810Error = -197.810
+delta [0]=-0.473
+delta [1]=-0.068
+delta [2]=0.167
+denom = 	-7194.613
+denom = 	-758.852
+denom = 	1811.209
+time=50.012  control_period=24
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.776		105.776		0.807	0.093	131.028	130.556	0.000
+T2	53.972		53.972		0.908	-0.008	59.412	59.344	0.000
+T3	54.900		54.900		0.967	-0.067	56.755	56.922	0.000
+*****************************************************************
+
+Control Period = 25
+Size0 samples: rtr=3 resp=3 period=3 exec=3
+Size1 samples: rtr=15 resp=15 period=15 exec=15
+Size2 samples: rtr=16 resp=16 period=16 exec=16
+Meaured Power = 13573.222Error = -1073.222
+delta [0]=-0.458
+delta [1]=-0.060
+delta [2]=0.160
+denom = 	-6943.500
+denom = 	-669.889
+denom = 	1735.019
+time=52.013  control_period=25
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.749		105.749		0.810	0.090	130.556	130.098	0.000
+T2	53.961		53.961		0.909	-0.009	59.344	59.284	0.000
+T3	54.900		54.900		0.964	-0.064	56.922	57.083	0.000
+*****************************************************************
+
+Control Period = 26
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=9 resp=9 period=9 exec=9
+Meaured Power = 12501.934Error = -1.934
+delta [0]=-0.437
+delta [1]=-0.047
+delta [2]=0.159
+denom = 	-6609.842
+denom = 	-523.321
+denom = 	1717.269
+time=54.014  control_period=26
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.770		105.770		0.813	0.087	130.098	129.662	0.000
+T2	53.969		53.969		0.910	-0.010	59.284	59.237	0.000
+T3	54.905		54.905		0.962	-0.062	57.083	57.241	0.000
+*****************************************************************
+
+Control Period = 27
+Size0 samples: rtr=10 resp=10 period=10 exec=10
+Size1 samples: rtr=6 resp=6 period=6 exec=6
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 11989.525Error = 510.475
+delta [0]=-0.418
+delta [1]=-0.036
+delta [2]=0.157
+denom = 	-6307.875
+denom = 	-400.146
+denom = 	1697.752
+time=56.014  control_period=27
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.781		105.781		0.816	0.084	129.662	129.244	0.000
+T2	53.976		53.976		0.911	-0.011	59.237	59.200	0.000
+T3	54.922		54.922		0.959	-0.059	57.241	57.398	0.000
+*****************************************************************
+
+Control Period = 28
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=8 resp=8 period=8 exec=8
+Size2 samples: rtr=12 resp=12 period=12 exec=12
+Meaured Power = 12426.256Error = 73.744
+delta [0]=-0.407
+delta [1]=-0.034
+delta [2]=0.147
+denom = 	-6126.608
+denom = 	-371.130
+denom = 	1589.027
+time=58.015  control_period=28
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.767		105.767		0.818	0.082	129.244	128.837	0.000
+T2	53.966		53.966		0.912	-0.012	59.200	59.167	0.000
+T3	54.914		54.914		0.957	-0.057	57.398	57.545	0.000
+*****************************************************************
+
+Control Period = 29
+Size0 samples: rtr=5 resp=5 period=5 exec=5
+Size1 samples: rtr=13 resp=13 period=13 exec=13
+Size2 samples: rtr=13 resp=13 period=13 exec=13
+Meaured Power = 12432.579Error = 67.421
+delta [0]=-0.394
+delta [1]=-0.029
+delta [2]=0.138
+denom = 	-5919.702
+denom = 	-321.960
+denom = 	1498.232
+time=60.015  control_period=29
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.772		105.772		0.821	0.079	128.837	128.444	0.000
+T2	53.965		53.965		0.912	-0.012	59.167	59.137	0.000
+T3	54.898		54.898		0.954	-0.054	57.545	57.683	0.000
+*****************************************************************
+
+Control Period = 30
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12784.401Error = -284.401
+delta [0]=-0.380
+delta [1]=-0.024
+delta [2]=0.134
+denom = 	-5695.726
+denom = 	-261.202
+denom = 	1451.408
+time=62.016  control_period=30
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.768		105.768		0.823	0.077	128.443	128.064	0.000
+T2	53.958		53.958		0.912	-0.012	59.137	59.114	0.000
+T3	54.908		54.908		0.952	-0.052	57.683	57.817	0.000
+*****************************************************************
+
+Control Period = 31
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 11981.912Error = 518.088
+delta [0]=-0.363
+delta [1]=-0.015
+delta [2]=0.132
+denom = 	-5432.395
+denom = 	-159.418
+denom = 	1425.618
+time=64.016  control_period=31
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.787		105.787		0.826	0.074	128.064	127.701	0.000
+T2	53.977		53.977		0.913	-0.013	59.114	59.099	0.000
+T3	54.907		54.907		0.950	-0.050	57.817	57.949	0.000
+*****************************************************************
+
+Control Period = 32
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12378.280Error = 121.720
+delta [0]=-0.349
+delta [1]=-0.009
+delta [2]=0.128
+denom = 	-5213.868
+denom = 	-93.121
+denom = 	1386.225
+time=66.017  control_period=32
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.791		105.791		0.828	0.072	127.701	127.352	0.000
+T2	53.987		53.987		0.914	-0.014	59.099	59.090	0.000
+T3	54.915		54.915		0.948	-0.048	57.949	58.077	0.000
+*****************************************************************
+
+Control Period = 33
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 12450.725Error = 49.275
+delta [0]=-0.337
+delta [1]=-0.006
+delta [2]=0.123
+denom = 	-5029.145
+denom = 	-61.272
+denom = 	1327.977
+time=68.017  control_period=33
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.796		105.796		0.831	0.069	127.352	127.015	0.000
+T2	53.985		53.985		0.914	-0.014	59.090	59.085	0.000
+T3	54.921		54.921		0.946	-0.046	58.077	58.200	0.000
+*****************************************************************
+
+Control Period = 34
+Size0 samples: rtr=10 resp=10 period=10 exec=10
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=9 resp=9 period=9 exec=9
+Meaured Power = 11834.488Error = 665.512
+delta [0]=-0.325
+delta [1]=-0.002
+delta [2]=0.117
+denom = 	-4835.600
+denom = 	-16.366
+denom = 	1273.349
+time=70.018  control_period=34
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.812		105.812		0.833	0.067	127.015	126.690	0.000
+T2	53.994		53.994		0.914	-0.014	59.085	59.083	0.000
+T3	54.917		54.917		0.944	-0.044	58.200	58.317	0.000
+*****************************************************************
+
+Control Period = 35
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=11 resp=11 period=11 exec=11
+Meaured Power = 11941.030Error = 558.970
+delta [0]=-0.317
+delta [1]=-0.002
+delta [2]=0.109
+denom = 	-4714.130
+denom = 	-16.810
+denom = 	1179.094
+time=72.018  control_period=35
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.794		105.794		0.835	0.065	126.690	126.373	0.000
+T2	53.996		53.996		0.914	-0.014	59.083	59.081	0.000
+T3	54.905		54.905		0.941	-0.041	58.317	58.426	0.000
+*****************************************************************
+
+Control Period = 36
+Size0 samples: rtr=9 resp=9 period=9 exec=9
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 12340.446Error = 159.554
+delta [0]=-0.304
+delta [1]=0.002
+delta [2]=0.106
+denom = 	-4519.161
+denom = 	21.995
+denom = 	1149.613
+time=74.019  control_period=36
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.812		105.812		0.837	0.063	126.373	126.069	0.000
+T2	53.993		53.993		0.914	-0.014	59.081	59.083	0.000
+T3	54.914		54.914		0.940	-0.040	58.426	58.532	0.000
+*****************************************************************
+
+Control Period = 37
+Size0 samples: rtr=6 resp=6 period=6 exec=6
+Size1 samples: rtr=11 resp=11 period=11 exec=11
+Size2 samples: rtr=13 resp=13 period=13 exec=13
+Meaured Power = 12856.906Error = -356.906
+delta [0]=-0.293
+delta [1]=0.005
+delta [2]=0.103
+denom = 	-4348.515
+denom = 	53.414
+denom = 	1113.173
+time=76.019  control_period=37
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.815		105.815		0.839	0.061	126.069	125.776	0.000
+T2	53.995		53.995		0.914	-0.014	59.083	59.088	0.000
+T3	54.922		54.922		0.938	-0.038	58.532	58.634	0.000
+*****************************************************************
+
+Control Period = 38
+Size0 samples: rtr=10 resp=10 period=10 exec=10
+Size1 samples: rtr=9 resp=9 period=9 exec=9
+Size2 samples: rtr=9 resp=9 period=9 exec=9
+Meaured Power = 12356.029Error = 143.971
+delta [0]=-0.285
+delta [1]=0.005
+delta [2]=0.096
+denom = 	-4215.632
+denom = 	58.240
+denom = 	1037.710
+time=78.020  control_period=38
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.820		105.820		0.841	0.059	125.776	125.491	0.000
+T2	53.998		53.998		0.914	-0.014	59.088	59.093	0.000
+T3	54.908		54.908		0.936	-0.036	58.634	58.730	0.000
+*****************************************************************
+
+Control Period = 39
+Size0 samples: rtr=6 resp=6 period=6 exec=6
+Size1 samples: rtr=10 resp=10 period=10 exec=10
+Size2 samples: rtr=15 resp=15 period=15 exec=15
+Meaured Power = 12838.025Error = -338.025
+delta [0]=-0.272
+delta [1]=0.010
+delta [2]=0.096
+denom = 	-4021.596
+denom = 	110.143
+denom = 	1039.467
+time=80.020  control_period=39
+task	exec(ms)	resp(ms)	rtr	error	Pcur(s)	Pnext(ms)	Deadline miss (%)
+T1	105.829		105.829		0.843	0.057	125.491	125.219	0.000
+T2	54.002		54.002		0.914	-0.014	59.093	59.104	0.000
+T3	54.929		54.929		0.935	-0.035	58.730	58.826	0.000
+*****************************************************************
+
+Control Period = 40
+Size0 samples: rtr=8 resp=8 period=8 exec=8
+Size1 samples: rtr=11 resp=11 period=11 exec=11
+Size2 samples: rtr=10 resp=10 period=10 exec=10
+Meaured Power = 12490.297Error = 9.703
+delta [0]=-0.267
+delta [1]=0.007
+delta [2]=0.087
+Server released Scheduling 
+./FC_GPU_main_temp.sh: line 66: 551356 Killed                  sudo pkill -KILL -f "tegrastats --interval 1000" 2> /dev/null
+All task combinations completed.

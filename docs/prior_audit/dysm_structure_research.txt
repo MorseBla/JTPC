@@ -1,0 +1,55 @@
+Official DySM Project Structure Research (2026-10-29)
+
+Source: https://github.com/srinivasans74/DySM
+Paper page: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECRTS.2026.16
+Pinned commit: fee7b4b718f92710ff43fae0353cef481a64de5d, 2026-06-02T04:58:56Z.
+Pinned tree: 5a592dbf914b5ac931d976722194a9fa9fc97ea1; 1,946 recursive entries, untruncated, matching the entries read from main.
+Official docs, build files, dispatcher/controller/workload source, and experiment scripts were read statically. No compilation or experiments were performed.
+
+1. Actual top-level structure
+Scheduler/: scheduler.cpp, controller.cpp/.h, Parameters.h, parameters.cpp, cuda_runner.cpp/.h, stgm.cpp, gain.py, gain_matrix.h, Makefile, JSON dependency.
+application/: hist, hotspot, matrixmul, matrixmulinter, mttkrp, projection, stencil, stereodisparity, plus common and data.
+benchmarking_tpc/: CUDA microbenchmarks, benchmark.sh, plotting.py, logs, producing Figure 1.
+experiment/: README.md, run_allexperiments.sh, Sections 6.1–6.4, collected Figures.
+libsmctrl/: SM/TPC partitioning library and tests.
+pdf/: paper material.
+Root: README.md, INSTALL.md, requirements.md, requirements.txt, activate_libsmctrl.sh, .gitignore.
+.ipynb_checkpoints is not an architectural requirement. Local DySM-main versions/platforms/execution/results directories were later additions, not the original official layout.
+
+2. Calls and data flow
+Sections 6.1/6.3 shell prepares task CSV -> gain.py generates gain_matrix.h -> Scheduler/Makefile compiles C++ and application CUDA into one scheduler program -> scheduler reads configuration and creates shared parameters, task threads, monitoring, and controller threads -> cuda_runner dispatches create/run/destroy by workload -> CUDA tasks read masks and use libsmctrl on streams -> tasks update measurements -> monitor collects -> controller computes RTR error, matrix control, and resource constraints and updates SM/TPC masks -> parameters writes per-task logs -> experiment Python plots.
+Sections 6.2/6.4 compile independent CUDA programs without the scheduler.
+Interface: scheduler <task_csv_path> <duration_seconds> <output_dir> <solution_id>.
+Solutions: 3 DySM, 4 Adhoc, 5 STGM, 6 SMshare.
+CSV fields: sl_no/workload/task_rate/setpoint/tunable/range. task_rate is read in milliseconds and converted to seconds.
+Logs include JSON-content task_0-style files, usually without .json extensions, wallclocktime, and intermediate records. Fields include response/execution time, RTR, DMR, period, SM count.
+Runtime uses C++/CUDA, shell orchestration, and offline Python gains/plotting. The main build uses Makefile, not a unified top-level CMake.
+
+3. Experiments and entries
+benchmarking_tpc/benchmark.sh: SM/TPC count versus execution time, Figure 1.
+experiment/6.1/run_experiment.sh: workload increase during execution, four methods, Figure 3; task_set.csv, logs/sol_3 through sol_6/task_N, plotting.py, Figures.
+experiment/6.2/run.sh: TPC overlap, Figure 4; overlap.cu, overlapplot.py, logs.
+experiment/6.3/experiments.sh: setpoints, Figure 5; calls 3runexperiment_adhoc.sh and 3runexperiment.sh; 3tasktrace.py produces 3traces; 3runs/3runs_adhoc organize sp_TARGET/trace_TASKSET; figures.py produces Figures/6_3a.pdf and 6_3b.pdf.
+experiment/6.4/run.sh: mask execution overhead, Figure 6; streamoverhead.cu, results, plotting.py, Figures.
+experiment/run_allexperiments.sh: runs experiments sequentially and copies PDFs to experiment/Figures.
+Entry/data directory names are not completely uniform. The common pattern is keeping configuration, execution, logs, plotting, and paper outputs together.
+
+4. Documentation/source discrepancies
+README misspells application as applications and links requirements.md as REQUIREMENTS.md. The experiment README calls 6.2 Different Set Points, but 6.2 is overlap and 6.3 is setpoints. Actual source takes precedence.
+The Makefile targets x86_64 and sm_70 and cannot be used unchanged on Jetson ARM.
+Section 6.1 calls missing figuresplot.py while ignoring its failure, then calls available plotting.py. Its single-solution branch only prints and plots. Makefile run/debug omits solution_id.
+Some scripts clear logs, terminate processes, and overwrite gain_matrix.h; none were executed. These are static findings, not a complete code audit or runtime test.
+
+5. Proposed JTPC mapping (not yet implemented at the time of this research)
+Adopt Scheduler/, application/, experiment/, and root documentation.
+JPAP scheduler/scheduler.cc, controller.cc, shared_header.hpp, and build entry map to Scheduler; workloads/inputs map to application. System identification remains a separate top-level experiment area, analogous to benchmarking_tpc in role but describing JTPC frequency/period models.
+Follow JTPC Section VI: 6.1 Typical Run (Figures 4/5/6); 6.2 RTR/power setpoints and utility (Figures 7/8); 6.3 task arrival (Figure 9). Figures 1/2 are modeling material. Do not invent TPC-overlap/overhead experiments just to mimic directories.
+Keep relevant Windows plotting code, verified remote logs, original configurations, and entries together. Retain values, statistical windows, and provenance mappings. Do not overwrite historical/candidate versions.
+JTPC uses fork/exec for workloads/controller; DySM uses threads in one process. Copying runtime implementation would be a separate refactor and must not be hidden inside directory organization.
+JTPC changes periods and GPU frequency; no mechanical need for libsmctrl. Figures 1/2 generation chains are incomplete; organization alone does not establish full reproducibility.
+
+6. User decisions on paper discrepancies
+Figure 7(b): use RTR=0.90 to agree with the body. All 15 finalpowervalues logs at 11/11.5/12/12.5/13 W exist under Windows Full_LQR/Full_FC/Full_DFS. At the time of this structure research, no data/figure replacement had been performed.
+Figures 8/9 mm initial period: retain.
+Figure 7(a) DFS axis clipping: leave unchanged.
+Stability eigenvalues and perturbation wording: retain temporarily for later discussion.

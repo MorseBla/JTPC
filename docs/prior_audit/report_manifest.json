@@ -1,0 +1,61 @@
+[
+  {
+    "path": "project_audit_report.txt",
+    "sha256": "c1b2c3ac7bb66a897c7c8b69e0fbff338dd5a4171ca2d2a92f603b928f769d0a",
+    "bytes": 16553,
+    "original_sha256": "77c7bcfd87b97bfa9a92c5e6916313949c7cc77f4dc87c3c5260a5304ece893b",
+    "change": "English translation; original retained in external backup"
+  },
+  {
+    "path": "figure_mapping.csv",
+    "sha256": "024495cbafc6b8ebbddd0b49cb8b578c52f3cfae11aba2cb6cd131c7e13fe2ac",
+    "bytes": 7804,
+    "original_sha256": "1e20ae35efe889aaaa13adac0723ad42d24d1d3a3c440ae0318d1642bfb88225",
+    "change": "English translation; original retained in external backup"
+  },
+  {
+    "path": "figure_mapping.json",
+    "sha256": "748b0f25ca4bdac935c5919951a468b370bd1fa025ea57c6b134105519533301",
+    "bytes": 9433,
+    "original_sha256": "049e2047f2659a0d3396158290933ed5d24cb0fb76c550a2ee8521203f5377d0",
+    "change": "English translation; original retained in external backup"
+  },
+  {
+    "path": "confirmed_statistics.json",
+    "sha256": "5a1c9cfbed5f5a408f93305cbe260b1f679702f7dfee75281b4aea786648b962",
+    "bytes": 16437
+  },
+  {
+    "path": "stability_recalculation.json",
+    "sha256": "6dbd6af52e11af1bd7b63e1c4cbf0f43b7f5b4c75195775a94f5d5e76a3f0b6d",
+    "bytes": 1996
+  },
+  {
+    "path": "vector_log_matches.json",
+    "sha256": "6801a3495a47d56aa8326e179f70f4ad2399409f96824e208def58f4220080a3",
+    "bytes": 57987
+  },
+  {
+    "path": "remote_verified_manifest.json",
+    "sha256": "b6fd43372e69c4aa9c1b3f1ab097272c35eb6e475848d645b42daade131deb03",
+    "bytes": 45371
+  },
+  {
+    "path": "windows_remote_stat_provenance.json",
+    "sha256": "08e50afcf88ef477405353ddabbe2099c1c6ef31cd215c2cbd43e299d5fdae5d",
+    "bytes": 53964856
+  },
+  {
+    "path": "windows_remote_interrupt_provenance.json",
+    "sha256": "3fbbd0668a4df2ed838e3383c3443aef4c754cf35d36dfe898286960b317fbf7",
+    "bytes": 59756
+  },
+  {
+    "path": "/home/tiare/Downloads/JTPC_DAC_Detailed.pdf",
+    "sha256": "2aa7b37bc42fcccca8976b046416ddf29b88b47ca47e572cf5fd97db35262512"
+  },
+  {
+    "path": "/home/tiare/Desktop/JTPC_RTNS.zip",
+    "sha256": "c33752fe8eee4eaf2d7338e6d02f3df6dc048fda7453b16081808ec5d06608ae"
+  }
+]

@@ -1,0 +1,844 @@
+[
+  {
+    "experiment": "FC_interrupt",
+    "files": [
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+        "sha256": "f34c1802bd75afc6523cf6858e95b0440b508926c08238342c68e1bfffc8ed14",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_exec.txt",
+        "sha256": "67aaf7348e4ba24543c991522930d4fafba3612f490a8c5236e41f9903c693e9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "sha256": "c64076890fa7eb942751eaedd7399187ce070fcf1fd7a27141cdeeeec9b9e26c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+        "sha256": "b034bb0f67fe3400c0627200ef16c7f352e924bdb3adf67dd3e937fd20b306c1",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "sha256": "5651cd2495f1e01ebeabeaca69d6111a7a3066e2673f5d38c25ef8400282c7de",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_exec.txt",
+        "sha256": "56d8faeb745b9d2b3c6db97a5ea893007a7255a0206a5647b5e91ed16a36e3c7",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_response.txt",
+        "sha256": "e41b5a753e58dd73cc5db021473bcb59a79f639d9c05c962efdbbee10e34385c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "sha256": "5651cd2495f1e01ebeabeaca69d6111a7a3066e2673f5d38c25ef8400282c7de",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "sha256": "4379bd1b5ff30c2eeaa72cce4578c215e17bc400ff9fb2afbd370703e46de7b9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "sha256": "854d596090e9e96a18ffeb9558cab869cfdb1db75e6d8c3d8f624950bdc2641a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powerseterror.txt",
+        "sha256": "cecc54cfdf768b0f329a4e84d7f448d6cfb6d8898ee5b7ad2b060a095943e6eb",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powerseterror.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalfreqvalsvalues.txt",
+        "sha256": "5ce63141cdc8cbf4ad75688d7479edb527169086a41ba7acc08c2307007d6a44",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalfreqvalsvalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_response.txt",
+        "sha256": "67aaf7348e4ba24543c991522930d4fafba3612f490a8c5236e41f9903c693e9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "sha256": "c64076890fa7eb942751eaedd7399187ce070fcf1fd7a27141cdeeeec9b9e26c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_exec.txt",
+        "sha256": "43af36f3b280bc0f2239889d173d965715adaf195bd49f2e3373138a1b3c76ff",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powersetpoint.txt",
+        "sha256": "e20c30423fe46d1fde352ad5fe0b7aa58779759c20675e4bfb0f0d00049b0425",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powersetpoint.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_rtr.txt",
+        "sha256": "2b9c1b2be80c8c3760dfc99706db281f5b1756149d97f8d66b9f005ad1369a21",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_deadline.txt",
+        "sha256": "8b529897a3c3e3a18494aaa3fd2f386608186d701730f3b46efbd22aa4ce6012",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "sha256": "b34595b2842d6477e751595406a590358d27d44d33e991236052718f1913b930",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "sha256": "4eb4a3387431fedfa69bb79ec5e513f38a92e5e177bbfad7efda6467971fe44c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_response.txt",
+        "sha256": "56d8faeb745b9d2b3c6db97a5ea893007a7255a0206a5647b5e91ed16a36e3c7",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+        "sha256": "b50bc9f07b485f51f738ef45318e181ef7cbd6df21d8dcdc48acee327625416b",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powercontrolperiod.txt",
+        "sha256": "66b1dc0327f224bfabb80cb1e47e0a1c68a1e4c2ea0f8b91ec1b2935d98b762e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU__powercontrolperiod.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "sha256": "9f1496fcae80c7ae00d3db602f5d3b0a37b9c29d10c84abb8bfc50f607178625",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_deadline.txt",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "experiment": "DFS_interrupt",
+    "files": [
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_rtr.txt",
+        "sha256": "eb1c9a64439050ef1f21fabc1810ae1a0203dca5ca3d4259edb1f171243bbd92",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_lowerperiodbound.txt",
+        "sha256": "f7115b7b7211257fef0ec6d862380526f81acac2c56f49b0d9c5df487390a655",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_deadline.txt",
+        "sha256": "892a1371d0094ef86cd27e0a3172840cef34f723f6016a947b586b9782e4515e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "sha256": "89e88b63bcc377e8d3c3099b5f508593654ff68201df9a68bc6915d35832468e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "sha256": "e88e2dbd14c8d80e15394adc7545fe48f26e280a883068acbd74b8edf9ebed42",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powercontrolperiod.txt",
+        "sha256": "4555a137db2f6f408f0255c48b2193e76d329c3ddab63a775b898bd1a5b89cb0",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powercontrolperiod.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powerseterror.txt",
+        "sha256": "cc381e4d052af5e4ccb95b32c8183d6c347ea385699f83b147b97611b2ad244a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powerseterror.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "sha256": "a7dacea9c015650a0e11e0d5b80f5842588a084f6da5268c8f061b5c52cb7e30",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_period.txt",
+        "sha256": "54488f9cd63f3c77f195969ac9ffca45f3b2a84dfa3adbd07ca207812c36a548",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_rtr.txt",
+        "sha256": "ea52529f945162f1cbec4ec187ee3196cd6c9541c58781c62cfe8840479c55a6",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_deadline.txt",
+        "sha256": "96388a93b461949185ba212d48812b8e9f7a004462816ecd6927c2fa8564d257",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_response.txt",
+        "sha256": "2c278a8da39536430afee0769233bcafc7443c81d11b76d49aec16546c124dae",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "sha256": "63d2fa3b1b886695ee09eb6e047b835cfb2f6bab1ff15c855103549aeaaacc8c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt",
+        "sha256": "38c653d48bd7779de0564d9301f37232205b05bf16135097de4b6638e1e679e3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_higherperiodbound.txt",
+        "sha256": "4b766b000ed3c7d36164846cc57b71851773710c95087420daa2b49ac11473c5",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_exec.txt",
+        "sha256": "428a66b911eb2f6571f1970dbb16b917859cfddbab11891594c02563981a0c16",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_higherperiodbound.txt",
+        "sha256": "ff9d7d90c18b6bb2d6560d665ea0738121c6f39ef8993a848f1dd1246cc8c4f3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt",
+        "sha256": "acde627596624a46e904ed392f7df2233554253486403909f3a4808e91e9da89",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_exec.txt",
+        "sha256": "775862010c6769fe521482e4499432049084cd80091c90ed013560f4460944b8",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "sha256": "4aa2e08e05025778114920c080c66daa82ab5071641677546e79158de45c161b",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_period.txt",
+        "sha256": "6f50fa62882ef80469a4503e92daf7f8fe5ae2144c2f07a6292a01d0a2b8710b",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_lowerperiodbound.txt",
+        "sha256": "5dfb1b0fb2e1cb2e3b462b88d20d9c0c6150ec11c5a934190379fec3e6ec8f29",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_deadline.txt",
+        "sha256": "5c2d663aca9268eabdec29f5c05d03280cf48aff6b1831806e9c28ff0d5eb180",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powersetpoint.txt",
+        "sha256": "e20c30423fe46d1fde352ad5fe0b7aa58779759c20675e4bfb0f0d00049b0425",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS__powersetpoint.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_period.txt",
+        "sha256": "01805ea122bcce754381bb3a923b2574dfcea1b365f6cb286a07bddf2da3d4de",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "sha256": "c85cabe17988ea29c1f0409ed21d3a08f1d32ca1ace9bdd917606e7fa504ddd1",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_response.txt",
+        "sha256": "6ccc90e53d3ab7c59d818417acf250e4f111c79804b500bd4a1022985e44f41f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_exec.txt",
+        "sha256": "aaae419d2c7ed9409621d406831812f953b5c6a4902cc3e3ba9e00a9a489c609",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt",
+        "sha256": "d8d0600c2e0994f2e137da5cc05447b3059d89a02fdafc7c5bb3a2c9b5702d5f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+        "sha256": "3ad0ec8feed19b71d7a7d36fe0ab5f495fe9cd8192684de2473d0c49cc544cb2",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_higherperiodbound.txt",
+        "sha256": "ff9d7d90c18b6bb2d6560d665ea0738121c6f39ef8993a848f1dd1246cc8c4f3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_lowerperiodbound.txt",
+        "sha256": "f7115b7b7211257fef0ec6d862380526f81acac2c56f49b0d9c5df487390a655",
+        "remote": "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_lowerperiodbound.txt",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "experiment": "LQR_interrupt",
+    "files": [
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_exec.txt",
+        "sha256": "d1a5754a8917f0c44ad20435a8786dfb34e160d0861b545a5afcffebaf57f3ce",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_deadline.txt",
+        "sha256": "e161eeb1287565c24976aa077ffb5b306e51625d10a841d93874caf0fedbbed3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "sha256": "7629a35de0fa6d2607dd18a6b7f4beeb388111e68871a7a0d66cff9f0828bdbf",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "sha256": "796c7f0156d0b3f6f635a21a00136fef8b2c7cf23a0012c3e148dcec0c55356a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+        "sha256": "0ca017fb01538fd4848bd6aae71e706c8e890da8fb274c97d132417b3c8f1d4c",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_exec.txt",
+        "sha256": "c7e9f74a0364ad5ec8ed6d1dbf4d30b42014a7816b949cac6cc00fdc601a4a65",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "sha256": "796c7f0156d0b3f6f635a21a00136fef8b2c7cf23a0012c3e148dcec0c55356a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+        "sha256": "077c5793b974ec387679d8a209d9dbad927a636c9d5c8e347d81bd965f5c9a8d",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_response.txt",
+        "sha256": "25e36b6d60b14e8e4a8ab2576ca9aabd2647a6c56950f8d78862f8ddf60b44d4",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_rtr.txt",
+        "sha256": "7d68ce7bf81669d0910a464a783acdff9aaaf7b81db665e974bd61c7550754b0",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "sha256": "61979f3852be726d5fcc08c1ce65edf3e917920b704b3a67190261d69d26d0e2",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_rtr.txt",
+        "sha256": "dc439b1b2b124181cb264e889a793239e476b9d1f00f1636fd2edc119e1cba8e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+        "sha256": "00e7f14e52e3aaed7996fec42ce773b5b17db18f07b6dd5ac95676e35d52c5d0",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_exec.txt",
+        "sha256": "28af3caa1ddc1e4a22ef96b46fb6d6dc5c3da68e902536d45888274f4da4e229",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_lowerperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_response.txt",
+        "sha256": "28af3caa1ddc1e4a22ef96b46fb6d6dc5c3da68e902536d45888274f4da4e229",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powerseterror.txt",
+        "sha256": "0830110c9340facb04bdf2ca2fc6b109c5c94bb0180102b96357a4081d992717",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powerseterror.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+        "sha256": "0b8920bae05185358945245455c27be520d38bfc6d8eb609f5de245dcadca7ee",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powersetpoint.txt",
+        "sha256": "e20c30423fe46d1fde352ad5fe0b7aa58779759c20675e4bfb0f0d00049b0425",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powersetpoint.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "sha256": "7629a35de0fa6d2607dd18a6b7f4beeb388111e68871a7a0d66cff9f0828bdbf",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskresponsetime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt",
+        "sha256": "2c1c5b412d8e61af6c13d63f575b1f71ad92c44ef1e4b1ee169120368be3c9a1",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_response.txt",
+        "sha256": "d1a5754a8917f0c44ad20435a8786dfb34e160d0861b545a5afcffebaf57f3ce",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "sha256": "374bd031552b6fa43e569226c1c551726a1662c885ff8a64298d11d27e1e9576",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powercontrolperiod.txt",
+        "sha256": "5a2085c92c072190c69150a828b397220f16fb9249d879450259e8649eabe1a9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR__powercontrolperiod.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_higherperiodbound.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_rtr.txt",
+        "sha256": "c1f050b8fe2f8769350d5cd5a67c7be3665dfbe86443ffd13f1d355896e8a55a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_rtr.txt",
+        "equal": true
+      }
+    ]
+  },
+  {
+    "experiment": "task_arrival_4task_test",
+    "files": [
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_response.txt",
+        "sha256": "7aab3cc48dcfe4280bf24e0123480f52ed8a09004caa3f137c0909bc2209eef2",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_exec.txt",
+        "sha256": "0edc6988b2094e0969fe1a60d6cbc5915cc6746a6885b16dd39d6cbcf2d1bf1e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "sha256": "7c5ad32a75a025c0cc4387e006b8db4d7fbc9f543e4e4ab62a0d9552aa25bf1f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "sha256": "62d541739e91c0c6ddee696a095262548d4c6f08034e28764fcd65842c5079f2",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime3.txt",
+        "sha256": "59304f2a270ff559edff433ac17f2b0e98da8fdd6678af0a88c8d0c1a7073453",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime3.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_exec.txt",
+        "sha256": "2a91783bcf3ca18114ded5395155d28b48492d2f2b31ea9633d85f29341af0d0",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powersetpoint.txt",
+        "sha256": "e20c30423fe46d1fde352ad5fe0b7aa58779759c20675e4bfb0f0d00049b0425",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powersetpoint.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime1.txt",
+        "sha256": "e52c10640a6490843d4f33701fb3aeb2d46d6b3b63c5f787c25028534bca3d6a",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime1.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_response.txt",
+        "sha256": "9b4f37a264d4b2e3a5ec338efc2a11fa65de9d4eb6a0dee12366fb62d3958251",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalpowervalues.txt",
+        "sha256": "460737d1270a74fcdff523bf1cb75d385616cb41588126d671e8a8dffe80f84b",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalpowervalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_rtr.txt",
+        "sha256": "f85851fc41297c3e2319283e42369b04f29b9eb1f4cf9ac800b89c6b298630d9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt",
+        "sha256": "fb987a92e83330a8706a7fe8bb4dc27ab3cf044c5540987342f744f9b4471f8e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime2.txt",
+        "sha256": "7b06202f112cfb598c71d242ee9cb6d8f87e58f7028ba401594e4cc36c7ed7ee",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_rtr.txt",
+        "sha256": "1fa6d0e7e9283b46b522ddd4b50b5b37ae65a751ebec83862730578ed8ac862f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_higherperiodbound.txt",
+        "sha256": "048c12d90a28a6e163e34868ddf3bf50bc8ae858c53ff3abe1058a84f5623e97",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_rtr.txt",
+        "sha256": "d062ea4b7bf44dba07bd9777e915a0cd6dd083416528179412e437b7bba07bc4",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_higherperiodbound.txt",
+        "sha256": "96500f651ffd8137ee34b16d0a0fc45af9bf37429594f21dd871a9970f23205d",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_deadline.txt",
+        "sha256": "8f0fc04752499bc287b3173106877ffae6c818cbc8a249af657c2aeaf50e2f23",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_lowerperiodbound.txt",
+        "sha256": "fed1431515d254843ba0d40fba6f5b0db6c7b5952e070f27515820ea5380f123",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_period.txt",
+        "sha256": "3bf6524b14cd5e4e74884f0570b70f20a3060c399e4d5d8f1819a446a187387e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_period.txt",
+        "sha256": "cc0b4b7de4879456d016f377215406a31456dbf70c2893637b300675d79f7cf9",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime0.txt",
+        "sha256": "4f03bf47320928b0ebde31685b6d3dd3cb42cef7d8ef496a3351e37c78cef7b4",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime0.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_period.txt",
+        "sha256": "10d63f940e67a004a0bb22a672a3990dea3956140dc5561a02ab1e6dcad0c2b3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_lowerperiodbound.txt",
+        "sha256": "01805ea122bcce754381bb3a923b2574dfcea1b365f6cb286a07bddf2da3d4de",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_response.txt",
+        "sha256": "9abfad91dd26f74c576306df7aba79e590ff8f6a5d54ba276b8a435925308ad3",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_response.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt",
+        "sha256": "f7e90b6c476dc8ead1879550c00b87ab36f32aa2c191981249d8b2a65b71609b",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_deadline.txt",
+        "sha256": "18d7b5da60fd4bf6a43603cda25842ef7ddae6fa9406dd8574c4e0e2d98cb2b7",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_deadline.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_rtr.txt",
+        "sha256": "f15e5d4715a22fd09e33c20af31f699bf352bc326da21ee27762bf2dc087738f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_rtr.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime3.txt",
+        "sha256": "95faa4e5c88d104e7c84a522bf13d3a8b5440e0405158552c9133008c806891d",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskresponsetime3.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_lowerperiodbound.txt",
+        "sha256": "b92f5c3d222546a374b932532dc002bc5f1631c55634af251f66c436a8284ffc",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "sha256": "35cd3bca6f44ed8bdc7d439ca9b3509d031d7e451c8c1ca0cab631ec35d22e0f",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/taskexecutiontime2.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powercontrolperiod.txt",
+        "sha256": "65f5edf82e7c57ac8fc6e7fb46218978c2a142306aff405e436552dc554bd910",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powercontrolperiod.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_higherperiodbound.txt",
+        "sha256": "aae01f3de10648b59c3d4313b06cf9f0a6d4259179a1be0314f560317279feec",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_exec.txt",
+        "sha256": "36a38eccecdbbbc5958af7b2af3cb08bb839d9ab6499e1ec52a63dd03d15126e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_higherperiodbound.txt",
+        "sha256": "1264b9b6a858ce15965c73dce8b184a0e4d57cf08bf1b4819cd97162e6e5594e",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_higherperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalfreqvalsvalues.txt",
+        "sha256": "a4de592fce1aa8db9383d8279c0096b7db24aca9c770e933ee4047b4fb41d2ef",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalfreqvalsvalues.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powerseterror.txt",
+        "sha256": "d8d49c9f210a6dddadd9e040cf8bd9d7591592fa8e4ac76365d81f2559ff5be1",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powerseterror.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_lowerperiodbound.txt",
+        "sha256": "3ac106e05b1899567b7983ed2efe7368c0f218b0ab1f77b1fcbd52a094fe546d",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_lowerperiodbound.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_exec.txt",
+        "sha256": "9591caf9600f7f89dc720f5d612dc07f0346fb23242236f6e0277f54bd787abc",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_exec.txt",
+        "equal": true
+      },
+      {
+        "file": "windows_snapshot/analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_deadline.txt",
+        "sha256": "1758d3319f00b5ac707a3f31d9355f65bc5de49123bc24beb585e09d2fd7fd65",
+        "remote": "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_deadline.txt",
+        "equal": true
+      }
+    ]
+  }
+]

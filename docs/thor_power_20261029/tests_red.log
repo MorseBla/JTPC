@@ -1,0 +1,113 @@
+test_controller_reads_script_in_mw (__main__.ThorPowerTests) ... FAIL
+test_controller_rejects_sensor_failure (__main__.ThorPowerTests) ... FAIL
+test_controller_shares_a_10hz_cached_read (__main__.ThorPowerTests) ... FAIL
+test_duplicate_sensors_are_rejected (__main__.ThorPowerTests) ... FAIL
+test_legacy_script_output_is_preserved (__main__.ThorPowerTests) ... ok
+test_malformed_or_missing_power_is_rejected (__main__.ThorPowerTests) ... FAIL
+test_missing_sensor_has_no_numeric_fallback (__main__.ThorPowerTests) ... FAIL
+test_sampling_accepts_above_20w_without_offset (__main__.ThorPowerTests) ... FAIL
+test_sampling_below_20w_has_no_synthetic_offset (__main__.ThorPowerTests) ... FAIL
+test_thor_units_and_hwmon_renumbering (__main__.ThorPowerTests) ... FAIL
+test_unknown_mode_fails (__main__.ThorPowerTests) ... FAIL
+test_wrong_sensor_or_rail_is_rejected (__main__.ThorPowerTests) ... FAIL
+
+======================================================================
+FAIL: test_controller_reads_script_in_mw (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 108, in test_controller_reads_script_in_mw
+    self.assertEqual(r.returncode,0,r.stderr);self.assertEqual(r.stdout.strip(),'125000')
+AssertionError: '0' != '125000'
+- 0
++ 125000
+
+
+======================================================================
+FAIL: test_controller_rejects_sensor_failure (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 112, in test_controller_rejects_sensor_failure
+    self.assertEqual(r.returncode,2);self.assertEqual(r.stdout,'')
+AssertionError: 0 != 2
+
+======================================================================
+FAIL: test_controller_shares_a_10hz_cached_read (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 127, in test_controller_shares_a_10hz_cached_read
+    self.assertEqual(r.returncode,0,r.stderr+r.stdout)
+AssertionError: 5 != 0 : 
+
+======================================================================
+FAIL: test_duplicate_sensors_are_rejected (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 92, in test_duplicate_sensors_are_rejected
+    self.sensor();self.sensor(name='hwmon99');self.assertNotEqual(self.run_script('thor').returncode,0)
+AssertionError: 0 == 0
+
+======================================================================
+FAIL: test_malformed_or_missing_power_is_rejected (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 97, in test_malformed_or_missing_power_is_rejected
+    (p/'power1_input').write_text(raw+'\n');r=self.run_script('thor');self.assertNotEqual(r.returncode,0,raw);self.assertEqual(r.stdout,'')
+AssertionError: 0 == 0 : bad
+
+======================================================================
+FAIL: test_missing_sensor_has_no_numeric_fallback (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 84, in test_missing_sensor_has_no_numeric_fallback
+    r=self.run_script('thor');self.assertNotEqual(r.returncode,0);self.assertEqual(r.stdout,'')
+AssertionError: 0 == 0
+
+======================================================================
+FAIL: test_sampling_accepts_above_20w_without_offset (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 117, in test_sampling_accepts_above_20w_without_offset
+    self.assertEqual(r.returncode,0,r.stderr+r.stdout)
+AssertionError: -6 != 0 : terminate called without an active exception
+
+
+======================================================================
+FAIL: test_sampling_below_20w_has_no_synthetic_offset (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 122, in test_sampling_below_20w_has_no_synthetic_offset
+    self.assertEqual(r.returncode,0,r.stderr+r.stdout)
+AssertionError: -6 != 0 : terminate called without an active exception
+
+
+======================================================================
+FAIL: test_thor_units_and_hwmon_renumbering (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 81, in test_thor_units_and_hwmon_renumbering
+    self.sensor();r=self.run_script('thor');self.assertEqual(r.returncode,0,r.stderr);self.assertEqual(r.stdout,'125000\n')
+AssertionError: '4567\n' != '125000\n'
+- 4567
++ 125000
+
+
+======================================================================
+FAIL: test_unknown_mode_fails (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 104, in test_unknown_mode_fails
+    self.assertNotEqual(self.run_script('bad').returncode,0)
+AssertionError: 0 == 0
+
+======================================================================
+FAIL: test_wrong_sensor_or_rail_is_rejected (__main__.ThorPowerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/jtpc_thor_work/test_thor_power.py", line 87, in test_wrong_sensor_or_rail_is_rejected
+    self.sensor(chip='ina3221');r=self.run_script('thor');self.assertNotEqual(r.returncode,0)
+AssertionError: 0 == 0
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.703s
+
+FAILED (failures=11)

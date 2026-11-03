@@ -1,0 +1,72 @@
+{
+  "pdf": "/home/tiare/Desktop/JTPC/experiment/6.1/Figures/replotted/mm_interrupt_LQR_11000_0.90.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 45,
+  "text_trace_count": 45,
+  "stroke_path_count": 98,
+  "filled_region_count": 45,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 2,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "Set point",
+      "text_bbox": [
+        155.1515655517578,
+        12.290245056152344,
+        218.30087280273438,
+        28.290245056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        240.50320434570312,
+        172.79653930664062
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        17
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "hist",
+      "text_bbox": [
+        155.1515655517578,
+        34.930870056152344,
+        180.0448760986328,
+        50.930870056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        240.50320434570312,
+        172.79653930664062
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        17
+      ]
+    }
+  ]
+}

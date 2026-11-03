@@ -1,0 +1,676 @@
+{
+  "metric": "utility",
+  "original_script": "/home/agx-thor/JTPC/experiment/6.2/plot_utility.py",
+  "runs_root": "/home/agx-thor/JTPC/experiment/6.2/runs",
+  "workload": "hist_stereo_mm",
+  "solutions": [
+    "JTPC",
+    "FC",
+    "DFS"
+  ],
+  "fixed": {
+    "rtr": 0.9
+  },
+  "setpoints": [
+    28000,
+    29000,
+    30000,
+    31000,
+    32000
+  ],
+  "processing": "Per task: retain finite positive period-ms; mean(initial_period_ms/current_period_ms); equally average three task means. No error bars, matching the original.",
+  "std_ddof": null,
+  "uncertainty_note": "Population deviations over retained time samples are not independent-run confidence intervals.",
+  "initial_periods_ms": [
+    160.0,
+    80.0,
+    60.0
+  ],
+  "ignored_nonuniform_rtr_cases": {
+    "JTPC": [],
+    "FC": [],
+    "DFS": []
+  },
+  "cases": [
+    {
+      "mean": 16.349956765377623,
+      "std": null,
+      "task_means": [
+        8.073720942485915,
+        30.30708805660697,
+        10.669061297039988
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/LQR_t1_period.txt",
+          "sha256": "f8d2564a2bb3a5ae5484fe716ec7ded982b58d8c7fcdb6151dfb917630416a5f",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.073720942485915
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/LQR_t2_period.txt",
+          "sha256": "4c83bc094d379baaec6a8f3d248874164a0b99cfd7faf62b62eec9588b64c2c3",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 30.30708805660697
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "sha256": "5542deef7c067b29cdd61791506452851c3018744cafb6086332332e7570f596",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 10.669061297039988
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90",
+      "power_mw": 28000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 17.655753544546307,
+      "std": null,
+      "task_means": [
+        8.469685450700535,
+        32.77217572637687,
+        11.725399456561513
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/LQR_t1_period.txt",
+          "sha256": "bd6434e448adfafa5710f2160ad32048f61062760ce7160dfd363e7064fd08e8",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.469685450700535
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/LQR_t2_period.txt",
+          "sha256": "b7cb16be46194671ee2a61fb3177773d1ee87edcfc034eac334493f80569908b",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 32.77217572637687
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "sha256": "fdfa921bcad3d021f801d9e5a654c5ccf28a0d23165b255fa2e329ce61f7b4dd",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 11.725399456561513
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90",
+      "power_mw": 29000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 18.872857009987975,
+      "std": null,
+      "task_means": [
+        9.311535957637027,
+        34.897346788836536,
+        12.409688283490361
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t1_period.txt",
+          "sha256": "1889c99e21262144bd89e6971c07c342c08a77409faf95a833b11881f7d547b4",
+          "raw_samples": 200,
+          "used_samples": 200,
+          "initial_period_ms": 160.0,
+          "task_utility": 9.311535957637027
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t2_period.txt",
+          "sha256": "4d1ae98ea0e2ada415396733c59e7cc3549828df9afea447a1135b2ab548cad0",
+          "raw_samples": 200,
+          "used_samples": 200,
+          "initial_period_ms": 80.0,
+          "task_utility": 34.897346788836536
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "sha256": "df31d6785ad7c0ab9614d3488563d3d72d375fdc378cbfd2ee5658c0bf084994",
+          "raw_samples": 200,
+          "used_samples": 200,
+          "initial_period_ms": 60.0,
+          "task_utility": 12.409688283490361
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 19.30972239034392,
+      "std": null,
+      "task_means": [
+        9.760812310626866,
+        35.4481891258778,
+        12.72016573452709
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/LQR_t1_period.txt",
+          "sha256": "95735771ddce4bc5951aa15a65a88c5286c519ff43e5213ce9d1b900062427f1",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 9.760812310626866
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/LQR_t2_period.txt",
+          "sha256": "950c2bbb43cf2d09556641470e159d0f3b1c1e0c1f055ad23390fd72a7707347",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 35.4481891258778
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "sha256": "f5c26b40c0da13dcb3ca49c56d35e98d2d0f3bb26d673fdcb6dc9df9a5cc5724",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 12.72016573452709
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90",
+      "power_mw": 31000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 18.701058451220586,
+      "std": null,
+      "task_means": [
+        9.427500792856712,
+        34.20662148807391,
+        12.469053072731139
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/LQR_t1_period.txt",
+          "sha256": "d795a177f1c7e24f317306ef5c27be472a7de11e3bb489c4efcfd03f87cb212d",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 9.427500792856712
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/LQR_t2_period.txt",
+          "sha256": "46c480db3e64ee0c0d9c256f658dfef419669b7ad96c670c2dfc73bf23ed14b3",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 34.20662148807391
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "sha256": "1091c22cbd92c044b94dd1f6d56de21e4592ad104726c764bc9b7ab71a77fd5f",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 12.469053072731139
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/JTPC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90",
+      "power_mw": 32000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 4.946868389456321,
+      "std": null,
+      "task_means": [
+        2.8091851482835555,
+        9.517601805677668,
+        2.513818214407738
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "sha256": "0c9afc243d584908cc6e2796bd0e0a47748819ff43834cf1557236e3e9960761",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 2.8091851482835555
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "sha256": "d69a9e58301fce1a8b0b0335f385135c6038a9a3896477c9a22adbf7e265bc92",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 9.517601805677668
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "sha256": "5ae5a55a17c7a8ec1fbd471d963d37bcda6da067450f042492dc953bfe3c0195",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 2.513818214407738
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90",
+      "power_mw": 28000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 4.946868389456321,
+      "std": null,
+      "task_means": [
+        2.8091851482835555,
+        9.517601805677668,
+        2.513818214407738
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "sha256": "0c9afc243d584908cc6e2796bd0e0a47748819ff43834cf1557236e3e9960761",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 2.8091851482835555
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "sha256": "d69a9e58301fce1a8b0b0335f385135c6038a9a3896477c9a22adbf7e265bc92",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 9.517601805677668
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "sha256": "5ae5a55a17c7a8ec1fbd471d963d37bcda6da067450f042492dc953bfe3c0195",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 2.513818214407738
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90",
+      "power_mw": 29000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 4.946868389456321,
+      "std": null,
+      "task_means": [
+        2.8091851482835555,
+        9.517601805677668,
+        2.513818214407738
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "sha256": "0c9afc243d584908cc6e2796bd0e0a47748819ff43834cf1557236e3e9960761",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 2.8091851482835555
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "sha256": "d69a9e58301fce1a8b0b0335f385135c6038a9a3896477c9a22adbf7e265bc92",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 9.517601805677668
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "sha256": "5ae5a55a17c7a8ec1fbd471d963d37bcda6da067450f042492dc953bfe3c0195",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 2.513818214407738
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 4.946868389456321,
+      "std": null,
+      "task_means": [
+        2.8091851482835555,
+        9.517601805677668,
+        2.513818214407738
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "sha256": "0c9afc243d584908cc6e2796bd0e0a47748819ff43834cf1557236e3e9960761",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 2.8091851482835555
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "sha256": "d69a9e58301fce1a8b0b0335f385135c6038a9a3896477c9a22adbf7e265bc92",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 9.517601805677668
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "sha256": "5ae5a55a17c7a8ec1fbd471d963d37bcda6da067450f042492dc953bfe3c0195",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 2.513818214407738
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90",
+      "power_mw": 31000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 4.946868389456321,
+      "std": null,
+      "task_means": [
+        2.8091851482835555,
+        9.517601805677668,
+        2.513818214407738
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "sha256": "0c9afc243d584908cc6e2796bd0e0a47748819ff43834cf1557236e3e9960761",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 2.8091851482835555
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "sha256": "d69a9e58301fce1a8b0b0335f385135c6038a9a3896477c9a22adbf7e265bc92",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 9.517601805677668
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "sha256": "5ae5a55a17c7a8ec1fbd471d963d37bcda6da067450f042492dc953bfe3c0195",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 2.513818214407738
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/FC/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90",
+      "power_mw": 32000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 5.3999999999999995,
+      "std": null,
+      "task_means": [
+        8.0,
+        8.0,
+        0.19999999999999998
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/DFS_t1_period.txt",
+          "sha256": "4e3221a5c5b9172fd96a9becc654db27715210eecdab24fabb0efe08cdb0d938",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/DFS_t2_period.txt",
+          "sha256": "8d72a2fc251ccb79a0a1d15691166b6604a68ac4a62e69397eacc40c8a23c79e",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90/DFS_t3_period.txt",
+          "sha256": "bc963022ccf71fc935ea1c6bcd8ff20c93d7eceb32e0d21b180b5f90cf56cdfb",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 0.19999999999999998
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_28000_0.90_0.90_0.90",
+      "power_mw": 28000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 5.3999999999999995,
+      "std": null,
+      "task_means": [
+        8.0,
+        8.0,
+        0.19999999999999998
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/DFS_t1_period.txt",
+          "sha256": "4e3221a5c5b9172fd96a9becc654db27715210eecdab24fabb0efe08cdb0d938",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/DFS_t2_period.txt",
+          "sha256": "8d72a2fc251ccb79a0a1d15691166b6604a68ac4a62e69397eacc40c8a23c79e",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90/DFS_t3_period.txt",
+          "sha256": "bc963022ccf71fc935ea1c6bcd8ff20c93d7eceb32e0d21b180b5f90cf56cdfb",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 0.19999999999999998
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_29000_0.90_0.90_0.90",
+      "power_mw": 29000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 5.3999999999999995,
+      "std": null,
+      "task_means": [
+        8.0,
+        8.0,
+        0.19999999999999998
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t1_period.txt",
+          "sha256": "4e3221a5c5b9172fd96a9becc654db27715210eecdab24fabb0efe08cdb0d938",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t2_period.txt",
+          "sha256": "8d72a2fc251ccb79a0a1d15691166b6604a68ac4a62e69397eacc40c8a23c79e",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t3_period.txt",
+          "sha256": "bc963022ccf71fc935ea1c6bcd8ff20c93d7eceb32e0d21b180b5f90cf56cdfb",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 0.19999999999999998
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 5.3999999999999995,
+      "std": null,
+      "task_means": [
+        8.0,
+        8.0,
+        0.19999999999999998
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/DFS_t1_period.txt",
+          "sha256": "4e3221a5c5b9172fd96a9becc654db27715210eecdab24fabb0efe08cdb0d938",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/DFS_t2_period.txt",
+          "sha256": "8d72a2fc251ccb79a0a1d15691166b6604a68ac4a62e69397eacc40c8a23c79e",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90/DFS_t3_period.txt",
+          "sha256": "bc963022ccf71fc935ea1c6bcd8ff20c93d7eceb32e0d21b180b5f90cf56cdfb",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 0.19999999999999998
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_31000_0.90_0.90_0.90",
+      "power_mw": 31000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 5.4000466556146876,
+      "std": null,
+      "task_means": [
+        8.0,
+        8.000082495579694,
+        0.2000574712643678
+      ],
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/DFS_t1_period.txt",
+          "sha256": "4e3221a5c5b9172fd96a9becc654db27715210eecdab24fabb0efe08cdb0d938",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 160.0,
+          "task_utility": 8.0
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/DFS_t2_period.txt",
+          "sha256": "a927706f7e9d9c812c9f8bcf91363d2b8264429705b0e4559a93bf63127cb02f",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 80.0,
+          "task_utility": 8.000082495579694
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90/DFS_t3_period.txt",
+          "sha256": "d168207640dc2449253334e7668225c49cf08e8e7a70ea882ba064b5a995cabe",
+          "raw_samples": 145,
+          "used_samples": 145,
+          "initial_period_ms": 60.0,
+          "task_utility": 0.2000574712643678
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs/DFS/hist_stereo_mm/setpoint_32000_0.90_0.90_0.90",
+      "power_mw": 32000,
+      "rtr": 0.9
+    }
+  ],
+  "series": [
+    {
+      "key": "reference",
+      "label": "Initial rate",
+      "means": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stds": null
+    },
+    {
+      "key": "JTPC",
+      "label": "JTPC",
+      "means": [
+        16.349956765377623,
+        17.655753544546307,
+        18.872857009987975,
+        19.30972239034392,
+        18.701058451220586
+      ],
+      "stds": null
+    },
+    {
+      "key": "FC",
+      "label": "FC-GPU",
+      "means": [
+        4.946868389456321,
+        4.946868389456321,
+        4.946868389456321,
+        4.946868389456321,
+        4.946868389456321
+      ],
+      "stds": null
+    },
+    {
+      "key": "DFS",
+      "label": "DFS-only",
+      "means": [
+        5.3999999999999995,
+        5.3999999999999995,
+        5.3999999999999995,
+        5.3999999999999995,
+        5.4000466556146876
+      ],
+      "stds": null
+    }
+  ],
+  "units": "ratio",
+  "figure_outputs": [
+    "/home/agx-thor/JTPC/experiment/6.2/Figures/current/utility_barplot_RTR_0p9.pdf",
+    "/home/agx-thor/JTPC/experiment/6.2/Figures/current/utility_barplot_RTR_0p9.png"
+  ]
+}

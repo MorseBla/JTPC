@@ -1,0 +1,120 @@
+{
+  "pdf": "/home/tiare/Desktop/JTPC/experiment/6.1/Figures/replotted/mm_interrupt_FC_11000_0.90.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 49,
+  "text_trace_count": 49,
+  "stroke_path_count": 93,
+  "filled_region_count": 37,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 4,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "Control Period",
+      "text_bbox": [
+        104.94062805175781,
+        193.95249938964844,
+        220.50595092773438,
+        209.95249938964844
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        92.80349731445312,
+        259.58050537109375,
+        203.37013244628906
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        20
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "Set point",
+      "text_bbox": [
+        158.1943817138672,
+        12.290245056152344,
+        221.34368896484375,
+        28.290245056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        259.58050537109375,
+        142.7061767578125
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        21
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "hist",
+      "text_bbox": [
+        158.1943817138672,
+        34.930870056152344,
+        183.0876922607422,
+        50.930870056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        259.58050537109375,
+        142.7061767578125
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        21
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "75",
+      "text_bbox": [
+        203.25625610351562,
+        175.34312438964844,
+        221.05068969726562,
+        191.34312438964844
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        92.80349731445312,
+        259.58050537109375,
+        203.37013244628906
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        20
+      ]
+    }
+  ]
+}

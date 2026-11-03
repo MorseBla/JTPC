@@ -1,0 +1,95 @@
+{
+  "host": "100.118.13.42",
+  "project": "/home/agx-thor/JTPC",
+  "sensor": "ina238",
+  "rail": "VIN",
+  "power_path": "/sys/bus/i2c/devices/2-0044/hwmon/hwmon5/power1_input",
+  "input_unit": "uW",
+  "output_unit": "mW",
+  "samples": [
+    {
+      "timestamp_ns": 1793296625861918921,
+      "raw_before_uw": 15908000,
+      "script_mw": 15804,
+      "controller_mw": 16150,
+      "raw_after_uw": 16150000
+    },
+    {
+      "timestamp_ns": 1793296626027525945,
+      "raw_before_uw": 14180000,
+      "script_mw": 15676,
+      "controller_mw": 15706,
+      "raw_after_uw": 15706000
+    },
+    {
+      "timestamp_ns": 1793296626192927827,
+      "raw_before_uw": 14326000,
+      "script_mw": 15206,
+      "controller_mw": 15824,
+      "raw_after_uw": 16100000
+    },
+    {
+      "timestamp_ns": 1793296626356820047,
+      "raw_before_uw": 13950000,
+      "script_mw": 14460,
+      "controller_mw": 15796,
+      "raw_after_uw": 15884000
+    },
+    {
+      "timestamp_ns": 1793296626521422798,
+      "raw_before_uw": 14132000,
+      "script_mw": 15070,
+      "controller_mw": 16042,
+      "raw_after_uw": 16042000
+    },
+    {
+      "timestamp_ns": 1793296626685126436,
+      "raw_before_uw": 14380000,
+      "script_mw": 15396,
+      "controller_mw": 15780,
+      "raw_after_uw": 15470000
+    },
+    {
+      "timestamp_ns": 1793296626848451089,
+      "raw_before_uw": 14956000,
+      "script_mw": 14482,
+      "controller_mw": 15696,
+      "raw_after_uw": 15226000
+    },
+    {
+      "timestamp_ns": 1793296627012881028,
+      "raw_before_uw": 13890000,
+      "script_mw": 14986,
+      "controller_mw": 15532,
+      "raw_after_uw": 15532000
+    }
+  ],
+  "settings_before": {
+    "/sys/bus/i2c/devices/2-0044/hwmon/hwmon5/power1_max": "167936000",
+    "/sys/class/devfreq/gpu-gpc-0/min_freq": "315000000",
+    "/sys/class/devfreq/gpu-gpc-0/max_freq": "1386000000",
+    "/sys/class/devfreq/gpu-gpc-0/governor": "nvhost_podgov"
+  },
+  "settings_after": {
+    "/sys/bus/i2c/devices/2-0044/hwmon/hwmon5/power1_max": "167936000",
+    "/sys/class/devfreq/gpu-gpc-0/min_freq": "315000000",
+    "/sys/class/devfreq/gpu-gpc-0/max_freq": "1386000000",
+    "/sys/class/devfreq/gpu-gpc-0/governor": "nvhost_podgov"
+  },
+  "power_mode_before": "NV Power Mode: 120W\n1\n",
+  "power_mode_after": "NV Power Mode: 120W\n1\n",
+  "binary_sha256": {
+    "Scheduler/bin/server": "efdbe8ba7c08eef54bf1655f530aa9e00a9004824ad743e21fb8bdf452bdda39",
+    "Scheduler/bin/scheduler": "ff1e565f9580c34b31ee9d37fbaf60895cf4c52516c049c64a5682d751cd3b11",
+    "application/bin/particle": "6100a6988cf8813b7edcced25ff1fe07438b01579be0e506fc6af3dfa159bb29",
+    "application/bin/mm_test": "fa8727223e7fec1085584842c9f31bae5b9165bfb58dfb978dbafb45b854a87c",
+    "application/bin/mm": "ef815f408c390af9ce8bd0e6a38550f418e2dc533a95ea2d6e87b51fa6ac0086",
+    "application/bin/.build_flags": "4f017a18311c1738d7c6bf9622f3dcf07ff50a647264dda41d1af01b575113c0",
+    "application/bin/hist": "3f9ff006516d583ca8d45b8552b89f7d7360b29ef22b2e57a76ce95184cc152c",
+    "application/bin/stereo": "f7510b63f460426248efa547cf846a6d880d6089e67cdf777d56b0aed6a32305",
+    "application/bin/quasi": "3b964d70c46fd0bb17b14c50885546ab0fa9f97f62d7e84e1ca9745e11a20cf3",
+    "application/bin/bfs": "f0d98d8b69495f009db22fd2a702ff9aa19beb1d0ae9b9afb773260b1bdc37ae"
+  },
+  "hardware_workloads_started": false,
+  "notes": "Raw/script/controller values are sequential live reads, not simultaneous measurements. Unit conversion is separately tested with fixtures. Controller function tested through the compiled source harness without main/device actuation."
+}

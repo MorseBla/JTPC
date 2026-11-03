@@ -1,0 +1,76 @@
+logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90
+11349.222999999998
+logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90
+11057.3275
+Saved plot to: Figures/replotted/mm_interrupt_LQR_11000_0.90.pdf
+Saved plot to: Figures/replotted/mm_interrupt_LQR_11000_0.90.png
+RTR setpoint: 0.70, fixed power: 11.0W
+  JTPC: 0.7253700390070922
+  FC-GPU: 0.700174342857143
+  DFS-only: 15.988109705673757
+RTR setpoint: 0.75, fixed power: 11.0W
+  JTPC: 0.7573561914893616
+  FC-GPU: 0.7488684861111112
+  DFS-only: 16.190573803508773
+RTR setpoint: 0.80, fixed power: 11.0W
+  JTPC: 0.8003782280701754
+  FC-GPU: 0.7986395578947368
+  DFS-only: 16.446622238596493
+RTR setpoint: 0.85, fixed power: 11.0W
+  JTPC: 0.8500714113475175
+  FC-GPU: 0.8484743859649121
+  DFS-only: 11.62984971875
+RTR setpoint: 0.90, fixed power: 11.0W
+  JTPC: 0.8999604456140352
+  FC-GPU: 0.898376101754386
+  DFS-only: 14.485547542553194
+Saved plot to: Figures/replotted/jetson_rtr_barplot_11W.pdf
+Saved plot to: Figures/replotted/jetson_rtr_barplot_11W.png
+Power setpoint: 11.0W, fixed RTR: 0.90
+  JTPC: 11012.823529411764
+  FC-GPU: 11922.941176470587
+  DFS-only: 11007.282352941176
+Power setpoint: 11.5W, fixed RTR: 0.90
+  JTPC: 11501.841176470587
+  FC-GPU: 11838.79411764706
+  DFS-only: 11511.00588235294
+Power setpoint: 12.0W, fixed RTR: 0.90
+  JTPC: 12014.088235294117
+  FC-GPU: 11818.429411764706
+  DFS-only: 11999.888235294116
+Power setpoint: 12.5W, fixed RTR: 0.90
+  JTPC: 12503.582352941177
+  FC-GPU: 11904.74705882353
+  DFS-only: 12508.052941176471
+Power setpoint: 13.0W, fixed RTR: 0.90
+  JTPC: 12987.817647058822
+  FC-GPU: 11881.282352941176
+  DFS-only: 12987.429411764706
+Saved plot to: Figures/fig7b_power_RTR090.pdf
+Saved plot to: Figures/fig7b_power_RTR090.png
+Power: 11000
+  JTPC    task utility=1.042
+  FC-GPU  task utility=1.188
+  DFS     task utility=1.000
+Power: 11500
+  JTPC    task utility=1.096
+  FC-GPU  task utility=1.187
+  DFS     task utility=1.000
+Power: 12000
+  JTPC    task utility=1.143
+  FC-GPU  task utility=1.187
+  DFS     task utility=1.000
+Power: 12500
+  JTPC    task utility=1.186
+  FC-GPU  task utility=1.187
+  DFS     task utility=1.000
+Power: 13000
+  JTPC    task utility=1.229
+  FC-GPU  task utility=1.187
+  DFS     task utility=1.000
+Saved plot to: Figures/replotted/jetson_task_utility_barplot.pdf
+Saved plot to: Figures/replotted/jetson_task_utility_barplot.png
+Root: logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90
+Detected task arrival control period: 57
+Saved plot to: Figures/replotted/task_arrival_4task_test.pdf
+Saved plot to: Figures/replotted/task_arrival_4task_test.png

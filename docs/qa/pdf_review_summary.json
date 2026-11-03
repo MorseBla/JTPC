@@ -1,0 +1,86 @@
+[
+  {
+    "file": "experiment/6.1/Figures/replotted/mm_interrupt_DFS_11000_0.90.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 2,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.1/Figures/replotted/mm_interrupt_FC_11000_0.90.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 4,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.1/Figures/replotted/mm_interrupt_LQR_11000_0.90.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 2,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.2/Figures/replotted/jetson_rtr_barplot_11W.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 6,
+      "warn": 4,
+      "contained_fill_overlays": 10,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.2/Figures/replotted/jetson_task_utility_barplot.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 10,
+      "warn": 7,
+      "contained_fill_overlays": 6,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.3/Figures/replotted/task_arrival_4task_test.pdf",
+    "raw_collision_exit": 0,
+    "raw_collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  },
+  {
+    "file": "experiment/6.2/Figures/fig7b_power_RTR090.pdf",
+    "raw_collision_exit": 1,
+    "raw_collision_summary": {
+      "fail": 10,
+      "warn": 7,
+      "contained_fill_overlays": 10,
+      "contained_image_overlays": 0
+    },
+    "font_exit": 0,
+    "unresolved_fail_findings": []
+  }
+]

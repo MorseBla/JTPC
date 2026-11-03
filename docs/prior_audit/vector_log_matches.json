@@ -1,0 +1,1304 @@
+[
+  {
+    "trace_id": "p8_line0",
+    "samples": 99,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999913766676,
+        "offset": 0,
+        "sha256": "b034bb0f67fe3400c0627200ef16c7f352e924bdb3adf67dd3e937fd20b306c1",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt"
+        ],
+        "slope": 150.19369304221874,
+        "intercept": 167.884768379844,
+        "max_svg_y_error": 0.004389260418605545
+      },
+      {
+        "correlation": 0.9918586809401656,
+        "offset": 0,
+        "sha256": "3b58bea21c2f4300039607644ab4232fdce586f0dc45a45e475596b2c887f3c2",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt"
+        ],
+        "slope": 156.82108794318677,
+        "intercept": 164.7067801310863,
+        "max_svg_y_error": 10.734232154241226
+      },
+      {
+        "correlation": 0.9867869411533817,
+        "offset": 0,
+        "sha256": "b09cfd53ab6a61da695f0bbc176146772cf02987c62112d963fe47e1330f32fe",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt"
+        ],
+        "slope": 97.4934766792673,
+        "intercept": 208.35764311310635,
+        "max_svg_y_error": 15.992851313212043
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line1",
+    "samples": 98,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999954456942,
+        "offset": 0,
+        "sha256": "f34c1802bd75afc6523cf6858e95b0440b508926c08238342c68e1bfffc8ed14",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt"
+        ],
+        "slope": 150.1945786054865,
+        "intercept": 167.8840284018217,
+        "max_svg_y_error": 0.004611202454839258
+      },
+      {
+        "correlation": 0.9944266892100457,
+        "offset": 0,
+        "sha256": "b09cfd53ab6a61da695f0bbc176146772cf02987c62112d963fe47e1330f32fe",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt"
+        ],
+        "slope": 154.1889852905537,
+        "intercept": 166.2490315299766,
+        "max_svg_y_error": 13.807558363052152
+      },
+      {
+        "correlation": 0.9848880050913467,
+        "offset": 0,
+        "sha256": "b034bb0f67fe3400c0627200ef16c7f352e924bdb3adf67dd3e937fd20b306c1",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_rtr.txt"
+        ],
+        "slope": 232.1298074343463,
+        "intercept": 106.47808964910064,
+        "max_svg_y_error": 11.967923219929958
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line2",
+    "samples": 93,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.999999975740294,
+        "offset": 0,
+        "sha256": "2b9c1b2be80c8c3760dfc99706db281f5b1756149d97f8d66b9f005ad1369a21",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_rtr.txt"
+        ],
+        "slope": 150.1923066472502,
+        "intercept": 167.88626483768596,
+        "max_svg_y_error": 0.004595802038522834
+      },
+      {
+        "correlation": 0.8522452894912571,
+        "offset": 35,
+        "sha256": "9f5992f5743c7062160e38c077868d7d416ccdbe4d83590d1fdb4a4e37579f16",
+        "paths": [
+          "remote_snapshot/Desktop/JPAP/motivation/FC-GPU_bounds1/quasirand_converted_mm_interrupt_bfs_converted/setpoint_0.90_0.90_0.90/FC_GPU_t3_rtr.txt"
+        ],
+        "slope": 68.67461427046482,
+        "intercept": 242.09253185445664,
+        "max_svg_y_error": 31.801130908909386
+      },
+      {
+        "correlation": 0.8485744685975684,
+        "offset": 3,
+        "sha256": "86e4704d2bda4c28416871966329ca90957a3beedad4db88b1c66d9c32989f3c",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "remote_snapshot/JPAP/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_rtr.txt"
+        ],
+        "slope": 92.92740951293317,
+        "intercept": 218.93402576470925,
+        "max_svg_y_error": 43.69760003967741
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line4",
+    "samples": 95,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999811371756,
+        "offset": 0,
+        "sha256": "9f1496fcae80c7ae00d3db602f5d3b0a37b9c29d10c84abb8bfc50f607178625",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt"
+        ],
+        "slope": 0.40706643419868666,
+        "intercept": 43.70447572160212,
+        "max_svg_y_error": 0.0044067171866686294
+      },
+      {
+        "correlation": 0.9935104960805726,
+        "offset": 0,
+        "sha256": "4eb4a3387431fedfa69bb79ec5e513f38a92e5e177bbfad7efda6467971fe44c",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt"
+        ],
+        "slope": 0.39655037850711833,
+        "intercept": 74.09098900850623,
+        "max_svg_y_error": 3.0214537109243054
+      },
+      {
+        "correlation": 0.9929618188725392,
+        "offset": 0,
+        "sha256": "83a68556ea42834e857ad996cd7c68059bec41f1b37da587306dd6f9406f8bd4",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt"
+        ],
+        "slope": 0.4165205233519745,
+        "intercept": 41.21510509025616,
+        "max_svg_y_error": 8.064194743653317
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line5",
+    "samples": 94,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.999999979527516,
+        "offset": 0,
+        "sha256": "4eb4a3387431fedfa69bb79ec5e513f38a92e5e177bbfad7efda6467971fe44c",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt"
+        ],
+        "slope": 0.4070670501865517,
+        "intercept": 43.704352721559644,
+        "max_svg_y_error": 0.004495696288799422
+      },
+      {
+        "correlation": 0.995314401915875,
+        "offset": 0,
+        "sha256": "c27526c8e9d9f83fa62f026ccfa064305363c0ffd22023a557cc15ef9582fde4",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt"
+        ],
+        "slope": 0.41106465874057996,
+        "intercept": 43.02668418684871,
+        "max_svg_y_error": 7.8908844885407206
+      },
+      {
+        "correlation": 0.9934658199344244,
+        "offset": 0,
+        "sha256": "9f1496fcae80c7ae00d3db602f5d3b0a37b9c29d10c84abb8bfc50f607178625",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t1_period.txt"
+        ],
+        "slope": 0.4120010282858468,
+        "intercept": 13.442163485571875,
+        "max_svg_y_error": 3.090581011307364
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line6",
+    "samples": 91,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999969156325,
+        "offset": 0,
+        "sha256": "4379bd1b5ff30c2eeaa72cce4578c215e17bc400ff9fb2afbd370703e46de7b9",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt"
+        ],
+        "slope": 0.40706613011492726,
+        "intercept": 43.70418228327505,
+        "max_svg_y_error": 0.004562335499443293
+      },
+      {
+        "correlation": 0.9971173414154748,
+        "offset": 0,
+        "sha256": "3b49ac4895bd59f95066bca07732b840029a225277dc4064b2ce777d89944d78",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt",
+          "git_HEAD_sources/plot/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_t3_period.txt"
+        ],
+        "slope": 0.40324318135401493,
+        "intercept": 45.172028555840804,
+        "max_svg_y_error": 14.457298357393356
+      },
+      {
+        "correlation": 0.9732507451476146,
+        "offset": 49,
+        "sha256": "ce72ad83f532b2069c7a437ce7db623ee10db52ab551a0f1b2abed8d9bf79a0e",
+        "paths": [
+          "remote_snapshot/Desktop/JPAP/motivation/proposed_bounds1/quasirand_converted_mm_interrupt_bfs_converted/setpoint_0.90_0.90_0.90/Proposed_t2_period.txt"
+        ],
+        "slope": 1.715653565007339,
+        "intercept": 24.839144170172133,
+        "max_svg_y_error": 24.4940441918325
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line7",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999864141801,
+        "offset": 0,
+        "sha256": "b50bc9f07b485f51f738ef45318e181ef7cbd6df21d8dcdc48acee327625416b",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/FC_GPU_finalpowervalues.txt"
+        ],
+        "slope": 0.015019476020028323,
+        "intercept": -70.39369993445386,
+        "max_svg_y_error": 0.004666838907354531
+      },
+      {
+        "correlation": 0.9641791041721333,
+        "offset": 48,
+        "sha256": "ce72ad83f532b2069c7a437ce7db623ee10db52ab551a0f1b2abed8d9bf79a0e",
+        "paths": [
+          "remote_snapshot/Desktop/JPAP/motivation/proposed_bounds1/quasirand_converted_mm_interrupt_bfs_converted/setpoint_0.90_0.90_0.90/Proposed_t2_period.txt"
+        ],
+        "slope": 0.8168269031447285,
+        "intercept": 66.21701873645523,
+        "max_svg_y_error": 11.166539716732927
+      },
+      {
+        "correlation": 0.963097053504555,
+        "offset": 38,
+        "sha256": "829bb7ca6d7b71c49394c11119b545a588066dd40956bf05f5308db87011dc93",
+        "paths": [
+          "remote_snapshot/Desktop/JPAP/motivation/FC-GPU_bounds1/quasirand_converted_mm_interrupt_bfs_converted/setpoint_0.90_0.90_0.90/FC_GPU_t2_period.txt"
+        ],
+        "slope": 0.7337613346022825,
+        "intercept": 71.29863420791496,
+        "max_svg_y_error": 11.272915784827518
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line8",
+    "samples": 62,
+    "index_max": 61,
+    "best": [
+      {
+        "correlation": 0.9999999869064783,
+        "offset": 0,
+        "sha256": "38c653d48bd7779de0564d9301f37232205b05bf16135097de4b6638e1e679e3",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt"
+        ],
+        "slope": 150.19047376758382,
+        "intercept": 167.88756294410828,
+        "max_svg_y_error": 0.0043811163025111455
+      },
+      {
+        "correlation": 0.9999999867860248,
+        "offset": 0,
+        "sha256": "6ccc90e53d3ab7c59d818417acf250e4f111c79804b500bd4a1022985e44f41f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_response.txt"
+        ],
+        "slope": 0.9386935738057939,
+        "intercept": 167.88712286999095,
+        "max_svg_y_error": 0.004605489264463358
+      },
+      {
+        "correlation": 0.9889994713560865,
+        "offset": 0,
+        "sha256": "acde627596624a46e904ed392f7df2233554253486403909f3a4808e91e9da89",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt"
+        ],
+        "slope": 1.504942754226781,
+        "intercept": 190.93895706952333,
+        "max_svg_y_error": 12.21758318441863
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line9",
+    "samples": 62,
+    "index_max": 61,
+    "best": [
+      {
+        "correlation": 0.999999210387375,
+        "offset": 0,
+        "sha256": "ea52529f945162f1cbec4ec187ee3196cd6c9541c58781c62cfe8840479c55a6",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_rtr.txt"
+        ],
+        "slope": 149.90927787944676,
+        "intercept": 168.1315886867474,
+        "max_svg_y_error": 0.11524725827337079
+      },
+      {
+        "correlation": 0.9999992070206191,
+        "offset": 0,
+        "sha256": "acde627596624a46e904ed392f7df2233554253486403909f3a4808e91e9da89",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t2_response.txt"
+        ],
+        "slope": 1.87387548381129,
+        "intercept": 168.13092077299015,
+        "max_svg_y_error": 0.11606265830084794
+      },
+      {
+        "correlation": 0.9889124715593546,
+        "offset": 0,
+        "sha256": "38c653d48bd7779de0564d9301f37232205b05bf16135097de4b6638e1e679e3",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t1_rtr.txt"
+        ],
+        "slope": 182.90155581648028,
+        "intercept": 142.97324131726108,
+        "max_svg_y_error": 16.308315199816548
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line10",
+    "samples": 57,
+    "index_max": 56,
+    "best": [
+      {
+        "correlation": 0.9999998214545149,
+        "offset": 0,
+        "sha256": "eb1c9a64439050ef1f21fabc1810ae1a0203dca5ca3d4259edb1f171243bbd92",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_rtr.txt"
+        ],
+        "slope": 150.20180921101647,
+        "intercept": 167.87797546809395,
+        "max_svg_y_error": 0.004428288897258881
+      },
+      {
+        "correlation": 0.9999998197226941,
+        "offset": 0,
+        "sha256": "2c278a8da39536430afee0769233bcafc7443c81d11b76d49aec16546c124dae",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_t3_response.txt"
+        ],
+        "slope": 1.8775227079018708,
+        "intercept": 167.87796481064044,
+        "max_svg_y_error": 0.004411347189147818
+      },
+      {
+        "correlation": 0.9596443774653468,
+        "offset": 7,
+        "sha256": "86fec502120a1a873e6b438f97f28a4bcccb1010f521e163cbef09ffecc5eeeb",
+        "paths": [
+          "remote_snapshot/JPAP 1/submission_artifacts/current_results_blakeB/Full_LQR/hist_stereo_mm/setpoint_11500_0.80_0.80_0.80/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/Full_LQR_bad_continuous_sweep_20260513_213816/hist_stereo_mm/setpoint_11500_0.80_0.80_0.80/LQR_t3_period.txt",
+          "remote_snapshot/JPAP/submission_artifacts/current_results_blakeB/Full_LQR/hist_stereo_mm/setpoint_11500_0.80_0.80_0.80/LQR_t3_period.txt"
+        ],
+        "slope": 0.1340394285418836,
+        "intercept": 233.5758605553387,
+        "max_svg_y_error": 3.313694264418757
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line11",
+    "samples": 99,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999945740461,
+        "offset": 0,
+        "sha256": "d8d0600c2e0994f2e137da5cc05447b3059d89a02fdafc7c5bb3a2c9b5702d5f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.2262578927091684,
+        "intercept": -53.02936520924294,
+        "max_svg_y_error": 0.004744476207619641
+      },
+      {
+        "correlation": 0.995865299794112,
+        "offset": 0,
+        "sha256": "00e7f14e52e3aaed7996fec42ce773b5b17db18f07b6dd5ac95676e35d52c5d0",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.22342215570533208,
+        "intercept": -51.7477205323666,
+        "max_svg_y_error": 8.46646893048144
+      },
+      {
+        "correlation": 0.9944124485291267,
+        "offset": 0,
+        "sha256": "3caddbe5d9c84b7c87325ca68626c8a15b4914aac9b5a44469a32723a7c80d06",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.23651895459188255,
+        "intercept": -62.483510823389935,
+        "max_svg_y_error": 13.760210005591375
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line12",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999998322052879,
+        "offset": 0,
+        "sha256": "3ad0ec8feed19b71d7a7d36fe0ab5f495fe9cd8192684de2473d0c49cc544cb2",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt"
+        ],
+        "slope": 0.015018545121379206,
+        "intercept": -70.38350076061711,
+        "max_svg_y_error": 0.004532912158254021
+      },
+      {
+        "correlation": 0.8575675406259724,
+        "offset": 0,
+        "sha256": "0ca017fb01538fd4848bd6aae71e706c8e890da8fb274c97d132417b3c8f1d4c",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt"
+        ],
+        "slope": 0.01358149104548544,
+        "intercept": -54.52476742840007,
+        "max_svg_y_error": 8.519345659836901
+      },
+      {
+        "correlation": 0.75547023131358,
+        "offset": 52,
+        "sha256": "8221df4d9a39ce1345375a7a22c02c971973dd58a5de351b726f356ab53dff22",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/temp_test_scale070/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_t2_period.txt"
+        ],
+        "slope": 0.24834165873245867,
+        "intercept": 79.56674091687898,
+        "max_svg_y_error": 15.727591241108414
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line0",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.999999744301384,
+        "offset": 0,
+        "sha256": "dc439b1b2b124181cb264e889a793239e476b9d1f00f1636fd2edc119e1cba8e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_rtr.txt"
+        ],
+        "slope": 150.2005141238124,
+        "intercept": 167.87889065662392,
+        "max_svg_y_error": 0.0047502009531967815
+      },
+      {
+        "correlation": 0.9378486936925041,
+        "offset": 0,
+        "sha256": "e22efe4133c1d2e1cdc2cb32f84b0aa87fa1b0deaeea9fa7e2445da0417c27e4",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/single_LQR/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t1_rtr.txt"
+        ],
+        "slope": 145.17112600707293,
+        "intercept": 172.39934777567686,
+        "max_svg_y_error": 2.8931463275021088
+      },
+      {
+        "correlation": 0.9364244574658327,
+        "offset": 0,
+        "sha256": "6acd34754c389f8a651da3111c6e19cd1b8a8ce913ad818ebf969006f826e1ea",
+        "paths": [
+          "remote_snapshot/JPAP/motivation/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90_before_bak_direct_em20_20260619_131815/LQR_t1_rtr.txt"
+        ],
+        "slope": 148.58700921954573,
+        "intercept": 169.33220132431745,
+        "max_svg_y_error": 4.6413994070179
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line1",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999997544181992,
+        "offset": 0,
+        "sha256": "c1f050b8fe2f8769350d5cd5a67c7be3665dfbe86443ffd13f1d355896e8a55a",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_rtr.txt"
+        ],
+        "slope": 150.1865187118123,
+        "intercept": 167.89113698727132,
+        "max_svg_y_error": 0.004434782332680243
+      },
+      {
+        "correlation": 0.8662626293306832,
+        "offset": 0,
+        "sha256": "9b3368121a2579055a6b9f563947594503815afac3ef6ffa1fe77def15393c2e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_minimal/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/UNKNOWN_t1_rtr.txt"
+        ],
+        "slope": 148.28407271930365,
+        "intercept": 169.4177322844571,
+        "max_svg_y_error": 7.1244237882566495
+      },
+      {
+        "correlation": 0.8559354606405287,
+        "offset": 0,
+        "sha256": "2c1905053513ff714fd8b57af564488315f1fbc4bed53546ba5660038a9df52b",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/Full_LQR/hist_stereo_mm/setpoint_11500_0.85_0.85_0.85/LQR_t1_rtr.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_11500_0.85_0.85_0.85/LQR_t1_rtr.txt",
+          "remote_snapshot/JPAP/plot/logs/Full_LQR/hist_stereo_mm/setpoint_11500_0.85_0.85_0.85/LQR_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_11500_0.85_0.85_0.85/LQR_t1_rtr.txt"
+        ],
+        "slope": 191.02822903118243,
+        "intercept": 140.43183476734643,
+        "max_svg_y_error": 6.440527986277971
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line2",
+    "samples": 98,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999862554267,
+        "offset": 0,
+        "sha256": "7d68ce7bf81669d0910a464a783acdff9aaaf7b81db665e974bd61c7550754b0",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_rtr.txt"
+        ],
+        "slope": 150.19498338146857,
+        "intercept": 167.88375201307593,
+        "max_svg_y_error": 0.00471029126549638
+      },
+      {
+        "correlation": 0.8543352396654745,
+        "offset": 0,
+        "sha256": "ed7f2ec33624a696be1841eabce03b6ece62111cc7393f7cfb515e17107a7f22",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/power_interrupt_lqr/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t3_rtr.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/power_interrupt_lqr/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t3_rtr.txt",
+          "remote_snapshot/JPAP/plot/logs/power_interrupt_LQR/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t3_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/power_interrupt_lqr/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90/LQR_t3_rtr.txt"
+        ],
+        "slope": 95.44679521946628,
+        "intercept": 215.6531467781754,
+        "max_svg_y_error": 55.4227784338604
+      },
+      {
+        "correlation": 0.8305876793728978,
+        "offset": 0,
+        "sha256": "129cc154c73e41d1378092cae8fa0e0bba7a15dcfbbc591b3aaa6d3455fde6e6",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/Full_LQR/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t2_rtr.txt",
+          "remote_snapshot/JPAP/plot/logs/Full_LQR/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t2_rtr.txt"
+        ],
+        "slope": 159.94199588140944,
+        "intercept": 157.24455057289848,
+        "max_svg_y_error": 57.18316733824753
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line4",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999998087051667,
+        "offset": 0,
+        "sha256": "0b8920bae05185358945245455c27be520d38bfc6d8eb609f5de245dcadca7ee",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt"
+        ],
+        "slope": 0.1363680183939924,
+        "intercept": 62.792315341770546,
+        "max_svg_y_error": 0.0051401802156618714
+      },
+      {
+        "correlation": 0.9973124593351296,
+        "offset": 0,
+        "sha256": "2c1c5b412d8e61af6c13d63f575b1f71ad92c44ef1e4b1ee169120368be3c9a1",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt"
+        ],
+        "slope": 0.2713457765355218,
+        "intercept": 62.438834502315345,
+        "max_svg_y_error": 1.114558126891481
+      },
+      {
+        "correlation": 0.9969418121991129,
+        "offset": 0,
+        "sha256": "cd606ec8f3aa4179bb57cbbc19723165920f1ec8b3963ee39f4e451e83f73ba4",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+          "remote_snapshot/JPAP/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt"
+        ],
+        "slope": 0.146065362051156,
+        "intercept": 61.40844832395493,
+        "max_svg_y_error": 1.8051130211934634
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line5",
+    "samples": 98,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999992849191497,
+        "offset": 0,
+        "sha256": "2c1c5b412d8e61af6c13d63f575b1f71ad92c44ef1e4b1ee169120368be3c9a1",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t2_period.txt"
+        ],
+        "slope": 0.13634460209955127,
+        "intercept": 62.796026361100985,
+        "max_svg_y_error": 0.004637981061392793
+      },
+      {
+        "correlation": 0.997280698286507,
+        "offset": 0,
+        "sha256": "0b8920bae05185358945245455c27be520d38bfc6d8eb609f5de245dcadca7ee",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt"
+        ],
+        "slope": 0.06815514032334184,
+        "intercept": 63.03780427577866,
+        "max_svg_y_error": 0.5617616082773793
+      },
+      {
+        "correlation": 0.9941197449087356,
+        "offset": 0,
+        "sha256": "cd606ec8f3aa4179bb57cbbc19723165920f1ec8b3963ee39f4e451e83f73ba4",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt",
+          "remote_snapshot/JPAP/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t1_period.txt"
+        ],
+        "slope": 0.0730453444210261,
+        "intercept": 62.33687135394942,
+        "max_svg_y_error": 1.285290533017033
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line6",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999908890782,
+        "offset": 0,
+        "sha256": "077c5793b974ec387679d8a209d9dbad927a636c9d5c8e347d81bd965f5c9a8d",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt"
+        ],
+        "slope": 0.13634943102630256,
+        "intercept": 62.79536117393744,
+        "max_svg_y_error": 0.004541024030487506
+      },
+      {
+        "correlation": 0.9957357678352603,
+        "offset": 0,
+        "sha256": "26557d4f1da0f3916491d1871e19cb6ac8c89384ef06012346d499c653954b7f",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+          "remote_snapshot/JPAP/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt"
+        ],
+        "slope": 0.13366581303617633,
+        "intercept": 63.538260526901055,
+        "max_svg_y_error": 12.000021031469089
+      },
+      {
+        "correlation": 0.9819551462118135,
+        "offset": 0,
+        "sha256": "3c3c91d3584ebc009b76748abf2e23effa3c0ae15cdb11c76e215785a5169f08",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt",
+          "git_HEAD_sources/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_t3_period.txt"
+        ],
+        "slope": 0.1625528993897519,
+        "intercept": 61.91620872227509,
+        "max_svg_y_error": 21.686883753241517
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line7",
+    "samples": 100,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999998080198723,
+        "offset": 0,
+        "sha256": "0ca017fb01538fd4848bd6aae71e706c8e890da8fb274c97d132417b3c8f1d4c",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalpowervalues.txt"
+        ],
+        "slope": 0.015018098704622953,
+        "intercept": -70.37878543041178,
+        "max_svg_y_error": 0.005316712975442783
+      },
+      {
+        "correlation": 0.8576095313989924,
+        "offset": 0,
+        "sha256": "3ad0ec8feed19b71d7a7d36fe0ab5f495fe9cd8192684de2473d0c49cc544cb2",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalpowervalues.txt"
+        ],
+        "slope": 0.01221387458138236,
+        "intercept": -39.337011780270146,
+        "max_svg_y_error": 7.085321518286307
+      },
+      {
+        "correlation": 0.760115782126949,
+        "offset": 52,
+        "sha256": "a1e805cf61ecfb1fa8d6f98c52f269c0a9e45d792675811dd1264038d7dbe04c",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/temp_test_scale070/FC/hist_stereo_mm/setpoint_13000_0.90_0.90_0.90/FC_GPU_t3_period.txt"
+        ],
+        "slope": 0.5524036892972329,
+        "intercept": 63.79835571295363,
+        "max_svg_y_error": 16.29548553376671
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line8",
+    "samples": 99,
+    "index_max": 99,
+    "best": [
+      {
+        "correlation": 0.9999999957670417,
+        "offset": 0,
+        "sha256": "00e7f14e52e3aaed7996fec42ce773b5b17db18f07b6dd5ac95676e35d52c5d0",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.22528495140020055,
+        "intercept": -52.73805315400314,
+        "max_svg_y_error": 0.004572929651232016
+      },
+      {
+        "correlation": 0.9958686436961177,
+        "offset": 0,
+        "sha256": "d8d0600c2e0994f2e137da5cc05447b3059d89a02fdafc7c5bb3a2c9b5702d5f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.22626237692407639,
+        "intercept": -52.70044486959044,
+        "max_svg_y_error": 8.770978953696073
+      },
+      {
+        "correlation": 0.9958460509684507,
+        "offset": 0,
+        "sha256": "3caddbe5d9c84b7c87325ca68626c8a15b4914aac9b5a44469a32723a7c80d06",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/plot/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90/LQR_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.2378472588060577,
+        "intercept": -63.102478355112694,
+        "max_svg_y_error": 13.180047553640122
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line0",
+    "samples": 115,
+    "index_max": 114,
+    "best": [
+      {
+        "correlation": 0.9999995600235613,
+        "offset": 0,
+        "sha256": "1fa6d0e7e9283b46b522ddd4b50b5b37ae65a751ebec83862730578ed8ac862f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_rtr.txt"
+        ],
+        "slope": 150.19910400984733,
+        "intercept": 167.87992609943424,
+        "max_svg_y_error": 0.005528115662798427
+      },
+      {
+        "correlation": 0.8440167877035804,
+        "offset": 0,
+        "sha256": "7a335a5bfa2667b4a86ab7a718675b2aba0586028e1738faab6821624a09c6c0",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/Full_DFS/hist_stereo_mm/setpoint_12000_0.70_0.70_0.70/DFS__powercontrolperiod.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_DFS/hist_stereo_mm/setpoint_12000_0.70_0.70_0.70/DFS__powercontrolperiod.txt"
+        ],
+        "slope": 0.011224823467416932,
+        "intercept": 168.12133674915526,
+        "max_svg_y_error": 6.815430570524541
+      },
+      {
+        "correlation": 0.8427623394804615,
+        "offset": 0,
+        "sha256": "f91074ccfdc6690f67e748575beffd04a95bf713302d5ddeb55a4f922bf2f9dd",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t1_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t1_rtr.txt"
+        ],
+        "slope": 156.24827552170962,
+        "intercept": 162.36416797566932,
+        "max_svg_y_error": 6.075532671561632
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line1",
+    "samples": 114,
+    "index_max": 113,
+    "best": [
+      {
+        "correlation": 0.999999345155261,
+        "offset": 0,
+        "sha256": "d062ea4b7bf44dba07bd9777e915a0cd6dd083416528179412e437b7bba07bc4",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_rtr.txt"
+        ],
+        "slope": 150.1692430658861,
+        "intercept": 167.90657959201886,
+        "max_svg_y_error": 0.005620924637128155
+      },
+      {
+        "correlation": 0.8549586877794028,
+        "offset": 0,
+        "sha256": "85e25eeeacf4bb4b6404a15693452b90086baa7748b57d826f5e65d09ec2c663",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/Full_FC/hist_stereo_mm/setpoint_12500_0.80_0.80_0.80/FC_GPU_t1_response.txt",
+          "remote_snapshot/JPAP/plot/logs/Full_FC/hist_stereo_mm/setpoint_12500_0.80_0.80_0.80/FC_GPU_t1_response.txt"
+        ],
+        "slope": 8.643958718270744,
+        "intercept": -708.9031158253338,
+        "max_svg_y_error": 4.36855335466538
+      },
+      {
+        "correlation": 0.8545574295222735,
+        "offset": 0,
+        "sha256": "648605ba91f9611fe9be404b4139f9e89cee69bd3a4b2fa26c343ae7426ab902",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_interrupt_figs_20260512_002007/Full_FC/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_final_interrupt_figs_20260512_130512/Full_FC/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP 1/plot/logs/Full_FC/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP 1/plot/logs_backup_before_first_version_20260513_232720/Full_FC/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/Full_FC_INA_done_20260511_201136/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/Full_FC_INA/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP/plot/logs/Full_FC/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_FC_INA_done_20260511_201136/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_FC_INA/hist_stereo_mm/setpoint_14500_0.70_0.70_0.70/FC_GPU_t3_response.txt"
+        ],
+        "slope": 8.818995891550914,
+        "intercept": -328.1297666437502,
+        "max_svg_y_error": 4.5297306404319215
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line2",
+    "samples": 115,
+    "index_max": 114,
+    "best": [
+      {
+        "correlation": 0.9999993129454587,
+        "offset": 0,
+        "sha256": "f15e5d4715a22fd09e33c20af31f699bf352bc326da21ee27762bf2dc087738f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_rtr.txt"
+        ],
+        "slope": 150.18879333262743,
+        "intercept": 167.88933898491285,
+        "max_svg_y_error": 0.005866201443097907
+      },
+      {
+        "correlation": 0.6573511029512615,
+        "offset": 0,
+        "sha256": "d8a44b785f1589c01c7ff4ca0a6b5a6f9adec5dcbf98a421c150fe5350f4d001",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/PVR_margin_LQR/hist_stereo_mm/cap_12500_ctrl_12300_0.85_0.85_0.85/LQR_t3_rtr.txt"
+        ],
+        "slope": 59.34330545613279,
+        "intercept": 252.638946029801,
+        "max_svg_y_error": 7.917787980897856
+      },
+      {
+        "correlation": 0.6301761844645579,
+        "offset": 0,
+        "sha256": "380d91d553ad55148eb76a7f28a14d37beb658616618aaf6d21c958e4ba30bf5",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/PVR_margin_LQR/hist_stereo_mm/cap_12000_ctrl_11800_0.85_0.85_0.85/LQR_t3_rtr.txt"
+        ],
+        "slope": 71.26778314068417,
+        "intercept": 242.52962374394454,
+        "max_svg_y_error": 9.072554546932679
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line3",
+    "samples": 58,
+    "index_max": 57,
+    "best": [
+      {
+        "correlation": 0.9999999249175742,
+        "offset": 57,
+        "sha256": "f85851fc41297c3e2319283e42369b04f29b9eb1f4cf9ac800b89c6b298630d9",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_rtr.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_rtr.txt"
+        ],
+        "slope": 150.20176602896086,
+        "intercept": 167.87667801198026,
+        "max_svg_y_error": 0.006017551002912569
+      },
+      {
+        "correlation": 0.936561301710272,
+        "offset": 0,
+        "sha256": "20142783564b379ee706013cff670b45dfade14918b1978d23d39736c85b6078",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/motivation/archive/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/motivation/archive/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "git_HEAD_sources/plot/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "git_HEAD_sources/motivation/archive/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt",
+          "git_HEAD_sources/motivation/archive/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.90_0.90_0.90/LQR_t3_period.txt"
+        ],
+        "slope": 2.9279637686626807,
+        "intercept": 118.57487639355506,
+        "max_svg_y_error": 7.567156921677054
+      },
+      {
+        "correlation": 0.9249466074939815,
+        "offset": 0,
+        "sha256": "d0a3cf068b8299b45de317845f2b6698cdbfbd095073abb235dc75d500c3f507",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs_backup_20260511_201640/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/motivation/archive/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt",
+          "remote_snapshot/JPAP 1/motivation/archive/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt",
+          "git_HEAD_sources/plot/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt",
+          "git_HEAD_sources/motivation/archive/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt",
+          "git_HEAD_sources/motivation/archive/logs/Full_LQR/hist_stereo_mm/setpoint_7000_0.85_0.85_0.85/LQR_t3_period.txt"
+        ],
+        "slope": 3.557703453583919,
+        "intercept": 65.8612636369854,
+        "max_svg_y_error": 7.9089705073621985
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line4",
+    "samples": 115,
+    "index_max": 114,
+    "best": [
+      {
+        "correlation": 0.9999999327017053,
+        "offset": 0,
+        "sha256": "f7e90b6c476dc8ead1879550c00b87ab36f32aa2c191981249d8b2a65b71609b",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt"
+        ],
+        "slope": 0.9217351636211913,
+        "intercept": 17.660145047207777,
+        "max_svg_y_error": 0.005752595004935301
+      },
+      {
+        "correlation": 0.9498109327639277,
+        "offset": 59,
+        "sha256": "d3b2a33ceaae5464455c32ccf3aa836861d8cdf3b82748cc1460537b245a5b9f",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_LQR/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalpowervalues.txt"
+        ],
+        "slope": 0.0025541693047837124,
+        "intercept": 138.69221669482545,
+        "max_svg_y_error": 21.047935688644884
+      },
+      {
+        "correlation": 0.9498008271909109,
+        "offset": 55,
+        "sha256": "1e98757204c3a544ff31f691ea5f86be79c61380a0a744173913b9a995b4450d",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_LQR/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powercontrolperiod.txt"
+        ],
+        "slope": 0.0025543385106070976,
+        "intercept": 138.69229898809976,
+        "max_svg_y_error": 21.049129325767183
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line5",
+    "samples": 113,
+    "index_max": 113,
+    "best": [
+      {
+        "correlation": 0.9999997453537192,
+        "offset": 0,
+        "sha256": "cc0b4b7de4879456d016f377215406a31456dbf70c2893637b300675d79f7cf9",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t2_period.txt"
+        ],
+        "slope": 0.9216865116315037,
+        "intercept": 17.660888231837774,
+        "max_svg_y_error": 0.005923330119031789
+      },
+      {
+        "correlation": 0.9735569762972865,
+        "offset": 0,
+        "sha256": "f7e90b6c476dc8ead1879550c00b87ab36f32aa2c191981249d8b2a65b71609b",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_period.txt"
+        ],
+        "slope": 0.46625391029600105,
+        "intercept": 18.265871688399372,
+        "max_svg_y_error": 5.300056969678224
+      },
+      {
+        "correlation": 0.9483612407134727,
+        "offset": 0,
+        "sha256": "fb987a92e83330a8706a7fe8bb4dc27ab3cf044c5540987342f744f9b4471f8e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt"
+        ],
+        "slope": 0.4938091711822515,
+        "intercept": 21.475459887883638,
+        "max_svg_y_error": 14.123611623549039
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line6",
+    "samples": 115,
+    "index_max": 114,
+    "best": [
+      {
+        "correlation": 0.9999997579657834,
+        "offset": 0,
+        "sha256": "10d63f940e67a004a0bb22a672a3990dea3956140dc5561a02ab1e6dcad0c2b3",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_period.txt"
+        ],
+        "slope": 0.9219309576468545,
+        "intercept": 17.644121493668912,
+        "max_svg_y_error": 0.005898818807366979
+      },
+      {
+        "correlation": 0.9487835704936991,
+        "offset": 0,
+        "sha256": "fb987a92e83330a8706a7fe8bb4dc27ab3cf044c5540987342f744f9b4471f8e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t1_response.txt"
+        ],
+        "slope": 0.4092362214617808,
+        "intercept": 29.357150635522984,
+        "max_svg_y_error": 6.584748910060171
+      },
+      {
+        "correlation": 0.9475046265963183,
+        "offset": 0,
+        "sha256": "7aab3cc48dcfe4280bf24e0123480f52ed8a09004caa3f137c0909bc2209eef2",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t3_response.txt"
+        ],
+        "slope": 1.098344182117774,
+        "intercept": 13.029156236603967,
+        "max_svg_y_error": 5.732194524604296
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line7",
+    "samples": 58,
+    "index_max": 57,
+    "best": [
+      {
+        "correlation": 0.9999997024584804,
+        "offset": 57,
+        "sha256": "3bf6524b14cd5e4e74884f0570b70f20a3060c399e4d5d8f1819a446a187387e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_period.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_period.txt"
+        ],
+        "slope": 0.9217047536338298,
+        "intercept": 17.660898718605665,
+        "max_svg_y_error": 0.005362988228526433
+      },
+      {
+        "correlation": 0.8761795814554267,
+        "offset": 5,
+        "sha256": "086cdeb9b9f765ace9c8a8881f0a25803816ca19a55fe08bdd1cf349b022ccc3",
+        "paths": [
+          "remote_snapshot/JPAP/motivation/logs/main_temp/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90_before_bak_direct_strict_wait_20260619_133045/LQR_t3_response.txt"
+        ],
+        "slope": 0.6523015825311116,
+        "intercept": 61.69296469391583,
+        "max_svg_y_error": 5.848694318487958
+      },
+      {
+        "correlation": 0.8680889593230173,
+        "offset": 25,
+        "sha256": "def843d26f8c4daa341b3cdaee49200dd1eeeca4a4090d08163122f74b59c473",
+        "paths": [
+          "remote_snapshot/JPAP 1/submission_artifacts/current_results_blakeB/Full_LQR/hist_stereo_mm/setpoint_15000_0.75_0.75_0.75/LQR_t2_rtr.txt",
+          "remote_snapshot/JPAP 1/motivation/logs/Full_LQR_bad_continuous_sweep_20260513_213816/hist_stereo_mm/setpoint_15000_0.75_0.75_0.75/LQR_t2_rtr.txt",
+          "remote_snapshot/JPAP/submission_artifacts/current_results_blakeB/Full_LQR/hist_stereo_mm/setpoint_15000_0.75_0.75_0.75/LQR_t2_rtr.txt"
+        ],
+        "slope": 29.991057183704232,
+        "intercept": 98.86654379997613,
+        "max_svg_y_error": 6.183304200023869
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line8",
+    "samples": 115,
+    "index_max": 114,
+    "best": [
+      {
+        "correlation": 0.9999994605342195,
+        "offset": 0,
+        "sha256": "65f5edf82e7c57ac8fc6e7fb46218978c2a142306aff405e436552dc554bd910",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powercontrolperiod.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN__powercontrolperiod.txt"
+        ],
+        "slope": 0.015018568872950406,
+        "intercept": -70.38421846721302,
+        "max_svg_y_error": 0.005769607532627674
+      },
+      {
+        "correlation": 0.7117573338837666,
+        "offset": 0,
+        "sha256": "2616c68c9419b59d9fda3aa345e4a40eddfd6934beaab224830828b25a8fb8be",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t3_response.txt",
+          "remote_snapshot/JPAP/motivation/logs/Full_LQR/hist_stereo_mm/setpoint_12000_0.90_0.90_0.90/LQR_t3_response.txt"
+        ],
+        "slope": 0.6974821544140407,
+        "intercept": 53.530476077236784,
+        "max_svg_y_error": 9.405544356384468
+      },
+      {
+        "correlation": 0.7075387262839569,
+        "offset": 0,
+        "sha256": "b0435e2ca2d5231cc5360f2adbfbebcfb41b97fd28351836873e6a925f3a7d1d",
+        "paths": [
+          "remote_snapshot/JPAP 1/plot/logs/Full_LQR/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t2_rtr.txt",
+          "remote_snapshot/JPAP/plot/logs/Full_LQR/hist_stereo_mm/setpoint_12500_0.90_0.90_0.90/LQR_t2_rtr.txt"
+        ],
+        "slope": 28.123974047713187,
+        "intercept": 69.48895465348421,
+        "max_svg_y_error": 9.66046655062361
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line9",
+    "samples": 117,
+    "index_max": 117,
+    "best": [
+      {
+        "correlation": 0.9999999923481824,
+        "offset": 0,
+        "sha256": "a4de592fce1aa8db9383d8279c0096b7db24aca9c770e933ee4047b4fb41d2ef",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalfreqvalsvalues.txt",
+          "remote_snapshot/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.4181589595381968,
+        "intercept": -245.10293949710103,
+        "max_svg_y_error": 0.005911616116208052
+      },
+      {
+        "correlation": 0.9581502024614306,
+        "offset": 54,
+        "sha256": "86915a905d106237b14c139ebb8e3b1bf8d8e05454f9cfa2f338101769f6a70e",
+        "paths": [
+          "remote_snapshot/JPAP 1/motivation/logs/task_arrival_LQR/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90/UNKNOWN_t4_period.txt"
+        ],
+        "slope": 0.2520779260981469,
+        "intercept": 87.78649220000003,
+        "max_svg_y_error": 42.93284230645163
+      },
+      {
+        "correlation": 0.900549589631125,
+        "offset": 40,
+        "sha256": "4a2bb6a0675152f90226f21c63872f527190d3455d8b35197535e78948d028b4",
+        "paths": [
+          "remote_snapshot/Desktop/JPAP/motivation/DFS_bounds1/quasirand_converted_mm_interrupt_bfs_converted/setpoint_0.90_0.90_0.90/DFS_finalfreqvalsvalues.txt"
+        ],
+        "slope": 0.04088408953584132,
+        "intercept": 49.61922877022755,
+        "max_svg_y_error": 74.29406802362078
+      }
+    ]
+  }
+]

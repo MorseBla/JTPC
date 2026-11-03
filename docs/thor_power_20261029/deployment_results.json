@@ -1,0 +1,17 @@
+{
+  "unpack": {
+    "exit_code": 0
+  },
+  "remote_hashes": {
+    "exit_code": 0
+  },
+  "scheduler_build": {
+    "exit_code": 0
+  },
+  "cuda_build": {
+    "exit_code": 0
+  },
+  "remote_tests": {
+    "exit_code": 0
+  }
+}

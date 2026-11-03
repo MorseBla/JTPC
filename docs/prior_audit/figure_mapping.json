@@ -1,0 +1,122 @@
+[
+  {
+    "item": "Figure 1",
+    "topic": "Frequency versus response time; period versus power",
+    "status": "Final figure confirmed; exact generation chain incomplete",
+    "paper_asset": "local_paper_source/contents/figures/combined_rt_power.pdf",
+    "code": "remote_snapshot/JPAP/system_identification/1_and_2_freq_vs/plot2.py; 3_rate_vs_power/plot.py",
+    "data": "remote_snapshot/JPAP/system_identification/1_and_2_freq_vs/logs; 3_rate_vs_power/logs and logs_backup_20260512_144300",
+    "evidence": "figure_artifact_matches.json; figure1_matches.json",
+    "notes": "The figure matches the paper. Existing frequency/period sweeps are related experiments, but current aggregates do not reproduce every curve point within PDF coordinate rounding. They cannot be assigned as the final input by assumption."
+  },
+  {
+    "item": "Figure 2",
+    "topic": "Model prediction and measurements over 120 control periods",
+    "status": "Final figure confirmed; exact script and raw data not found",
+    "paper_asset": "local_paper_source/contents/figures/system_validation.pdf",
+    "code": "windows_snapshot/analysis/plot/model_validation_lqr.py (related, not the same figure)",
+    "data": "This script reads 02_regular_tests/logs/Full_LQR/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+    "evidence": "figure_artifact_matches.json; windows_source_search.json; windows_archive_search.json",
+    "notes": "The available script uses MAX_PERIODS=100, two-task RT, and four panels. The paper shows one dual-axis RT/power figure over 120 periods. These are different validation experiments."
+  },
+  {
+    "item": "Figure 3",
+    "topic": "JTPC architecture",
+    "status": "Figure asset and implementation modules located",
+    "paper_asset": "local_paper_source/contents/figures/jtpc.pdf",
+    "code": "remote_snapshot/JPAP/scheduler/scheduler.cc; controller.cc; shared_header.hpp; application/*.cu; Common/jetson/*",
+    "data": "Architecture figure; no experimental logs",
+    "evidence": "local_paper_source/contents/arch.tex; remote_verified_manifest.json",
+    "notes": "Only diagram modules and source entries are confirmed. The architecture figure does not establish that current code matches every paper equation."
+  },
+  {
+    "item": "Figure 4",
+    "topic": "FC-GPU under increased mm workload",
+    "status": "Raw trajectories numerically matched",
+    "paper_asset": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf (figure-version candidate)",
+    "code": "remote_snapshot/JPAP/motivation/interrupt_test_FC.sh; windows_notebook_sources/line_charts.py CELL9",
+    "data": "remote:/home/yuanyang/JPAP/motivation/logs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/FC_interrupt/same suffix",
+    "evidence": "vector_log_matches.json; windows_remote_interrupt_provenance.json",
+    "notes": "RTR, three task periods, and power match. Historical exported PDFs have different versions; identical filenames do not identify the final figure."
+  },
+  {
+    "item": "Figure 5",
+    "topic": "DFS-only under increased mm workload",
+    "status": "Raw trajectories numerically matched",
+    "paper_asset": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+    "code": "remote_snapshot/JPAP/motivation/interrupt_test_DFS.sh; windows_notebook_sources/line_charts.py CELL10",
+    "data": "remote:/home/yuanyang/JPAP/motivation/logs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/DFS_interrupt/same suffix",
+    "evidence": "vector_log_matches.json; windows_remote_interrupt_provenance.json",
+    "notes": "Visible RTR, GPU frequency, and power match. Samples outside the plotted axes remain in the raw logs."
+  },
+  {
+    "item": "Figure 6",
+    "topic": "JTPC under increased mm workload",
+    "status": "Raw trajectories numerically matched",
+    "paper_asset": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+    "code": "remote_snapshot/JPAP/motivation/interrupt_test_LQR.sh; windows_notebook_sources/line_charts.py CELL8 and later layouts in CELL16/17",
+    "data": "remote:/home/yuanyang/JPAP/motivation/logs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/LQR_interrupt/same suffix",
+    "evidence": "vector_log_matches.json; windows_remote_interrupt_provenance.json",
+    "notes": "RTR, periods, frequency, and power match."
+  },
+  {
+    "item": "Figure 7(a)",
+    "topic": "RTR setpoint sweep at fixed 11 W",
+    "status": "Script, data, and bar heights independently matched",
+    "paper_asset": "local_paper_source/contents/figures/barplot/jetson_rtr_barplot.pdf",
+    "code": "windows_notebook_sources/bar_plots.py CELL13 (14th cell in the original notebook)",
+    "data": "windows_snapshot/analysis/plot/02_regular_tests/logs/Full_{LQR,FC,DFS}/hist_stereo_mm/setpoint_11000_SP_SP_SP",
+    "evidence": "confirmed_statistics.json; windows_remote_stat_provenance.json",
+    "notes": "Remove nonfinite/nonpositive RTR, then discard the first min(20,n//5) points; truncate three tasks to equal length and average equally. Raw DFS means are 11.63–16.45 and are clipped by the 1.0 axis limit."
+  },
+  {
+    "item": "Figure 7(b)",
+    "topic": "Power setpoint sweep from 11 to 13 W",
+    "status": "Script, data, and bar heights matched; condition differs from manuscript",
+    "paper_asset": "local_paper_source/contents/figures/barplot/jetson_power_barplot.pdf",
+    "code": "windows_notebook_sources/bar_plots.py CELL12, FIXED_RTR=0.70",
+    "data": "windows_snapshot/analysis/plot/02_regular_tests/logs/Full_{LQR,FC,DFS}/hist_stereo_mm/setpoint_POWER_0.70_0.70_0.70",
+    "evidence": "confirmed_statistics.json; windows_notebook_cells.json",
+    "notes": "The original figure uses RTR=0.70, while the body states 0.90. Power uses finalpowervalues, selecting [100:-1] for n>101. This historical audit predates the authorized 0.90 replacement in the organized project."
+  },
+  {
+    "item": "Figure 8",
+    "topic": "Task utility over power setpoints at fixed RTR=0.90",
+    "status": "Script, data, and 15 bar heights matched; task configuration differs from manuscript",
+    "paper_asset": "local_paper_source/contents/figures/barplot/jetson_task_utility_barplot.pdf",
+    "code": "windows_notebook_sources/bar_plots.py CELL9",
+    "data": "windows_snapshot/analysis/plot/main_temp/{JTPC,FC,DFS}/hist_stereo_mm/setpoint_POWER_0.90_0.90_0.90",
+    "evidence": "confirmed_statistics.json; windows_remote_stat_provenance.json",
+    "notes": "Initial periods are 160/80/60 ms. Use the full positive-period series to compute mean(initial/current) per task, then average tasks equally. The paper specifies mm=80 ms. The old hard-coded C:\\Users\\tiare\\Desktop\\plot\\main_temp path was moved into JPAP_Project."
+  },
+  {
+    "item": "Figure 9",
+    "topic": "Arrival of a particle task",
+    "status": "Raw trajectories matched; initial mm period differs from manuscript",
+    "paper_asset": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+    "code": "remote_snapshot/JPAP/motivation/task_arrival_4task_test.sh; windows_notebook_sources/line_charts.py CELL12/15/17",
+    "data": "remote:/home/yuanyang/JPAP/motivation/logs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90; Windows:analysis/plot/03_interrupt_tests/logs/task_arrival_4task_test/same suffix",
+    "evidence": "vector_log_matches.json; remote_snapshot/JPAP/particle_exact_ei_check.txt",
+    "notes": "UNKNOWN is the log prefix, not a separate algorithm. Power uses UNKNOWN__powercontrolperiod.txt. The first positive particle sample is index 57 (row 58); discarding the first three nonzero transition samples gives mean execution time 79.294804 ms, matching the paper's 79.3 ms. Initial mm period is 60 ms."
+  },
+  {
+    "item": "Equation 23 and eigenvalues",
+    "topic": "LQR stability numerical example",
+    "status": "Script and values recomputed; perturbation description differs",
+    "paper_asset": "JTPC_DAC_Detailed.pdf page 7",
+    "code": "windows_snapshot/analysis/plot/robustness_check_B_noise.py",
+    "data": "remote_snapshot/JPAP/system_identification/5_taskj_rate_vs_taski_RT/logs/offdiag/offdiag_coefficients.csv",
+    "evidence": "stability_recalculation.json",
+    "notes": "0.5669/0.9403/0.8402/0.7482 are nominal A-BK eigenvalues. The script uses +/-5% uniform perturbations, while the body says Gaussian. The runtime controller uses an identity upper-left B block; the offline script uses zero-diagonal coupling."
+  },
+  {
+    "item": "13.51% and DMR",
+    "topic": "Maximum DFS DMR quoted in the body",
+    "status": "Historical table and statistical definition located and recomputed",
+    "paper_asset": "local_paper_source/contents/jetson_deadline_miss_table.tex",
+    "code": "windows_notebook_sources/bar_plots.py CELL6",
+    "data": "windows_snapshot/analysis/plot/02_regular_tests/logs/Full_DFS/hist_stereo_mm, across five power points",
+    "evidence": "confirmed_statistics.json:quoted_dmr",
+    "notes": "13.511905% averages across power points, unlike the fixed-11-W Figure 7(a) statistic. The old table reports FC all zero; current files give 0.015312%/0.004252% for the first two points under the same code. Historical output and current-file versions must be distinguished."
+  }
+]

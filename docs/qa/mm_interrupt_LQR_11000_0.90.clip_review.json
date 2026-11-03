@@ -1,0 +1,38 @@
+[
+  {
+    "severity": "FAIL",
+    "text": "Set point",
+    "kind": "text-stroke",
+    "all_objects_outside_visible_clip": true,
+    "excluded": [
+      {
+        "index": 17,
+        "clip": [
+          63.98125076293945,
+          67.60000610351562,
+          242.28623962402344,
+          172.7360076904297
+        ]
+      }
+    ],
+    "remaining_indexes": []
+  },
+  {
+    "severity": "FAIL",
+    "text": "hist",
+    "kind": "text-stroke",
+    "all_objects_outside_visible_clip": true,
+    "excluded": [
+      {
+        "index": 17,
+        "clip": [
+          63.98125076293945,
+          67.60000610351562,
+          242.28623962402344,
+          172.7360076904297
+        ]
+      }
+    ],
+    "remaining_indexes": []
+  }
+]

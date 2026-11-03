@@ -1,0 +1,44 @@
+Nature Figure Rendered Collision Audit
+pdf: /home/tiare/Desktop/JTPC/experiment/6.2/Figures/fig7b_power_RTR090.pdf
+pages: 1
+visible text boxes: 15
+stroke paths: 119
+
+[FAIL] page 1 text-stroke: Text is crossed by 2 stroked path(s) — 'Set point'
+  text bbox: (29.399999618530273, 11.009866714477539, 76.7619857788086, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — '11'
+  text bbox: (73.54251098632812, 184.46588134765625, 90.46195220947266, 200.46588134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 14 stroked path(s) — 'Power Set point (W)'
+  text bbox: (92.13312530517578, 203.27838134765625, 243.25326538085938, 219.27838134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 2 stroked path(s) — 'JTPC'
+  text bbox: (102.54374694824219, 11.009866714477539, 132.54576110839844, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — '11.5'
+  text bbox: (109.72453308105469, 184.46588134765625, 139.98797607421875, 200.46588134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 3 stroked path(s) — 'FC-GPU'
+  text bbox: (158.34375, 11.009866714477539, 204.34176635742188, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — '12'
+  text bbox: (158.82843017578125, 184.46588134765625, 176.62286376953125, 200.46588134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — '12.5'
+  text bbox: (195.01046752929688, 184.46588134765625, 226.14891052246094, 200.46588134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 1 stroked path(s) — 'DFS-only'
+  text bbox: (230.1437530517578, 11.009866714477539, 280.14776611328125, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — '13'
+  text bbox: (244.55186462402344, 184.46588134765625, 262.3463134765625, 200.46588134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 4 filled region(s) — 'Set point'
+  text bbox: (29.399999618530273, 11.009866714477539, 76.7619857788086, 23.00986671447754)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 3 filled region(s) — 'Power Set point (W)'
+  text bbox: (92.13312530517578, 203.27838134765625, 243.25326538085938, 219.27838134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — '11.5'
+  text bbox: (109.72453308105469, 184.46588134765625, 139.98797607421875, 200.46588134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — 'FC-GPU'
+  text bbox: (158.34375, 11.009866714477539, 204.34176635742188, 23.00986671447754)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — '12'
+  text bbox: (158.82843017578125, 184.46588134765625, 176.62286376953125, 200.46588134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — '12.5'
+  text bbox: (195.01046752929688, 184.46588134765625, 226.14891052246094, 200.46588134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — '13'
+  text bbox: (244.55186462402344, 184.46588134765625, 262.3463134765625, 200.46588134765625)
+
+summary: 10 fail, 7 warn, 10 contained fill overlays, 0 contained image overlays
+verdict: FIX BEFORE DELIVERY
+note: contained overlays can be intentional; WARN findings need final-size visual review

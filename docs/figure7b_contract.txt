@@ -1,0 +1,4 @@
+Figure 7(b) compares power-setpoint tracking by three methods at fixed RTR=0.90. The single quantitative panel retains CELL12 layout, colors, hatching, and error bars.
+Evidence: 15 finalpowervalues logs across Full_LQR/Full_FC/Full_DFS and 11–13 W. Input mW, display W. Use [100:-1] when n>101. Mean plus/minus population standard deviation over time samples (ddof=0), not independent-run confidence intervals.
+The only changed scientific condition is RTR=0.90. Missing directories cause an error. Data is not reduced to fit the figure. Original 0.70 logs and figure are retained.
+Multipanel alignment is not applicable. Preserve editable PDF text; export PDF and PNG; inspect the actual PDF for collisions and visual layout.

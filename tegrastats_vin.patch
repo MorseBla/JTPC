@@ -1,0 +1,293 @@
+--- a/Common/jetson/tegrastats_monitor.hpp
++++ b/Common/jetson/tegrastats_monitor.hpp
+@@ -2,6 +2,9 @@
+ #include "jetson/types.hpp"
+ #include <atomic>
+ #include <thread>
++#include <mutex>
++#include <chrono>
++#include <sys/types.h>
+ 
+ namespace jetson {
+ 
+@@ -21,10 +24,12 @@
+ 
+     std::atomic<bool> running_{false};
+     std::thread worker_;
++    mutable std::mutex state_mutex_;
++    std::chrono::steady_clock::time_point last_total_at_{};
+ 
+     std::atomic<long long> vdd_in_mw_{-1};
+     std::atomic<long long> vdd_cpu_gpu_cv_mw_{-1};
+     std::atomic<long long> vdd_soc_mw_{-1};
+ };
+ 
+-} // namespace jetson
+\ No newline at end of file
++} // namespace jetson
+--- a/Common/jetson/tegrastats_monitor.cpp
++++ b/Common/jetson/tegrastats_monitor.cpp
+@@ -1,77 +1,120 @@
+ #include "jetson/tegrastats_monitor.hpp"
++#include <cerrno>
++#include <csignal>
+ #include <cstdio>
++#include <limits>
++#include <poll.h>
++#include <sys/wait.h>
++#include <unistd.h>
+ #include <string>
+-#include <unistd.h>
+ 
+ namespace jetson {
+-
+-TegrastatsMonitor::~TegrastatsMonitor() {
+-    stop();
++namespace {
++std::optional<long long> parse_token_mw(const std::string& line, const std::string& token)
++{
++    const std::string padded = " " + line + " ";
++    const auto pos = padded.find(token);
++    if (pos == std::string::npos) return std::nullopt;
++    size_t p = pos + token.size(); long long value = 0; bool any = false;
++    while (p < padded.size() && padded[p] >= '0' && padded[p] <= '9') {
++        any = true;
++        if (value > (std::numeric_limits<long long>::max() - (padded[p] - '0')) / 10) return std::nullopt;
++        value = value * 10 + (padded[p] - '0'); ++p;
++    }
++    if (!any || p + 1 >= padded.size() || padded[p] != 'm' || padded[p + 1] != 'W') return std::nullopt;
++    return value;
++}
+ }
+ 
+-std::optional<long long> TegrastatsMonitor::parse_mw_field(const std::string& line, const std::string& key) {
+-    auto pos = line.find(key);
+-    if (pos == std::string::npos) return std::nullopt;
+-    pos += key.size();
++TegrastatsMonitor::~TegrastatsMonitor() { stop(); }
+ 
+-    while (pos < line.size() && (line[pos] == ' ' || line[pos] == '\t')) pos++;
++std::optional<long long> TegrastatsMonitor::parse_mw_field(const std::string& line, const std::string& key)
++{ return parse_token_mw(line, key); }
+ 
+-    long long val = 0;
+-    bool any = false;
+-    while (pos < line.size() && line[pos] >= '0' && line[pos] <= '9') {
+-        any = true;
+-        val = val * 10 + (line[pos] - '0');
+-        pos++;
+-    }
+-    if (!any) return std::nullopt;
+-    if (pos + 1 >= line.size() || line[pos] != 'm' || line[pos + 1] != 'W') return std::nullopt;
+-
+-    return val;
++bool TegrastatsMonitor::start(int interval_ms)
++{
++    if (running_.load()) return true;
++    if (worker_.joinable()) worker_.join();
++    running_.store(true);
++    { std::lock_guard<std::mutex> lock(state_mutex_); vdd_in_mw_.store(-1); last_total_at_ = {}; }
++    worker_ = std::thread(&TegrastatsMonitor::run, this, interval_ms); return true;
+ }
+ 
+-bool TegrastatsMonitor::start(int interval_ms) {
+-    if (running_) return true;
+-    running_ = true;
+-    worker_ = std::thread(&TegrastatsMonitor::run, this, interval_ms);
+-    return true;
+-}
+-
+-void TegrastatsMonitor::stop() {
+-    if (!running_) return;
+-    running_ = false;
++void TegrastatsMonitor::stop()
++{
++    // The worker owns the descriptor and child: never close a descriptor from
++    // another thread while poll/read may be using it.
++    running_.store(false);
+     if (worker_.joinable()) worker_.join();
+ }
+ 
+-TegrastatsPower TegrastatsMonitor::latest() const {
+-    TegrastatsPower p;
+-    p.vdd_in_mw = vdd_in_mw_.load(std::memory_order_relaxed);
+-    p.vdd_cpu_gpu_cv_mw = vdd_cpu_gpu_cv_mw_.load(std::memory_order_relaxed);
+-    p.vdd_soc_mw = vdd_soc_mw_.load(std::memory_order_relaxed);
+-    return p;
++TegrastatsPower TegrastatsMonitor::latest() const
++{
++    TegrastatsPower p; std::lock_guard<std::mutex> lock(state_mutex_);
++    const auto now = std::chrono::steady_clock::now();
++    const bool fresh = running_.load() && last_total_at_ != std::chrono::steady_clock::time_point{} && now - last_total_at_ <= std::chrono::seconds(2);
++    p.vdd_in_mw = fresh ? vdd_in_mw_.load() : -1;
++    p.vdd_cpu_gpu_cv_mw = vdd_cpu_gpu_cv_mw_.load(); p.vdd_soc_mw = vdd_soc_mw_.load(); return p;
+ }
+ 
+-void TegrastatsMonitor::run(int interval_ms) {
+-    std::string cmd;
+-    if (::geteuid() == 0) cmd = "tegrastats --interval " + std::to_string(interval_ms);
+-    else                  cmd = "sudo tegrastats --interval " + std::to_string(interval_ms);
+-
+-    FILE* fp = ::popen(cmd.c_str(), "r");
+-    if (!fp) {
+-        running_ = false;
+-        return;
++void TegrastatsMonitor::run(int interval_ms)
++{
++    int fds[2]; if (::pipe(fds) != 0) { running_.store(false); return; }
++    const std::string ms = std::to_string(interval_ms);
++    const pid_t pid = ::fork();
++    if (pid < 0) { ::close(fds[0]); ::close(fds[1]); running_.store(false); return; }
++    if (pid == 0) {
++        ::setpgid(0, 0); ::dup2(fds[1], STDOUT_FILENO); ::close(fds[0]); ::close(fds[1]);
++        if (::geteuid() == 0)
++            ::execlp("tegrastats", "tegrastats", "--interval", ms.c_str(), nullptr);
++        else
++            ::execlp("sudo", "sudo", "-n", "tegrastats", "--interval", ms.c_str(), nullptr);
++        _exit(127);
+     }
+-
+-    char buf[8192];
+-    while (running_ && std::fgets(buf, sizeof(buf), fp)) {
+-        std::string line(buf);
+-        if (auto v = parse_mw_field(line, "VIN")) vdd_in_mw_.store(*v, std::memory_order_relaxed);
+-        if (auto v = parse_mw_field(line, "VDD_IN")) vdd_in_mw_.store(*v, std::memory_order_relaxed);
+-        if (auto v = parse_mw_field(line, "VDD_CPU_GPU_CV")) vdd_cpu_gpu_cv_mw_.store(*v, std::memory_order_relaxed);
+-        if (auto v = parse_mw_field(line, "VDD_SOC")) vdd_soc_mw_.store(*v, std::memory_order_relaxed);
++    ::setpgid(pid, pid); ::close(fds[1]);
++    std::string pending; char buf[4096]; struct pollfd pfd{fds[0], POLLIN, 0};
++    while (running_.load()) {
++        const int rc = ::poll(&pfd, 1, 100); if (rc < 0 && errno == EINTR) continue; if (rc <= 0) continue;
++        // A closed pipe may still contain the final output line.
++        if (!(pfd.revents & POLLIN)) {
++            if (pfd.revents & (POLLERR | POLLHUP | POLLNVAL)) break;
++            continue;
++        }
++        const ssize_t n = ::read(fds[0], buf, sizeof(buf));
++        if (n <= 0) break;
++        pending.append(buf, static_cast<size_t>(n)); size_t end;
++        while ((end = pending.find('\n')) != std::string::npos) {
++            const std::string line = pending.substr(0, end); pending.erase(0, end + 1);
++            auto total = parse_token_mw(line, " VIN "); if (!total) total = parse_token_mw(line, " VDD_IN ");
++            std::lock_guard<std::mutex> lock(state_mutex_);
++            if (total && *total > 0 && *total <= std::numeric_limits<int>::max()) { vdd_in_mw_.store(*total); last_total_at_ = std::chrono::steady_clock::now(); }
++            else { vdd_in_mw_.store(-1); last_total_at_ = {}; }
++            if (auto v = parse_token_mw(line, " VDD_CPU_GPU_CV ")) vdd_cpu_gpu_cv_mw_.store(*v);
++            if (auto v = parse_token_mw(line, " VDD_SOC ")) vdd_soc_mw_.store(*v);
++        }
+     }
+-
+-    ::pclose(fp);
+-    running_ = false;
++    ::close(fds[0]);
++    // Terminate/reap only this reader's process group, including sudo's child.
++    ::kill(-pid, SIGTERM);
++    ::kill(pid, SIGTERM);
++    int status;
++    pid_t waited = 0;
++    const auto deadline = std::chrono::steady_clock::now() + std::chrono::milliseconds(200);
++    do {
++        waited = ::waitpid(pid, &status, WNOHANG);
++        if (waited == pid || (waited < 0 && errno != EINTR)) break;
++        std::this_thread::sleep_for(std::chrono::milliseconds(10));
++    } while (std::chrono::steady_clock::now() < deadline);
++    if (waited == 0 || (waited < 0 && errno == EINTR)) {
++        ::kill(-pid, SIGKILL);
++        ::kill(pid, SIGKILL);
++        while (::waitpid(pid, &status, 0) < 0 && errno == EINTR) {}
++    }
++    {
++        std::lock_guard<std::mutex> lock(state_mutex_);
++        vdd_in_mw_.store(-1);
++        last_total_at_ = {};
++    }
++    running_.store(false);
+ }
+-
+ } // namespace jetson
+--- a/Scheduler/controller.cc
++++ b/Scheduler/controller.cc
+@@ -11,6 +11,8 @@
+ #include <cstring>
+ #include <cerrno>
+ #include <limits>
++#include <cmath>
++#include <stdexcept>
+ 
+ #include "../Common/jetson/jetson_power_monitor.hpp"
+ 
+@@ -287,6 +289,36 @@
+         sampled_at = std::chrono::steady_clock::now();
+         return cached_mw;
+     }
++    if (g_power_backend == "tegrastats") {
++        // Startup validates the first sample before control/device actuation.
++        // Both monitoring threads subsequently share this initialized reader.
++        static std::mutex mutex;
++        static bool have_sample = false;
++        std::lock_guard<std::mutex> lock(mutex);
++        if (!g_power_monitor) {
++            jetson::JetsonPowerMonitor::Config cfg;
++            cfg.enable_ina260 = false;
++            cfg.enable_jtop = false;
++            cfg.enable_tegrastats = true;
++            cfg.tegrastats_interval_ms = 200;
++            g_power_monitor = std::make_unique<jetson::JetsonPowerMonitor>(cfg);
++            if (!g_power_monitor->init())
++                throw std::runtime_error("Cannot start tegrastats VIN power reader");
++        }
++        const auto deadline = std::chrono::steady_clock::now() + std::chrono::seconds(5);
++        do {
++            const auto sample = g_power_monitor->sample();
++            const double mw = sample.tegrastats_vdd_in_w * 1000.0;
++            if (std::isfinite(mw) && mw >= 1.0 && mw <= std::numeric_limits<int>::max()) {
++                have_sample = true;
++                return static_cast<int>(std::llround(mw));
++            }
++            if (have_sample) break;
++            std::this_thread::sleep_for(std::chrono::milliseconds(20));
++        } while (std::chrono::steady_clock::now() < deadline);
++        throw std::runtime_error(
++            "Missing, invalid or stale tegrastats VIN/VDD_IN power (mW); no substitute value is used");
++    }
+     try
+     {
+         if (!g_power_monitor)
+@@ -422,9 +454,11 @@
+             float power = static_cast<float>(returnpowerrtx());
+ 
+             // Use last valid value to suppress INA outliers without creating gaps.
+-            if (power > 0.0f && (g_power_backend == "thor" || power < 50000.0f))
++            if (power > 0.0f && (g_power_backend == "thor" ||
++                                 g_power_backend == "tegrastats" || power < 50000.0f))
+             {
+-                if (g_power_backend != "thor") power += shell_equiv_power_mw();
++                if (g_power_backend != "thor" && g_power_backend != "tegrastats")
++                    power += shell_equiv_power_mw();
+                 last_valid_power = power;
+                 interpowervalues.push_back(power);
+             }
+@@ -2082,7 +2116,8 @@
+                 }
+             }
+             float power = static_cast<float>(returnpowerrtx());
+-            if (g_power_backend != "thor" && power > 0.0f && power < 20000.0f) {
++            if (g_power_backend != "thor" && g_power_backend != "tegrastats" &&
++                power > 0.0f && power < 20000.0f) {
+                 power += shell_equiv_power_mw();
+             }
+             //if (power != prevpower)
+@@ -2609,10 +2644,11 @@
+     {
+         g_power_backend = normalize_power_backend(std::string(backend_env));
+     }
+-    if (g_power_backend == "thor") {
++    if (g_power_backend == "thor" || g_power_backend == "tegrastats") {
+         try {
+             const int initial_power_mw = returnpowerrtx();
+-            std::cout << "Power backend: INA238 VIN (module + carrier), mW; initial="
++            std::cout << "Power backend: " << g_power_backend
++                      << " VIN (module + carrier), mW; initial="
+                       << initial_power_mw << "\n";
+         } catch (const std::exception& e) {
+             std::cerr << e.what() << "\n";

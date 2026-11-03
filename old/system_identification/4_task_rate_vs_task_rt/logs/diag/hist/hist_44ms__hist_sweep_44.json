@@ -1,0 +1,19 @@
+{
+  "platform": "jetson",
+  "workload": "histogram_releaseguard",
+  "num_elements": 65536000,
+  "num_bins": 4096,
+  "period_s": 0.04,
+  "duration_s": 5,
+  "jobs": 1,
+  "power_sample_period_ms": 100,
+  "avg_response_ms": 26.4348,
+  "avg_ke_ms": 26.3367,
+  "avg_memory_ms": 0.403696,
+  "avg_h2d_ms": 0.35429,
+  "avg_d2h_ms": 0.0494062,
+  "avg_measured_freq_mhz": 918,
+  "avg_power_w": 7.7456,
+  "monitor_samples": 40,
+  "num_released_jobs": 125
+}

@@ -1,0 +1,11 @@
+make: Entering directory '/tmp/jtpc_chain_review/build/Scheduler'
+mkdir -p bin
+g++ controller.cc \
+../Common/jetson/jetson_power_monitor.cpp \
+../Common/jetson/ina260_reader.cpp \
+../Common/jetson/jtop_reader.cpp \
+../Common/jetson/tegrastats_monitor.cpp \
+../Common/jetson/time_utils.cpp \
+-o bin/server -std=c++17 -lrt -pthread -I /usr/include/eigen3 -I ../Common -DJetson -I/tmp/jtpc_chain_review/deps/usr/include/eigen3
+g++ scheduler.cc -o bin/scheduler -std=c++17 -lrt -pthread -I /usr/include/eigen3 -I ../Common -DJetson -I/tmp/jtpc_chain_review/deps/usr/include/eigen3
+make: Leaving directory '/tmp/jtpc_chain_review/build/Scheduler'

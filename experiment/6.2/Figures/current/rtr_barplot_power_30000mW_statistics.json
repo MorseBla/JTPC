@@ -1,0 +1,636 @@
+{
+  "metric": "rtr",
+  "original_script": "/home/agx-thor/JTPC/experiment/6.2/plot_rtr.py",
+  "runs_root": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete",
+  "workload": "hist_stereo_mm",
+  "solutions": [
+    "JTPC",
+    "FC",
+    "DFS"
+  ],
+  "fixed": {
+    "power_mw": 30000
+  },
+  "setpoints": [
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "processing": "Per task: retain finite positive RTR; discard first min(20,n//5); truncate three tasks to equal length; mean and population std of the equally averaged trace.",
+  "std_ddof": 0,
+  "uncertainty_note": "Population deviations over retained time samples are not independent-run confidence intervals.",
+  "initial_periods_ms": null,
+  "ignored_nonuniform_rtr_cases": {
+    "JTPC": [],
+    "FC": [],
+    "DFS": []
+  },
+  "cases": [
+    {
+      "mean": 0.6915916186666667,
+      "std": 0.04487345641555357,
+      "aligned_samples": 125,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/LQR_t1_rtr.txt",
+          "sha256": "cf792d7bc84ab45fee839842c8996372b07539e4e922a306f0f0d6f0d3cc68c2",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/LQR_t2_rtr.txt",
+          "sha256": "9374a1273b9d5b0412dea88438247aa343caaa7cfd379d32a5fd8292edecc184",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/LQR_t3_rtr.txt",
+          "sha256": "aba4ce17c9dcd8f3a210f688ef8f5142b1261b0ace74d5c79157ab038e5a8f4b",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70",
+      "power_mw": 30000,
+      "rtr": 0.7
+    },
+    {
+      "mean": 0.7524356506666666,
+      "std": 0.04902156047993315,
+      "aligned_samples": 125,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/LQR_t1_rtr.txt",
+          "sha256": "918909ef5bd1aa12a7844041b2c1e243c57aa5e5b468cc36bed753556713c3bb",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/LQR_t2_rtr.txt",
+          "sha256": "3f8f29ad24708cb1a70636d927f50bfd7b074a7796dd6fc6e9b3ccbec280eb46",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/LQR_t3_rtr.txt",
+          "sha256": "9f18f2fe8f9e494cea3abe4ea188333fc8234c5e8fa6aba28e8c7f96ea92abe5",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75",
+      "power_mw": 30000,
+      "rtr": 0.75
+    },
+    {
+      "mean": 0.7937342399999999,
+      "std": 0.07455484572406902,
+      "aligned_samples": 125,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/LQR_t1_rtr.txt",
+          "sha256": "498f182ced6e5e37266fb859762e4bc03392d5e9442e0afac040f13bccaeeb36",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/LQR_t2_rtr.txt",
+          "sha256": "2fb39b9d388b82df24758f56a450ea557b8036d702ec989a2a770870c4b53f5a",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/LQR_t3_rtr.txt",
+          "sha256": "f2611e37afd7e5d97df5f578452b9271b7d1e49568b66935890c62ec215634f6",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80",
+      "power_mw": 30000,
+      "rtr": 0.8
+    },
+    {
+      "mean": 0.8557570693333332,
+      "std": 0.06708707789852159,
+      "aligned_samples": 125,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/LQR_t1_rtr.txt",
+          "sha256": "0bf50a68b63ec103359e31587cf5092ec8ff3cedac3e4c49284581f0f94f6403",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/LQR_t2_rtr.txt",
+          "sha256": "2e41db3ab0a2b1703febe7ebe6a96073924811181471dfbbf5d895d9a064d463",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/LQR_t3_rtr.txt",
+          "sha256": "a83fcbcc03f1942a19a167387fda1824cbded605832f1a178d06c7d59dc72e09",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85",
+      "power_mw": 30000,
+      "rtr": 0.85
+    },
+    {
+      "mean": 0.9023100826666667,
+      "std": 0.0683635562706545,
+      "aligned_samples": 125,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t1_rtr.txt",
+          "sha256": "1c48e596309445e2e027de25421414c0c142c45d8aef14608ba79301c16945a6",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t2_rtr.txt",
+          "sha256": "ea90010c6bfe5bdf74a366d3029268f69514e67dd3a5ece1dcc54ee9ca43f36c",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/LQR_t3_rtr.txt",
+          "sha256": "72b16a13c24ec5b7ce7610b5702d9a4ae322d17a26197faf7581f1bff58617b0",
+          "raw_samples": 145,
+          "used_samples": 125,
+          "valid_samples_before_trim": 145,
+          "initial_valid_samples_discarded": 20
+        }
+      ],
+      "solution": "JTPC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/JTPC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 0.6857164888888889,
+      "std": 0.024574484576999484,
+      "aligned_samples": 45,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/FC_GPU_t1_rtr.txt",
+          "sha256": "f238382a8a1aa629a3d0e145f98ac93b4376e9f710d26929cc7b88035f0145bf",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/FC_GPU_t2_rtr.txt",
+          "sha256": "4dc59e813a3f1332ccd1d0752cd2cb9b617d9ecb613333cdc47e03735b0261a8",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/FC_GPU_t3_rtr.txt",
+          "sha256": "69ccc27bb61aeb84e3882b912157a9f146b96ae4a5f6083e4d8a50ba92d89fc7",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70",
+      "power_mw": 30000,
+      "rtr": 0.7
+    },
+    {
+      "mean": 0.7306871703703703,
+      "std": 0.027693164483304708,
+      "aligned_samples": 45,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/FC_GPU_t1_rtr.txt",
+          "sha256": "7403f68c18b95b06531b44e5f2e5c8150c4d0acfdb8788d0c31f96b32ddee4ab",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/FC_GPU_t2_rtr.txt",
+          "sha256": "0f518c4bb3d30333cfef58e4421202cee6a9d451784e8b461e9e2e145a956853",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/FC_GPU_t3_rtr.txt",
+          "sha256": "d126932a8dbd5be4cb2230dfbcc93901e880be1528dd20798c4ef0ce1b87d0cf",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75",
+      "power_mw": 30000,
+      "rtr": 0.75
+    },
+    {
+      "mean": 0.7764426888888891,
+      "std": 0.030341427654456493,
+      "aligned_samples": 45,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/FC_GPU_t1_rtr.txt",
+          "sha256": "7bf5abd0e79cb3dc763b2f8b735ed7c7200c90d9d35d4ce336726b03da763aca",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/FC_GPU_t2_rtr.txt",
+          "sha256": "0a7c33817ed30d8a9c1ba58afd1fca6d40789013738d573a092e331f591c0aae",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/FC_GPU_t3_rtr.txt",
+          "sha256": "0c9fe455e30d5f2210f01754335a62dfa255805f1c82fa1c9b62418bb31ee6f0",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80",
+      "power_mw": 30000,
+      "rtr": 0.8
+    },
+    {
+      "mean": 0.8223821893939394,
+      "std": 0.032780499017639166,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/FC_GPU_t1_rtr.txt",
+          "sha256": "c825a84bcf4d77bfa523911ca79c3da5f8f30f9d6f57ac1eb08177038a5c11b3",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/FC_GPU_t2_rtr.txt",
+          "sha256": "7e55c01745e8ffbabd5cfb4ed796c34a7381b17f660ef03883d68865425e8832",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/FC_GPU_t3_rtr.txt",
+          "sha256": "5af53e070f8cafc5e9329800145cf26946fe1bbe52c202a601a7ea8e4a427771",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85",
+      "power_mw": 30000,
+      "rtr": 0.85
+    },
+    {
+      "mean": 0.9029167185185186,
+      "std": 0.0025842355671352956,
+      "aligned_samples": 45,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t1_rtr.txt",
+          "sha256": "62489ff5178d0cbe00bf471592836a9bbb327a206ee25e8186a23c3d5856b478",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t2_rtr.txt",
+          "sha256": "77c3838b887aa0530dd312eaadea9cea3e639952329aa8bb53f7412d9d471d88",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/FC_GPU_t3_rtr.txt",
+          "sha256": "8e92f0495ee4d901f8688f36c9083dec40736222e69ec5fbc260eb1f26860f56",
+          "raw_samples": 56,
+          "used_samples": 45,
+          "valid_samples_before_trim": 56,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "FC",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/FC/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    },
+    {
+      "mean": 27.26523381060606,
+      "std": 11.981451203980354,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/DFS_t1_rtr.txt",
+          "sha256": "9df2386a0d3ad67beb1401aacba3364512946b23698a99906723f982baa59d22",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/DFS_t2_rtr.txt",
+          "sha256": "388b8df9c0303b1ef13857f28442a5a84f9fbea7ccd34f1223ef3b6b4efe581a",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70/DFS_t3_rtr.txt",
+          "sha256": "444ec2d078fb705e80712419897e787948d118727aa4d24a3ae7eea44df9c6bd",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.70_0.70_0.70",
+      "power_mw": 30000,
+      "rtr": 0.7
+    },
+    {
+      "mean": 27.26523381060606,
+      "std": 11.981451203980354,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/DFS_t1_rtr.txt",
+          "sha256": "9df2386a0d3ad67beb1401aacba3364512946b23698a99906723f982baa59d22",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/DFS_t2_rtr.txt",
+          "sha256": "388b8df9c0303b1ef13857f28442a5a84f9fbea7ccd34f1223ef3b6b4efe581a",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75/DFS_t3_rtr.txt",
+          "sha256": "444ec2d078fb705e80712419897e787948d118727aa4d24a3ae7eea44df9c6bd",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.75_0.75_0.75",
+      "power_mw": 30000,
+      "rtr": 0.75
+    },
+    {
+      "mean": 27.26523381060606,
+      "std": 11.981451203980354,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/DFS_t1_rtr.txt",
+          "sha256": "9df2386a0d3ad67beb1401aacba3364512946b23698a99906723f982baa59d22",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/DFS_t2_rtr.txt",
+          "sha256": "388b8df9c0303b1ef13857f28442a5a84f9fbea7ccd34f1223ef3b6b4efe581a",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80/DFS_t3_rtr.txt",
+          "sha256": "444ec2d078fb705e80712419897e787948d118727aa4d24a3ae7eea44df9c6bd",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.80_0.80_0.80",
+      "power_mw": 30000,
+      "rtr": 0.8
+    },
+    {
+      "mean": 27.26523381060606,
+      "std": 11.981451203980354,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/DFS_t1_rtr.txt",
+          "sha256": "9df2386a0d3ad67beb1401aacba3364512946b23698a99906723f982baa59d22",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/DFS_t2_rtr.txt",
+          "sha256": "388b8df9c0303b1ef13857f28442a5a84f9fbea7ccd34f1223ef3b6b4efe581a",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85/DFS_t3_rtr.txt",
+          "sha256": "444ec2d078fb705e80712419897e787948d118727aa4d24a3ae7eea44df9c6bd",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.85_0.85_0.85",
+      "power_mw": 30000,
+      "rtr": 0.85
+    },
+    {
+      "mean": 27.26523381060606,
+      "std": 11.981451203980354,
+      "aligned_samples": 44,
+      "sources": [
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t1_rtr.txt",
+          "sha256": "9df2386a0d3ad67beb1401aacba3364512946b23698a99906723f982baa59d22",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t2_rtr.txt",
+          "sha256": "388b8df9c0303b1ef13857f28442a5a84f9fbea7ccd34f1223ef3b6b4efe581a",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        },
+        {
+          "file": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90/DFS_t3_rtr.txt",
+          "sha256": "444ec2d078fb705e80712419897e787948d118727aa4d24a3ae7eea44df9c6bd",
+          "raw_samples": 55,
+          "used_samples": 44,
+          "valid_samples_before_trim": 55,
+          "initial_valid_samples_discarded": 11
+        }
+      ],
+      "solution": "DFS",
+      "case_directory": "/home/agx-thor/JTPC/experiment/6.2/runs_rtr_complete/DFS/hist_stereo_mm/setpoint_30000_0.90_0.90_0.90",
+      "power_mw": 30000,
+      "rtr": 0.9
+    }
+  ],
+  "series": [
+    {
+      "key": "reference",
+      "label": "Set point",
+      "means": [
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9
+      ],
+      "stds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "key": "JTPC",
+      "label": "JTPC",
+      "means": [
+        0.6915916186666667,
+        0.7524356506666666,
+        0.7937342399999999,
+        0.8557570693333332,
+        0.9023100826666667
+      ],
+      "stds": [
+        0.04487345641555357,
+        0.04902156047993315,
+        0.07455484572406902,
+        0.06708707789852159,
+        0.0683635562706545
+      ]
+    },
+    {
+      "key": "FC",
+      "label": "FC-GPU",
+      "means": [
+        0.6857164888888889,
+        0.7306871703703703,
+        0.7764426888888891,
+        0.8223821893939394,
+        0.9029167185185186
+      ],
+      "stds": [
+        0.024574484576999484,
+        0.027693164483304708,
+        0.030341427654456493,
+        0.032780499017639166,
+        0.0025842355671352956
+      ]
+    },
+    {
+      "key": "DFS",
+      "label": "DFS-only",
+      "means": [
+        27.26523381060606,
+        27.26523381060606,
+        27.26523381060606,
+        27.26523381060606,
+        27.26523381060606
+      ],
+      "stds": [
+        11.981451203980354,
+        11.981451203980354,
+        11.981451203980354,
+        11.981451203980354,
+        11.981451203980354
+      ]
+    }
+  ],
+  "units": "ratio",
+  "figure_outputs": [
+    "/home/agx-thor/JTPC/experiment/6.2/Figures/current/rtr_barplot_power_30000mW.pdf",
+    "/home/agx-thor/JTPC/experiment/6.2/Figures/current/rtr_barplot_power_30000mW.png"
+  ]
+}

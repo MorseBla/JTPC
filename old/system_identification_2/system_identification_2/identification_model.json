@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "matrix": {
+    "B_full": null,
+    "B_partial": [
+      [
+        0.0,
+        null,
+        null,
+        -0.019310131400659198
+      ],
+      [
+        null,
+        0.0,
+        null,
+        -0.0020603118549659557
+      ],
+      [
+        null,
+        null,
+        0.0,
+        -0.004245065341886335
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0020584784332285354
+      ]
+    ],
+    "C": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "B_status": "PARTIAL ONLY: cross-rate normalization/equations unresolved; no full-B prediction is asserted",
+    "C_status": "No separate identified C found. This identity is the implied observation map for y=x in the stated units.",
+    "C_is_identified": false,
+    "state_order": [
+      "q_hist",
+      "q_stereo",
+      "q_mm",
+      "P_VIN"
+    ],
+    "row_units": [
+      "ms",
+      "ms",
+      "ms",
+      "W"
+    ],
+    "input_order": [
+      "delta_r_hist",
+      "delta_r_stereo",
+      "delta_r_mm",
+      "delta_f"
+    ],
+    "column_units": [
+      "Hz",
+      "Hz",
+      "Hz",
+      "MHz"
+    ],
+    "coefficient_units": [
+      [
+        "ms/Hz",
+        "ms/Hz",
+        "ms/Hz",
+        "ms/MHz"
+      ],
+      [
+        "ms/Hz",
+        "ms/Hz",
+        "ms/Hz",
+        "ms/MHz"
+      ],
+      [
+        "ms/Hz",
+        "ms/Hz",
+        "ms/Hz",
+        "ms/MHz"
+      ],
+      [
+        "W/Hz",
+        "W/Hz",
+        "W/Hz",
+        "W/MHz"
+      ]
+    ],
+    "nominal_q_ms": [
+      16.336371164957683,
+      1.7430238293011984,
+      3.5913252792358397
+    ],
+    "nominal_power_W": 22.11711515774291,
+    "f0_MHz": 846.0,
+    "alpha_W_per_MHz": 0.0020584784332285354,
+    "alpha_fit_quality": {
+      "valid": true,
+      "n": 22,
+      "slope_W_per_MHz": 0.0020584784332285354,
+      "intercept_W": 20.290392120979625,
+      "r2": 0.7208395370575706,
+      "sse": 3.517791472835223,
+      "slope_se": 0.0002864435047112024,
+      "residuals_W": [
+        0.4536555349696072,
+        0.38941818113169635,
+        -0.46346662209986866,
+        -0.5304637726748749,
+        0.6075802925178073,
+        0.41460061333092924,
+        -0.7177505891301439,
+        -0.18711759387451798,
+        -0.33637162427912637,
+        0.4281938987027196,
+        -0.39430533062745754,
+        0.64128151146791,
+        -0.06291634436211035,
+        0.08105238465472953,
+        -0.10460535918131031,
+        0.24594699260466601,
+        -0.07851544512012021,
+        -0.21469066406721593,
+        -0.06887894856482979,
+        0.5076848742026421,
+        -0.053422255091609916,
+        -0.5569097345095089
+      ],
+      "frequency_min_MHz": 315.0,
+      "frequency_max_MHz": 1386.0,
+      "slope_W_per_Hz": 2.0584784332285355e-09,
+      "slope_mW_per_MHz": 2.0584784332285353,
+      "alpha_scope": "this task set, fixed nominal rates, configured power channel and conditions",
+      "intercept_status": "fitted intercept; not measured physical idle power",
+      "slope_uncertainty_units": "W/MHz; OLS trial-level standard error, conditional on stationary independent trial residuals",
+      "trial_ids": [
+        "000_drift_reference",
+        "001_alpha",
+        "002_alpha",
+        "003_alpha",
+        "004_drift_reference",
+        "005_alpha",
+        "006_alpha",
+        "007_alpha",
+        "008_drift_reference",
+        "009_alpha",
+        "010_alpha",
+        "011_alpha",
+        "012_drift_reference",
+        "013_alpha",
+        "014_alpha",
+        "015_alpha",
+        "016_drift_reference",
+        "017_alpha",
+        "018_alpha",
+        "019_alpha",
+        "020_drift_reference",
+        "021_drift_reference"
+      ],
+      "flags": [
+        "poor_linear_fit"
+      ],
+      "warnings": [],
+      "repeat_power_stdev_W": {
+        "846000000": 0.3800611205597865,
+        "315000000": 0.16340423662066483,
+        "585000000": 0.1653442855080676,
+        "855000000": 0.1775827141049533,
+        "1386000000": 0.04105317989464843,
+        "1116000000": 0.3297506515871293
+      },
+      "reference_power_range_W": 1.1644900270273162,
+      "reference_temperature_range_C": 1.8022083089719274,
+      "reliable_without_review": false
+    },
+    "assumed_context_switch_s": 0.00075,
+    "assumptions": [
+      "Zero response diagonal and zero power/rate entries are analytical assumptions, not measured zeros.",
+      "Frequency response column -q0/f0 assumes local inverse-frequency scaling.",
+      "Unknown cross-rate entries are not set to zero and not empirically refitted.",
+      "A=I is the requested analytical difference model, not the existing controller implementation.",
+      "C=I applies to y=x=[q_ms..., VIN_W]; it does not describe an RTR output mapping.",
+      "Nominal state is measured in the first validation window; alpha is from the separate sweep."
+    ],
+    "execution_estimates_ms": {
+      "hist": 15.34357029279073,
+      "stereo": 1.738440957069397,
+      "mm": 3.589058140118917
+    }
+  },
+  "training_config": {
+    "output_root": "system_identification_2/results",
+    "tasks": [
+      {
+        "name": "hist",
+        "command": [
+          "system_identification_2/bin/hist"
+        ],
+        "rate_hz": 6.25,
+        "min_rate_hz": 1.0,
+        "max_rate_hz": 7.0,
+        "workload": "application/histogram_converted.cu; unchanged source constants",
+        "workload_parameters": {
+          "num_elements": 4096000,
+          "num_bins": 4096
+        }
+      },
+      {
+        "name": "stereo",
+        "command": [
+          "system_identification_2/bin/stereo"
+        ],
+        "rate_hz": 12.5,
+        "min_rate_hz": 1.0,
+        "max_rate_hz": 14.0,
+        "workload": "application/stereodisparity_converted.cu; unchanged source constants",
+        "workload_parameters": {
+          "width": 640,
+          "height": 480,
+          "min_disparity": -16,
+          "max_disparity": 0
+        }
+      },
+      {
+        "name": "mm",
+        "command": [
+          "system_identification_2/bin/mm"
+        ],
+        "rate_hz": 16.666666666666668,
+        "min_rate_hz": 1.0,
+        "max_rate_hz": 18.0,
+        "workload": "application/mm_converted.cu; unchanged source constants",
+        "workload_parameters": {
+          "matrix_n": 700
+        }
+      }
+    ],
+    "interval_s": 2.0,
+    "assumed_context_switch_s": 0.00075,
+    "profile": {
+      "warmup": 20,
+      "measured": 300
+    },
+    "frequency": {
+      "devfreq_path": null,
+      "reference_hz": null,
+      "levels_hz": [],
+      "range_hz": null,
+      "tolerance_fraction": 0.02
+    },
+    "alpha": {
+      "discard_s": 10.0,
+      "measure_s": 60.0,
+      "repeats": 3,
+      "seed": 2941,
+      "reference_every": 3,
+      "min_jobs": 10
+    },
+    "validation": {
+      "discard_s": 10.0,
+      "measure_s": 60.0,
+      "rate_fraction": 0.03,
+      "sequence": null
+    },
+    "telemetry": {
+      "period_s": 0.2,
+      "max_gap_s": 1.0,
+      "temperature_path": null,
+      "thermal_drift_C": 5.0,
+      "temperature_backend": "auto",
+      "temperature_max_age_s": 2.0,
+      "allow_missing_temperature": true
+    },
+    "power": {
+      "command": [
+        "bash",
+        "scripts/get_power.sh",
+        "thor"
+      ],
+      "scale_to_W": 0.001,
+      "channel": "INA238 VIN: module plus carrier board input, NOT GPU-only",
+      "matches_controller": "Only JPAP_POWER_BACKEND=thor; historical legacy rail differs"
+    },
+    "conditions": {
+      "cooling": "unchanged target policy; snapshot fan PWM/RPM",
+      "ambient_C": null,
+      "power_mode": "unchanged; record nvpmodel -q",
+      "resources": "source launch geometry; all available SMs; suite-private global per-job semaphore; separate CUDA processes; no MPS configuration changes"
+    },
+    "safety": {
+      "job_timeout_s": 120.0,
+      "ready_timeout_s": 120.0,
+      "max_lateness_s": 0.5,
+      "conflict_names": [
+        "server",
+        "dispatcher",
+        "hist",
+        "stereo",
+        "mm",
+        "particle",
+        "quasi",
+        "bfs",
+        "mm_test",
+        "scheduler"
+      ]
+    }
+  },
+  "source_files_sha256": {
+    "system_identification_2/review_complete_20261031/matrices.json": "6b07375ddd52098f46c2bf38597933e1161077565c940ea0edf98d093ec86813",
+    "system_identification_2/review_complete_20261031/review.json": "02fdeaecf4eabd5034afd03f84837f7b2e081ca7be0049c4d1e592fd45898941",
+    "system_identification_2/system_identification_2/results/20261031T011547Z_alpha_aedb2a4b/config.json": "42a5c65b5303f3ac03d9c8540704a9d614e400fa864cdd39a8acda7a7d5f88bf",
+    "system_identification_2/system_identification_2/results/20261031T011547Z_alpha_aedb2a4b/telemetry.jsonl": "fe9180b88efcdd4268da643fd6bad5870dbe7c713c5704a7ea704b8ec3c06323",
+    "system_identification_2/system_identification_2/results/20261031T011547Z_alpha_aedb2a4b/jobs.jsonl": "ae82f0a99f65f9329a7039ac542760fbcb2192fcde38d5c8f53d1fa8f26d868f",
+    "system_identification_2/system_identification_2/results/20261031T020230Z_validate_58e63ddf/jobs.jsonl": "a369135bbdd44340f31b5a28e6f4304a6615c01c72cf97d21335acfa1ce6f778"
+  },
+  "notes": [
+    "Frozen export of the previous system-identification/analysis review; no periodic data used.",
+    "Alpha is from previous standalone fixed-rate sweep; q0 and P0 were measured in the previous small-step validation nominal window, as recorded in review matrices.",
+    "Standalone demand estimates are preserved from previous profiles; histogram nonstationarity and poor alpha R2 remain limitations.",
+    "This is a PARTIAL model, not a fully identified B. Unknown cross-rate entries remain null. C=I is an implied observation mapping, not identified.",
+    "Neither coefficients nor nominal offsets may be recalibrated from the new periodic capture."
+  ]
+}

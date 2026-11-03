@@ -1,0 +1,7 @@
+observed_task,swept_task,num_points,intercept_ms,coefficient_slope_ms_per_ms,r2,directory
+hist,mm,8,37.15685,-0.05197714285714284,0.8796715269460621,logs/offdiag/hist_from_mm
+hist,stereo,8,37.12412500000001,-0.04792547619047621,0.8787734728965222,logs/offdiag/hist_from_stereo
+mm,hist,8,38.9077,-0.029772619047619093,0.6604118341281145,logs/offdiag/mm_from_hist
+mm,stereo,8,46.303450000000005,-0.06789190476190476,0.2442348964634875,logs/offdiag/mm_from_stereo
+stereo,hist,8,44.417699999999996,-0.039721428571428574,0.1570367819096926,logs/offdiag/stereo_from_hist
+stereo,mm,8,47.682675,-0.05563892857142852,0.24176880895805186,logs/offdiag/stereo_from_mm

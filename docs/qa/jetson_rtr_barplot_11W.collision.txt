@@ -1,0 +1,30 @@
+Nature Figure Rendered Collision Audit
+pdf: /home/tiare/Desktop/JTPC/experiment/6.2/Figures/replotted/jetson_rtr_barplot_11W.pdf
+pages: 1
+visible text boxes: 10
+stroke paths: 112
+
+[FAIL] page 1 text-stroke: Text is crossed by 2 stroked path(s) — 'Set point'
+  text bbox: (29.399999618530273, 11.009866714477539, 76.7619857788086, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 20 stroked path(s) — '0.70 0.75 0.80 0.85 0.90'
+  text bbox: (70.32488250732422, 184.46588134765625, 269.52105712890625, 200.46588134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 2 stroked path(s) — 'JTPC'
+  text bbox: (102.54374694824219, 11.009866714477539, 132.54576110839844, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 12 stroked path(s) — 'RTR Set point'
+  text bbox: (117.01781463623047, 203.27838134765625, 222.7939453125, 219.27838134765625)
+[FAIL] page 1 text-stroke: Text is crossed by 4 stroked path(s) — 'FC-GPU'
+  text bbox: (158.34375, 11.009866714477539, 204.34176635742188, 23.00986671447754)
+[FAIL] page 1 text-stroke: Text is crossed by 2 stroked path(s) — 'DFS-only'
+  text bbox: (230.1437530517578, 11.009866714477539, 280.14776611328125, 23.00986671447754)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 4 filled region(s) — 'Set point'
+  text bbox: (29.399999618530273, 11.009866714477539, 76.7619857788086, 23.00986671447754)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 5 filled region(s) — '0.70 0.75 0.80 0.85 0.90'
+  text bbox: (70.32488250732422, 184.46588134765625, 269.52105712890625, 200.46588134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 2 filled region(s) — 'RTR Set point'
+  text bbox: (117.01781463623047, 203.27838134765625, 222.7939453125, 219.27838134765625)
+[WARN] page 1 text-fill-edge: Text partially overlaps the edge of 1 filled region(s) — 'FC-GPU'
+  text bbox: (158.34375, 11.009866714477539, 204.34176635742188, 23.00986671447754)
+
+summary: 6 fail, 4 warn, 10 contained fill overlays, 0 contained image overlays
+verdict: FIX BEFORE DELIVERY
+note: contained overlays can be intentional; WARN findings need final-size visual review

@@ -1,0 +1,46 @@
+.venv/
+__pycache__/
+*.pyc
+Scheduler/bin/
+application/bin/
+experiment/*/runs/
+
+# Generated captures and build outputs, including nested archived experiments.
+runs/
+results/
+generated/
+bin/
+*.o
+*.so
+*.swp
+*.swo
+
+# Generated system-identification reports; retain the scripts that produce them.
+periodic_plot_*/
+review_*/
+review_complete_*/
+legacy_periodic_reproduction_*/
+legacy_periodic_figure_*/
+
+# Large generated audit inventory (kept on disk; transfer with rsync if needed).
+/docs/prior_audit/windows_remote_stat_provenance.json
+
+# Archived compiled executables; keep their adjacent CUDA sources.
+/old/system_identification/tasks/bfs
+/old/system_identification/tasks/bfs_new
+/old/system_identification/tasks/hist
+/old/system_identification/tasks/hist_new
+/old/system_identification/tasks/mm
+/old/system_identification/tasks/mm_new
+/old/system_identification/tasks/particle
+/old/system_identification/tasks/particle_new
+/old/system_identification/tasks/quasi
+/old/system_identification/tasks/quasi_new
+/old/system_identification/tasks/stereo
+/old/system_identification/tasks/stereo_new
+
+# Local credentials and conversation logs.
+.env
+.env.*
+!.env.example
+codex_log_*.txt

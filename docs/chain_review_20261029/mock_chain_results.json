@@ -1,0 +1,1322 @@
+[
+  {
+    "section": "6.1",
+    "script": "interrupt_test_FC.sh",
+    "supplied_SP": null,
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "../scripts/set_gpu_freq.sh",
+          "1020000000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "1",
+          "240",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.080000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "mm_test",
+        "args": [
+          "2",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "31"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "31"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/FC_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "31"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  },
+  {
+    "section": "6.1",
+    "script": "interrupt_test_DFS.sh",
+    "supplied_SP": null,
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "7",
+          "240",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.080000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "mm_test",
+        "args": [
+          "2",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "62"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "62"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/DFS_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "62"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  },
+  {
+    "section": "6.1",
+    "script": "interrupt_test_LQR.sh",
+    "supplied_SP": null,
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "3",
+          "240",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.080000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "93"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "mm_test",
+        "args": [
+          "2",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "93"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.1/collection/../runs/LQR_interrupt/hist_stereo_mm_test/setpoint_0.90_0.90_0.90",
+          "93"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  },
+  {
+    "section": "6.2",
+    "script": "FC_GPU_main_temp.sh",
+    "supplied_SP": null,
+    "exit_code": 1,
+    "stderr": "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/FC_GPU_main_temp.sh: line 45: SP: unbound variable\n",
+    "trace": []
+  },
+  {
+    "section": "6.2",
+    "script": "DFS_main_temp.sh",
+    "supplied_SP": null,
+    "exit_code": 1,
+    "stderr": "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/DFS_main_temp.sh: line 46: SP: unbound variable\n",
+    "trace": []
+  },
+  {
+    "section": "6.2",
+    "script": "LQR_main_temp.sh",
+    "supplied_SP": null,
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "-n",
+          "env",
+          "PATH=/tmp/jtpc_chain_review/mock/commands:/home/tiare/.codex/packages/standalone/releases/0.165.0-x86_64-unknown-linux-musl/codex-path:/home/tiare/.local/bin:/home/tiare/.codex/tmp/arg0-linux/codex-arg0cZ0cWi:/home/tiare/.codex/packages/standalone/releases/0.165.0-x86_64-unknown-linux-musl/codex-path:/home/tiare/.codex/tmp/arg0-linux/codex-arg00yw7Kt:/home/tiare/.codex/packages/standalone/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/tiare/.codex/tmp/arg0-linux/codex-arg0cFZa6S:/home/tiare/.codex/packages/standalone/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/tiare/.local/opt/fcitx5-5.1.21/bin:/home/tiare/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tiare/.vscode/extensions/openai.chatgpt-26.930.31730-linux-x64/bin/linux-x86_64",
+          "LD_LIBRARY_PATH=",
+          "JPAP_POWER_BACKEND=",
+          "INA260_I2C_DEV=",
+          "INA260_I2C_ADDR=",
+          "GPU_DEVFREQ_PATH=",
+          "GPU_DIRECT_ACTUATION_LOG=",
+          "GPU_ACTUATION_CONFIRM_COUNT=1",
+          "GPU_ACTUATION_MIN_INTERVAL_MS=",
+          "GPU_SIGMA_PERIOD_MS=1",
+          "GPU_POWER_DEADBAND_MW=0",
+          "GPU_RTR_GUARD_MARGIN=0",
+          "GPU_RTR_UP_GUARD_MARGIN=0",
+          "GPU_RTR_DROP_GUARD_MARGIN=0",
+          "GPU_RTR_GUARDED_DOWN_STEP_MHZ=0",
+          "GPU_FREQ_CMD_MAX_STEP_MHZ=0",
+          "GPU_FREQ_CMD_MAX_UP_STEP_MHZ=0",
+          "GPU_FREQ_CMD_MAX_DOWN_STEP_MHZ=0",
+          "GPU_ACTUATION_WAIT_FOR_CUR_FREQ=1",
+          "GPU_ACTUATION_WAIT_MAX_STEPS=100",
+          "GPU_ACTUATION_WAIT_STEP_MS=20",
+          "stdbuf",
+          "-oL",
+          "-eL",
+          "../Scheduler/bin/scheduler",
+          "3",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "3",
+          "120",
+          "11000",
+          "../application/bin/hist",
+          "0.160",
+          "0.90",
+          "../application/bin/stereo",
+          "0.080",
+          "0.90",
+          "../application/bin/mm",
+          "0.0600",
+          "0.90"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "-n",
+          "tegrastats",
+          "--interval",
+          "1000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "3",
+          "120",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.060000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "133"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "mm",
+        "args": [
+          "2",
+          "0.060000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "133"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "133"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-TERM",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "1"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-KILL",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "chown",
+          "-R",
+          "tiare:tiare",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/JTPC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  },
+  {
+    "section": "6.3",
+    "script": "task_arrival_4task_test.sh",
+    "supplied_SP": null,
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "server",
+        "args": [
+          "4",
+          "8",
+          "240",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.3/collection/../runs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.060000",
+          "0.900000",
+          "0.100000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "particle",
+        "args": [
+          "3",
+          "0.100000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.3/collection/../runs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90",
+          "170",
+          "120"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "mm",
+        "args": [
+          "2",
+          "0.060000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.3/collection/../runs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90",
+          "170"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.3/collection/../runs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90",
+          "170"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "240.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.3/collection/../runs/task_arrival_4task_test/hist_stereo_mm_particle/setpoint_11000_0.90_0.90_0.90_0.90",
+          "170"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": "120"
+      }
+    ]
+  },
+  {
+    "section": "6.2",
+    "script": "FC_GPU_main_temp.sh",
+    "supplied_SP": "0.90 0.90 0.90",
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson -DCLAMP_PERIODS -DBOUND=50"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "../scripts/set_gpu_freq.sh",
+          "1020000000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "-n",
+          "tegrastats",
+          "--interval",
+          "1000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "1",
+          "120",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.060000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": "1",
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "203"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": "1",
+        "arrival_delay": null
+      },
+      {
+        "program": "mm",
+        "args": [
+          "2",
+          "0.060000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "203"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": "1",
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/FC/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "203"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": "1",
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-TERM",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "1"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-KILL",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  },
+  {
+    "section": "6.2",
+    "script": "DFS_main_temp.sh",
+    "supplied_SP": "0.90 0.90 0.90",
+    "exit_code": 0,
+    "stderr": "",
+    "trace": [
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./t[0-9]$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./server$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "pkill",
+        "args": [
+          "-9",
+          "-f",
+          "./scheduler$"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "ipcs",
+        "args": [
+          "-m",
+          "-p"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../Scheduler",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "make",
+        "args": [
+          "-C",
+          "../application",
+          "EXTRA_FLAGS=-DJetson"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "-n",
+          "tegrastats",
+          "--interval",
+          "1000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "server",
+        "args": [
+          "3",
+          "7",
+          "120",
+          "11000.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "0.160000",
+          "0.900000",
+          "0.080000",
+          "0.900000",
+          "0.060000",
+          "0.900000"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "mm",
+        "args": [
+          "2",
+          "0.060000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "237"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "stereo",
+        "args": [
+          "1",
+          "0.080000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "237"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "hist",
+        "args": [
+          "0",
+          "0.160000",
+          "0.900000",
+          "120.000000",
+          "/tmp/jtpc_chain_review/mock/JTPC/experiment/6.2/collection/../runs/DFS/hist_stereo_mm/setpoint_11000_0.90_0.90_0.90",
+          "237"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-TERM",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "1"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sudo",
+        "args": [
+          "pkill",
+          "-KILL",
+          "-x",
+          "tegrastats"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      },
+      {
+        "program": "sleep",
+        "args": [
+          "5"
+        ],
+        "cwd": "/tmp/jtpc_chain_review/mock/JTPC/experiment",
+        "skip_initial_lock": null,
+        "arrival_delay": null
+      }
+    ]
+  }
+]

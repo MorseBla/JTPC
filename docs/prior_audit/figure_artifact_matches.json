@@ -1,0 +1,747 @@
+[
+  {
+    "trace_id": "p4_line0",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+        "correlation": 0.9999999980828266,
+        "x_normalized_error": 2.945590230127304e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999972264354,
+        "x_normalized_error": 3.13393345760804e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_rt.pdf",
+        "correlation": 0.999999993261972,
+        "x_normalized_error": 3.1342609045192926e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line1",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+        "correlation": 0.9999999941888136,
+        "x_normalized_error": 2.945590230127304e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999967601932,
+        "x_normalized_error": 3.13393345760804e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_rt.pdf",
+        "correlation": 0.999999994913469,
+        "x_normalized_error": 3.1342609045192926e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line2",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+        "correlation": 0.9999999973615855,
+        "x_normalized_error": 2.945590230127304e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999978834342,
+        "x_normalized_error": 3.13393345760804e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_rt.pdf",
+        "correlation": 0.999999997952119,
+        "x_normalized_error": 3.1342609045192926e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line3",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+        "correlation": 0.9999999272609541,
+        "x_normalized_error": 2.945590230127304e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999340242492,
+        "x_normalized_error": 3.13393345760804e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_rt.pdf",
+        "correlation": 0.9999999309286024,
+        "x_normalized_error": 3.1342609045192926e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line4",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_power_and_rt.pdf",
+        "correlation": 0.9999999929293597,
+        "x_normalized_error": 2.945590230127304e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999949032876,
+        "x_normalized_error": 3.13393345760804e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/freq_vs_rt.pdf",
+        "correlation": 0.9999999977220766,
+        "x_normalized_error": 3.1342609045192926e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line5",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/period_vs_power.pdf",
+        "correlation": 0.9999999798474378,
+        "x_normalized_error": 2.3266614356920456e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999841118375,
+        "x_normalized_error": 2.581157625891617e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line6",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/period_vs_power.pdf",
+        "correlation": 0.9999999956871838,
+        "x_normalized_error": 2.3266614356920456e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999952418043,
+        "x_normalized_error": 2.581157625891617e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line7",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/period_vs_power.pdf",
+        "correlation": 0.9999999326278615,
+        "x_normalized_error": 2.3266614356920456e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999154794456,
+        "x_normalized_error": 2.581157625891617e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line8",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/period_vs_power.pdf",
+        "correlation": 0.9999999797149606,
+        "x_normalized_error": 2.3266614356920456e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.9999999746686369,
+        "x_normalized_error": 2.581157625891617e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+        "correlation": 0.054556663730923875,
+        "x_normalized_error": 0.30299583050009793
+      }
+    ]
+  },
+  {
+    "trace_id": "p4_line9",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/period_vs_power.pdf",
+        "correlation": 0.9999999917131509,
+        "x_normalized_error": 2.3266614356920456e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/combined_rt_power.pdf",
+        "correlation": 0.999999989521386,
+        "x_normalized_error": 2.581157625891617e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p5_line0",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/system_validation.pdf",
+        "correlation": 0.9999999993145203,
+        "x_normalized_error": 2.124378770368418e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p5_line1",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/system_validation.pdf",
+        "correlation": 0.9999999874782259,
+        "x_normalized_error": 2.124378770368418e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line0",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+        "correlation": 0.9766450529781853,
+        "x_normalized_error": 0.01013071846309388
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+        "correlation": 0.9766450529781853,
+        "x_normalized_error": 0.01013071846309388
+      },
+      {
+        "file": "local_paper_source/contents/figures/FC_setpoint_5000_0.90.pdf",
+        "correlation": -0.16748140602359304,
+        "x_normalized_error": 0.010136328063959588
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line1",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_FC_5000_0.90.pdf",
+        "correlation": 0.9944502049641646,
+        "x_normalized_error": 0.020187273381995635
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": -0.5746331133674728,
+        "x_normalized_error": 0.010118238917320777
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": -0.5746331133674728,
+        "x_normalized_error": 0.010118238917320777
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line2",
+    "best": []
+  },
+  {
+    "trace_id": "p8_line3",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_5000_0.90.pdf",
+        "correlation": 0.9908673886137248,
+        "x_normalized_error": 0.050490077654760324
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.971285862357264,
+        "x_normalized_error": 0.050494980503813625
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line4",
+    "best": []
+  },
+  {
+    "trace_id": "p8_line5",
+    "best": []
+  },
+  {
+    "trace_id": "p8_line6",
+    "best": []
+  },
+  {
+    "trace_id": "p8_line7",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+        "correlation": 0.9999999842488382,
+        "x_normalized_error": 5.039102572146348e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_FC_11000_0.90.pdf",
+        "correlation": 0.9999999842488382,
+        "x_normalized_error": 5.039102572146348e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_openloop_11000_0.90.pdf",
+        "correlation": 0.7628929515259248,
+        "x_normalized_error": 4.0935033088718153e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line8",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.999999992213841,
+        "x_normalized_error": 7.879944703059749e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.999999992213841,
+        "x_normalized_error": 7.879944703059749e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line9",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999864038616,
+        "x_normalized_error": 6.80936814438926e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999864038616,
+        "x_normalized_error": 6.80936814438926e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/power_inerrupt/power_interrupt_DFS_setpoint_11000_0.90.pdf",
+        "correlation": 0.9265096751698116,
+        "x_normalized_error": 0.014284032791988532
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line10",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999905400011,
+        "x_normalized_error": 7.306473392487689e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999905400011,
+        "x_normalized_error": 7.306473392487689e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_5000_0.90.pdf",
+        "correlation": 0.9903142200167865,
+        "x_normalized_error": 0.0012384382296004581
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line11",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999938312064,
+        "x_normalized_error": 4.2951932212542676e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999999938312064,
+        "x_normalized_error": 4.2951932212542676e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+        "correlation": 0.9958655881955725,
+        "x_normalized_error": 4.0453711825552685e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p8_line12",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999997923853717,
+        "x_normalized_error": 3.829006313581587e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9999997923853717,
+        "x_normalized_error": 3.829006313581587e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+        "correlation": 0.857575241848186,
+        "x_normalized_error": 3.883955645800352e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line0",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999997011340495,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999997011340495,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+        "correlation": 0.9999997011340495,
+        "x_normalized_error": 3.336024674094329e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line1",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999997340657572,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999997340657572,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+        "correlation": 0.9999997340657572,
+        "x_normalized_error": 3.336024674094329e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line2",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999999920749553,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999999920749553,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+        "correlation": 0.9999999920749553,
+        "x_normalized_error": 3.336024674094329e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line3",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999999994893816,
+        "x_normalized_error": 2.7209871017392154e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999999994893816,
+        "x_normalized_error": 2.7209871017392154e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+        "correlation": 0.9999999990223761,
+        "x_normalized_error": 3.3674940264995235e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line4",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999998059091133,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999998059091133,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 3.pdf",
+        "correlation": 0.9999998059091133,
+        "x_normalized_error": 3.336024674094329e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line5",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999991412048028,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999991412048028,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_FC_11000_0.90.pdf",
+        "correlation": 0.4879414929133941,
+        "x_normalized_error": 0.010118050421534686
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line6",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999999897417655,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999999897417655,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+        "correlation": 0.9999999876126762,
+        "x_normalized_error": 3.347107143147898e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line7",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90_power_only.pdf",
+        "correlation": 0.9999997577508111,
+        "x_normalized_error": 4.038711958714858e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_LQR_11000_0.90 1.pdf",
+        "correlation": 0.9999997286606483,
+        "x_normalized_error": 4.3437187767614294e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90.pdf",
+        "correlation": 0.9999997286606483,
+        "x_normalized_error": 4.3437187767614294e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p9_line8",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_LQR_11000_0.90 2.pdf",
+        "correlation": 0.9999999949825407,
+        "x_normalized_error": 3.347596331598757e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9958680499689603,
+        "x_normalized_error": 3.0863100077827e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/mm_interrupt_DFS_11000_0.90.pdf",
+        "correlation": 0.9958680499689603,
+        "x_normalized_error": 3.0863100077827e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line0",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999994520544289,
+        "x_normalized_error": 6.330082722291741e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.9999995419689223,
+        "x_normalized_error": 7.015953224520644e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999995419689223,
+        "x_normalized_error": 7.306489623082335e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line1",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.9999992484023952,
+        "x_normalized_error": 5.7523249486150785e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999992949663158,
+        "x_normalized_error": 6.366539576942859e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999992484023952,
+        "x_normalized_error": 6.886719044030265e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line2",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999992598474898,
+        "x_normalized_error": 6.330082722291741e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.9999991887609433,
+        "x_normalized_error": 7.015953224520644e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999991887609433,
+        "x_normalized_error": 7.306489623082335e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line3",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999999128985276,
+        "x_normalized_error": 0.00012074471290135502
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999998954472987,
+        "x_normalized_error": 0.00012657910139868278
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": -0.19865382270090068,
+        "x_normalized_error": 0.00012657910139868278
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line4",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999999309801836,
+        "x_normalized_error": 6.330082722291741e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.9999999169691619,
+        "x_normalized_error": 7.015953224520644e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999999169691619,
+        "x_normalized_error": 7.306489623082335e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line5",
+    "best": []
+  },
+  {
+    "trace_id": "p10_line6",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999997301216077,
+        "x_normalized_error": 6.330082722291741e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.999999721421038,
+        "x_normalized_error": 7.015953224520644e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.999999721421038,
+        "x_normalized_error": 7.306489623082335e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line7",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999996589385803,
+        "x_normalized_error": 0.00012074471290135502
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999996136124557,
+        "x_normalized_error": 0.00012657910139868278
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": -0.19857012476101757,
+        "x_normalized_error": 0.00012657910139868278
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line8",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999994040323569,
+        "x_normalized_error": 5.230278370994823e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test.pdf",
+        "correlation": 0.9999994040323569,
+        "x_normalized_error": 5.3639332047050736e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test_power_only.pdf",
+        "correlation": 0.9999994272719398,
+        "x_normalized_error": 7.793417551801851e-05
+      }
+    ]
+  },
+  {
+    "trace_id": "p10_line9",
+    "best": [
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 2.pdf",
+        "correlation": 0.9999999910826262,
+        "x_normalized_error": 5.9134346245978686e-05
+      },
+      {
+        "file": "local_paper_source/contents/figures/mm_interrupt/task_arrival_4task_test 3.pdf",
+        "correlation": 0.9999999927014821,
+        "x_normalized_error": 6.266840249289501e-05
+      }
+    ]
+  }
+]

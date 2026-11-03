@@ -1,0 +1,76 @@
+{
+  "pdf": "/home/tiare/Desktop/JTPC/experiment/6.1/Figures/replotted/mm_interrupt_DFS_11000_0.90.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 48,
+  "text_trace_count": 48,
+  "stroke_path_count": 91,
+  "filled_region_count": 36,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 2,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 3 stroked path(s)",
+      "text": "Set point",
+      "text_bbox": [
+        158.1043701171875,
+        12.290245056152344,
+        221.25369262695312,
+        28.290245056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        184.16575622558594,
+        134.12484741210938
+      ],
+      "object_count": 3,
+      "object_indexes": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 3 stroked path(s)",
+      "text": "hist",
+      "text_bbox": [
+        158.1043701171875,
+        34.930870056152344,
+        182.9976806640625,
+        50.930870056152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        63.98125076293945,
+        -1.0,
+        184.16575622558594,
+        134.12484741210938
+      ],
+      "object_count": 3,
+      "object_indexes": [
+        19,
+        20,
+        21
+      ]
+    }
+  ]
+}

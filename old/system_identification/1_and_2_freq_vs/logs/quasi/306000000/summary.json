@@ -1,0 +1,18 @@
+{
+  "platform": "jetson",
+  "workload": "quasirand_releaseguard",
+  "num_elements": 16777216,
+  "period_s": 0.1,
+  "duration_s": 60,
+  "jobs": 1,
+  "power_sample_period_ms": 100,
+  "avg_response_ms": 53.6375,
+  "avg_ke_ms": 53.4732,
+  "avg_memory_ms": 23.551,
+  "avg_h2d_ms": 11.9629,
+  "avg_d2h_ms": 11.5881,
+  "avg_measured_freq_mhz": 306,
+  "avg_power_w": 6.46252,
+  "monitor_samples": 465,
+  "num_released_jobs": 599
+}
